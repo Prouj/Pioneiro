@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Evitar rolagem horizontal */
+}
+
+header {
+    background-color: #37399F;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: sticky; /* Manter o header fixo no topo */
+    width: 100%; /* Garantir que o header ocupe 100% da largura */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+
+main.fade-out {
+    opacity: 0;
+}
+
+footer {
+    background-color: #37399F;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Estilos para o carrossel */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 100%;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+    height: 400px; /* Metade da altura anterior */
+    object-fit: cover;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #37399F;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-content h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.carousel-content p {
+    margin: 5px 0 0;
+}
+
+.carousel-item.active .carousel-content {
+    opacity: 1;
+}

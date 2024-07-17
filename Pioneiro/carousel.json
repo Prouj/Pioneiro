@@ -1,0 +1,17 @@
+[
+    {
+        "imageUrl": "https://static.wixstatic.com/media/fc377c_b1c6e76c610e4a1a9672a2743d503d19.jpg/v1/fill/w_3024,h_2008,al_c,q_90,usm_0.66_1.00_0.01/fc377c_b1c6e76c610e4a1a9672a2743d503d19.jpg",
+        "title": "Título 1",
+        "description": "Descrição da imagem 1."
+    },
+    {
+        "imageUrl": "https://static.wixstatic.com/media/fc377c_39994bc36c62428692602d22d52d3479.jpg/v1/fill/w_3024,h_2008,al_c,q_90,usm_0.66_1.00_0.01/fc377c_39994bc36c62428692602d22d52d3479.jpg",
+        "title": "Título 2",
+        "description": "Descrição da imagem 2."
+    },
+    {
+        "imageUrl": "https://static.wixstatic.com/media/fc377c_d732c7d70bd0444aa6c30ed6ac6d956a.jpg/v1/fill/w_3024,h_2008,al_c,q_90,usm_0.66_1.00_0.01/fc377c_d732c7d70bd0444aa6c30ed6ac6d956a.jpg",
+        "title": "Título 3",
+        "description": "Descrição da imagem 3."
+    }
+]

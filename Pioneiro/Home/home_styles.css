@@ -1,126 +1,308 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden; /* Evitar rolagem horizontal */
-}
-
-header {
-    background-color: #37399F;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    position: sticky; /* Manter o header fixo no topo */
-    width: 100%; /* Garantir que o header ocupe 100% da largura */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-}
-
-.logo-title {
-    display: flex;
-    align-items: center;
-}
-
-header .logo {
-    width: 100px;
-    height: 100px;
-    margin-right: 1rem;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 50px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-nav ul li a.active, nav ul li a:hover {
-    background-color: #555;
-    border-radius: 5px;
-}
-
-main {
-    padding: 2rem;
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
-    box-sizing: border-box;
-}
-
-main.fade-out {
-    opacity: 0;
-}
-
-footer {
-    background-color: #37399F;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
+.first_section {
     width: 100%;
-    bottom: 0;
-    position: relative;
-    box-sizing: border-box;
-}
-
-/* Estilos para o carrossel */
-.carousel {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
-.carousel-container {
-    display: flex;
-    transition: transform 1s ease-in-out;
-    width: 100%;
-}
-
-.carousel-item {
-    min-width: 100%;
     box-sizing: border-box;
     position: relative;
 }
 
-.carousel img {
+.first_section_content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    padding-right: 5%;
+}
+
+.first_section img {
     width: 100%;
-    height: 400px; /* Metade da altura anterior */
+    height: 500px;
     object-fit: cover;
 }
 
-.carousel-content {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-    color: #37399F;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
-    backdrop-filter: blur(5px);
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+.first_section_content h2 {
+    font-size: 40px;
+    color: var(--blue-font);
+    overflow: visible;
 }
 
-.carousel-content h2 {
-    margin: 0;
-    font-size: 24px;
+.first_section_content .destaque {
+    color: var(--yellow-action);
+    font-family: 'Playball';
+    font-size: 58px;
+    line-height: 0.8;
 }
 
-.carousel-content p {
-    margin: 5px 0 0;
+.first_section_content .buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
 }
 
-.carousel-item.active .carousel-content {
-    opacity: 1;
+.first_section_content .book {
+    padding: 10px 20px;
+    background-color: var(--yellow-action);
+    border: var(--yellow-action) 2px solid;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
 }
+
+.first_section_content .feedbacks {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: var(--blue-button) 2px solid;
+    border-radius: 8px;
+    color: var(--blue-button);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+
+    .first_section_content {
+        position: absolute;
+        left: 5%;
+        transform: translateY(-50%);
+        background: rgba(94, 94, 94, 0.1);
+        border-radius: 5px;
+        padding: 10px 30px;
+        backdrop-filter: blur(5px);
+    }
+
+    .first_section_content .buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .first_section_content h2 {
+        margin: 0;
+        font-size: 30px;
+        color: var(--blue-font);
+        overflow: visible;
+    }
+
+    .first_section_content .destaque {
+        color: var(--yellow-action);
+        font-family: 'Playball';
+        font-size: 40px;
+        line-height: 0.8;
+    }
+}
+
+@media (max-width: 500px) {
+    .first_section_content .book {
+        padding: 6px 15px;
+        background-color: var(--yellow-action);
+        border: var(--yellow-action) 2px solid;
+        border-radius: 8px;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .first_section_content .feedbacks {
+        padding: 6px 15px;
+        background-color: #ffffff;
+        border: var(--blue-button) 2px solid;
+        border-radius: 8px;
+        color: var(--blue-button);
+        cursor: pointer;
+        font-size: 12px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
+
+@media (max-height: 1000px) {
+    .first_section img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media (max-height: 700px) {
+    .first_section img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+/* Second Section Configs */
+
+.second_section {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.second_section_text {
+    flex: 1 1 50%;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--blue-font);
+    line-height: 1.5;
+    flex-direction: column;
+}
+
+.second_section_subtext {
+    margin-top: 20px;
+}
+
+.second_section_images {
+    flex: 1 1 50%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.second_section_images img {
+    border-radius: 16px;
+    width: 50%;
+}
+
+@media (min-width: 1500px) {
+    .second_section_images {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: auto;
+        height: auto;
+        gap: 40px;
+    }
+
+    .second_section_images img {
+        border-radius: 16px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .second_section {
+        display: fixed;
+        width: auto;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    .second_section_text {
+        margin-bottom: 10px;
+    }
+
+    .second_section_text {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--blue-font);
+        line-height: 1.5;
+        flex-direction: column;
+    }
+
+    .second_section_images {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second_section_images img {
+        border-radius: 16px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .second_section {
+        display: fixed;
+        width: auto;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    .second_section_text {
+        margin-bottom: 10px;
+    }
+
+    .second_section_text {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--blue-font);
+        line-height: 1.5;
+        flex-direction: column;
+    }
+
+    .second_section_images {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: flex-end;
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow-x: scroll;
+    }
+
+    .second_section_images img {
+        border-radius: 16px;
+        width: 100%;
+    }
+}
+
+/* Third Section Configs */
+
+.third_section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.third_section_cards {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.third_section .book {
+    width: 40%;
+    padding: 10px 20px;
+    background-color: var(--yellow-action);
+    border: var(--yellow-action) 2px solid;
+    border-radius: 8px;
+    color: var(--bg);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.book:hover {
+  filter: brightness(.90);
+}
+
+.book:active {
+  transform: translateY(1px);
+}
+
+.feedbacks:hover {
+  filter: brightness(.90);
+}
+
+.feedbacks:active {
+  transform: translateY(1px);
+}
+

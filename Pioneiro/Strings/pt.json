@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Início",
+    "booking": "Reservas&Preços",
+    "routes": "Percursos",
+    "explore": "Explorar",
+    "gallery": "Galeria",
+    "faq": "FAQ"
+  },
+  "header": {
+    "brand": "O Pioneiro<br>do Mondego"
+  },
+  "footer": {
+    "form_title": "Entre em contato conosco!",
+    "form_name": "Nome*",
+    "form_name_placeholder": "Coloque aqui seu nome",
+    "form_email": "Email*",
+    "form_email_placeholder": "Coloque aqui seu email",
+    "form_phone": "Telefone",
+    "form_phone_placeholder": "Coloque aqui seu telefone",
+    "form_mensagem": "Mensagem",
+    "form_send_button": "Enviar",
+    "contact_info_title": "O Pioneiro do Mondego",
+    "contact_info": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Movel: 91 476 79 22</strong></span>",
+    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV"
+  },
+  "home": {
+    "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
+    "first_section_schedule_button": "Reserve já",
+    "first_section_feedback_button": "Ver depoimentos",
+    "second_section_first_title": "Quem Somos?",
+    "second_section_first_text": "O Pioneiro do Mondego é uma empresa familiar de desporto de aventura e ecoturismo sedeada no concelho de Penacova. A nossa principal atividade são as descidas de rio em kayak e canoa no rio mondego, entre Penacova e Coimbra - um passeio de canoagem pelo vale do Mondego, que organizamos diariamente, desde 1988! O Pioneiro foi fundada em 1988 por dois professores belgas, Dirk e Kristien, e foi uma das primeiras empresas no turismo de Portugal, especializada em desporto de aventura, e a primeira de canoagem no pais. Ao longo dos anos, a empresa cresceu e mais de 100 mil pessoas de todo o mundo têm feito a descida de caiaque no Mondego connosco. Hoje em dia a descida do Pioneiro do Mondego é um ponto de referencia a nível nacional e internacional, tendo sido nomeado pelo guia Americano Rough Guides como a referencia do turismo Coimbra - junto com a Universidade - e como um dos top 15 locais a visitar em Portugal.",
+    "second_section_second_title": "Descida do rio Mondego em kayak.",
+    "second_section_second_text": "O percurso mais popular e fantastico de Portugal. Organizamos descidas diárias, de 18 ou 25 km. Facil, vistas incríveis, material em ótimas condicões!",
+    "third_section_bannerOne_title": "Porque escolher<br><span class='destaque'>O pioneiro?</span>",
+    "third_section_bannerTwo_title": "Tudo isso à um preço acessível<br><span class='destaque'>Reserve já!</span>",
+    "third_section_cardOne_title": "Experiência",
+    "third_section_cardOne_text": "Nossa popularidade atraiu concorrentes, mas como pioneiros com quase 30 anos de experiência , oferecemos vantagens únicas. Nossa equipe de jovens guias locais é experiente, conhece o rio profundamente e é poliglota",
+    "third_section_cardTwo_title": "Disponibilidade",
+    "third_section_cardTwo_text": "Não só somos a única empresa que faz a descida todos os dias; como também temos a maior frota de canoas no rio, podendo assim aceitar qualquer número de pessoas; desde participantes individuais a grupos com centenas de pessoas.",
+    "third_section_cardThree_title": "Segurança",
+    "third_section_cardThree_text": "Por fim, o nosso sistema de monitorização e segurança privilegia a liberdade dos nossos clientes; assim cada um deve poder fazer a descida ao seu próprio ritmo, sem ser obrigado a permanecer numa excursão de grupo.",
+    "third_section_schedule_button": "Reservar"
+  },
+  "book": {},
+  "routes": {
+    "third_section_bannerOne_title": "Explore os<br><span class='destaque'>Percursos!</span>"
+  },
+  "explore": {
+    "third_section_bannerOne_title": "Explore a<br><span class='destaque'>Região!</span>"
+  },
+  "gallery": {
+    "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>"
+  },
+  "faq": {}
+}

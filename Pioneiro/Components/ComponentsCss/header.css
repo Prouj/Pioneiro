@@ -1,0 +1,327 @@
+.hd {
+    position: sticky;
+    top: 0;
+    z-index: 39;
+    background: #fff;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.hd-container {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.hd-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.hd-logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.hd-brand {
+    font-weight: 800;
+    font-size: clamp(1.1rem, 2.2vw, 1.8rem);
+    color: var(--blue-font);
+}
+
+/* nav desktop */
+.hd-nav {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+}
+
+.hd-link {
+    position: relative;
+    text-decoration: none;
+    color: var(--black);
+    font-size: clamp(0.5rem, 1rem, 1.1rem);
+    font-weight: 500;
+}
+
+.hd-link[aria-current="page"] {
+    font-weight: 800;
+}
+
+.hd-link[aria-current="page"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -14px;
+    height: 4px;
+    background: var(--yellow-action);
+    border-radius: 2px;
+}
+
+/* botão hamburguer (desktop some) */
+.icon-btn {
+    inline-size: 40px;
+    block-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+    background: #f8f9fb;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.hd-toggle {
+    display: none;
+}
+
+/* Drawer */
+.hd-overlay {
+    position: absolute;
+    inset: 0;
+    background: #0008;
+    z-index: 39;
+}
+
+.hd-drawer {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(86vw, 360px);
+    height: 100%;
+    background: #fff;
+    border-right: 1px solid var(--border-color);
+    z-index: 40;
+    transform: translateX(-100%);
+    transition: transform .50s ease;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    overflow: auto;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.hd-drawer.open {
+    transform: translateX(0);
+    transition: transform .50s ease;
+}
+
+.hd-drawer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 2px 20px;
+    border-bottom: 1px solid var(--border-color)
+}
+
+.hd-drawer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 10px 2px 16px;
+}
+
+.hd-drawer-nav .hd-link {
+    position: relative;
+    text-decoration: none;
+    color: var(--black);
+    font-size: clamp(0.5rem, 1rem, 1.1rem);
+    font-weight: 500;
+}
+
+.hd-drawer-nav .hd-link[aria-current="page"] {
+    font-weight: 700;
+}
+
+.hd-drawer-nav .hd-link[aria-current="page"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background: var(--yellow-action);
+    border-radius: 1px;
+}
+
+/* ===== Dropdown de idioma ===== */
+.hd-langdrop {
+    position: relative;
+}
+
+.hd-langdrop.is-drawer {
+    position: static;
+    overflow: auto;
+}
+
+.hd-langdrop-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: .4rem .6rem;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+    min-width: 84px;
+}
+
+.hd-lang-current {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.hd-lang-code {
+    font-size: .9rem;
+}
+
+.hd-chev {
+    transition: transform .2s ease;
+}
+
+.hd-langdrop[aria-expanded="true"] .hd-chev,
+.hd-langdrop .hd-langdrop-btn[aria-expanded="true"] .hd-chev {
+    transform: rotate(180deg);
+}
+
+.hd-langmenu {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 6px);
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 6px;
+    min-width: 180px;
+    z-index: 45;
+    list-style: none;
+    margin: 0;
+}
+
+.hd-langdrop.is-drawer .hd-langmenu {
+    position: static;
+    box-shadow: none;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.hd-langopt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: .55rem .6rem;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.hd-langopt:hover {
+    background: #f5f6f8;
+}
+
+.hd-langopt.is-active {
+    background: #fef7da;
+    outline: 1px solid var(--yellow-action);
+}
+
+/* breakpoints */
+@media (max-width: 1050px) {
+    .hd-container {
+        grid-template-columns: auto 1fr auto;
+    }
+
+    .hd-nav {
+        display: none;
+    }
+
+    .hd-toggle {
+        display: inline-flex;
+        justify-self: end;
+    }
+
+    .hd-langdrop {
+        display: none;
+    }
+
+    .hd-langdrop.is-drawer {
+        display: block;
+    }
+}
+
+@media(min-width: 1800px) {
+    .hd-nav {
+        display: flex;
+        gap: 60px;
+        justify-self: center;
+    }
+
+    .hd-link {
+        position: relative;
+        text-decoration: none;
+        color: var(--black);
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .hd-langdrop-btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: .4rem .6rem;
+        border: 1px solid #e6e6e6;
+        background: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 800;
+        min-width: 100px;
+    }
+
+    .hd-lang-current {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .hd-langmenu {
+        position: absolute;
+        right: 0;
+        top: calc(100% + 6px);
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 6px;
+        min-width: 300px;
+        z-index: 45;
+        list-style: none;
+        margin: 0;
+    }
+
+    .hd-langopt {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: .55rem .6rem;
+        border-radius: 8px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}

@@ -1,28 +1,86 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Pioneiro do Mondego</title>
+    <!-- <link rel="stylesheet" href="../Global/styles.css">
+    <link rel="stylesheet" href="../Components/ComponentsCss/header.css">
+    <link rel="stylesheet" href="../Components/ComponentsCss/footer.css">
+    <link rel="stylesheet" href="../Components/ComponentsCss/imageBanner.css">
+    <link rel="stylesheet" href="../Components/ComponentsCss/imageCard.css">
+    <link rel="stylesheet" href="home_styles.css"> -->
+    
     <link rel="stylesheet" href="home_styles.css">
-    <script defer src="../scripts.js"></script>
+    <link rel="stylesheet" href="../Components/ComponentsCss/imageCard.css">
+    <script type="module" defer src="../Global/scripts.js"></script>
+    <style>
+        body {
+            visibility: hidden
+        }
+    </style>
 </head>
+
 <body>
-    <header></header>
+
+    <div id="site-header"></div>
+    <div id="site-drawer"></div>
+
     <main>
-        <div class="carousel">
-            <div class="carousel-container" id="carousel-container"></div>
+        <div class="first_section">
+            <img src="../Images/HomeImage.png" alt="homeImage">
+            <div class="first_section_content">
+                <h2 data-i18n-html="home.first_section_title"></h2>
+                <div class="buttons">
+                    <button class="book" href="../Book/book.html"
+                        data-i18n="home.first_section_schedule_button"></button>
+                    <button class="feedbacks" data-i18n="home.first_section_feedback_button"></button>
+                </div>
+            </div>
         </div>
-        <section id="home">
-            <h2>Descida do Mondego em canoa / kayak</h2>
-            <p>Descida do rio Mondego em kayak. O percurso mais popular e fantastico de Portugal. Organizamos descidas diárias, de 18 ou 25 km. Facil, vistas incríveis, material em ótimas condicões!</p>
-            <h2>Quem somos?</h2>
-            <p>O Pioneiro do Mondego é uma empresa familiar de desporto de aventura e ecoturismo sedeada no concelho de Penacova. A nossa principal atividade são as descidas de rio em kayak e canoa no rio mondego, entre Penacova e Coimbra - um passeio de canoagem pelo vale do Mondego, que organizamos diariamente, desde 1988! O Pioneiro foi fundada em 1988 por dois professores belgas, Dirk e Kristien, e foi uma das primeiras empresas no turismo de Portugal, especializada em desporto de aventura, e a primeira de canoagem no pais. Ao longo dos anos, a empresa cresceu e mais de 100 mil pessoas de todo o mundo têm feito a descida de caiaque no Mondego connosco. Hoje em dia a descida do Pioneiro do Mondego é um ponto de referencia a nivel nacional e internacional, tendo sido nomeado pelo guia Americano Rough Guides como a referencia do turismo Coimbra - junto com a Universidade - e como um dos top 15 locais a visitar em Portugal.</p>
-            <h2>Descida do rio em Coimbra</h2>
-            <p>A descida do mondego é uma excelente atividade outdoor perto de Coimbra. Otimo para organisar um teambuilding com os collaboradoras da empresa, ou como atividade para uma escola ou grupos de escuteiros. Descobre porque escolher o Mondego, <a href="https://www.opioneirodomondego.com/mondego">aqui</a>.</p>
-        </section>
-        <!-- Conteúdo adicional da página inicial -->
+
+        <div class="second_section">
+            <div class="second_section_text">
+                <h2 class="text_title" data-i18n="home.second_section_first_title"></h2>
+                <p class="text_body" data-i18n="home.second_section_first_text"></p>
+                <div class="second_section_subtext">
+                    <h2 class="text_title" data-i18n="home.second_section_second_title"></h2>
+                    <p class="text_body" data-i18n="home.second_section_second_text"></p>
+                </div>
+
+            </div>
+            <div class="second_section_images">
+                <img src="../Images/HomeSecondSectionImage1.png" alt="Imagem" class="image-card-img1">
+                <img src="../Images/HomeSecondSectionImage2.png" alt="Imagem" class="image-card-img2">
+            </div>
+        </div>
+
+        <div class="third_section">
+            <image-banner src="../Images/BannerHomeImage.png" alt="Pessoas no caiaque"
+                title="home.third_section_bannerOne_title"></image-banner>
+
+            <div class="third_section_cards">
+                <image-card src="../Images/CardExperience.jpg"></image-card>
+                <image-card src="../Images/CardCalendar.jpg"></image-card>
+                <image-card src=" ../Images/CardSecurity.jpg"></image-card>
+            </div>
+
+            <image-banner src="../Images/PeopleImage.png" alt="Pessoa no caiaque"
+                title="home.third_section_bannerTwo_title"></image-banner>
+
+            <button class="book" href="../Book/book.html">Reservar</button>
+        </div>
     </main>
-    <footer></footer>
+
+    <div id="site-footer"></div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => { document.body.style.visibility = 'visible'; }, 100);
+        });
+    </script>
 </body>
+
 </html>

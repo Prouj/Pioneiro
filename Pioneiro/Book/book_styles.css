@@ -1,0 +1,11 @@
+
+main {
+    padding: 2rem;
+    margin: 5%;
+    position: relative;
+    display: flex;
+    /* opacity: 1; */
+    /* transition: opacity 0.9s ease-in-out; */
+    box-sizing: border-box;
+}
+

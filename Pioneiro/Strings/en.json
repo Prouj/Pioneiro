@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home",
+    "booking": "Bookings & Prices",
+    "routes": "Routes",
+    "explore": "Explore",
+    "gallery": "Gallery",
+    "faq": "FAQ"
+  },
+  "header": {
+    "brand": "O Pioneiro<br>do Mondego"
+  },
+  "footer": {
+    "form_title": "Get in touch with us!",
+    "form_name": "Name",
+    "form_name_placeholder": "Enter your name here",
+    "form_email": "Email",
+    "form_email_placeholder": "Enter your email here",
+    "form_phone": "Phone",
+    "form_phone_placeholder": "Enter your phone number here",
+    "form_mensagem": "Message",
+    "form_send_button": "Send",
+    "contact_info_title": "O Pioneiro do Mondego",
+    "contact_info": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Mobile: 91 476 79 22</strong></span>",
+    "license": "Lic. Ministry of Environment - Nº 951/06<br>Lic. General Directorate of Tourism - Alv. Nº 25/2002<br>© 2015 by JVV"
+  },
+  "home": {
+    "first_section_title": "Come discover the<br>most <span class='destaque'>traditional</span><br>kayak trip<br>in Portugal!",
+    "first_section_schedule_button": "Book Now",
+    "first_section_feedback_button": "See Reviews",
+    "second_section_title": "Who Are We?",
+    "second_section_first_text": "O Pioneiro do Mondego is a family-owned adventure sports and ecotourism company based in the municipality of Penacova. Our main activity is river descents in kayak and canoe on the Mondego River, between Penacova and Coimbra – a canoeing trip through the Mondego Valley that we have been organizing daily since 1988! O Pioneiro was founded in 1988 by two Belgian teachers, Dirk and Kristien, and was one of the first companies in Portugal’s tourism sector specialized in adventure sports, as well as the first canoeing company in the country. Over the years, the company has grown and more than 100,000 people from all over the world have done the Mondego descent with us. Today, the descent with O Pioneiro do Mondego is a national and international reference, having been named by the American Rough Guides as a highlight of Coimbra tourism – together with the University – and as one of the top 15 places to visit in Portugal.",
+    "second_section_second_title": "Who Are We?",
+    "second_section_second_text": "The most popular and fantastic route in Portugal. We organize daily descents of 18 or 25 km. Easy, amazing views, and equipment in excellent condition!",
+    "third_section_bannerOne_title": "Banner 1 titulo",
+    "third_section_cardOne_title": "Experience",
+    "third_section_cardOne_text": "Our popularity has attracted competitors, but as pioneers with almost 30 years of experience, we offer unique advantages. Our team of young local guides is experienced, knows the river deeply, and is multilingual.",
+    "third_section_cardTwo_title": "Availability",
+    "third_section_cardTwo_text": "Not only are we the only company that operates descents every day; we also have the largest fleet of canoes on the river, allowing us to welcome any number of participants – from individuals to groups of hundreds of people.",
+    "third_section_cardThree_title": "Safety",
+    "third_section_cardThree_text": "Finally, our monitoring and safety system prioritizes our clients’ freedom; so everyone can do the descent at their own pace, without being forced to stay in a group tour.",
+    "third_section_schedule_button": "Book Now"
+  }
+}

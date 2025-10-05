@@ -1,0 +1,205 @@
+.contact-footer {
+  border-top: 1px solid var(--border-input);
+  background: var(--bg);
+  padding-top: 30px;
+  padding-bottom: 40px;  
+}
+
+.cf-container {
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cf-title {
+  margin: 0 0 16px;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  color: var(--yellow-action);
+  font-weight: 800;
+}
+
+/* GRID geral: formulário + informações */
+.cf-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* form (2 col internas) + info */
+  gap: 36px;
+}
+
+/* Form vira uma grid 2 colunas (esquerda campos / direita mensagem+botão) */
+.cf-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 28px;
+  align-items: start;
+}
+
+.cf-form-left {
+  display: grid;
+  gap: 16px;
+}
+
+.cf-form-right {
+  display: grid;
+  gap: 16px;
+}
+
+.cf-field label {
+  display: block;
+  margin: 0 0 6px;
+  font-size: .95rem;
+}
+
+.cf-field input,
+.cf-field textarea {
+  width: 100%;
+  padding: .85rem 1rem;
+  border: 2px solid var(--border-input);
+  border-radius: 12px;
+  font: inherit;
+  color: var(--black);
+  background: var(--bg);
+  outline: none;
+  transition: border-color .2s;
+}
+
+.cf-field input::placeholder,
+.cf-field textarea::placeholder {
+  color: var(--border-color);
+}
+
+.cf-field input:focus,
+.cf-field textarea:focus {
+  border-color: var(--yellow-action);
+}
+
+.cf-field input.cf-error,
+.cf-field textarea.cf-error {
+  border-color: #e63946 !important;
+}
+
+.cf-btn {
+  justify-self: center;
+  margin-top: 8px;
+  min-width: 210px;
+  width: 80%;
+  padding: .85rem 1.5rem;
+  background: var(--yellow-action);
+  border: var(--yellow-action) 2px solid;
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.cf-btn:hover {
+  filter: brightness(.95);
+}
+
+.cf-btn:active {
+  transform: translateY(1px);
+}
+
+.cf-btn.cf-success {
+  background: #38d39f !important;
+  border-color: #38d39f !important;
+  transition: background .1s, border-color .1s;
+}
+
+/* Lateral direita (informações) */
+.cf-info {
+  color: var(--blue-font);
+}
+
+.cf-brand {
+  color: var(--yellow-action);
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  margin: 0 0 10px;
+  font-weight: 800;
+}
+
+.cf-address {
+  font-style: normal;
+  line-height: 1.35;
+  margin: 0 0 10px;
+}
+
+.cf-mail {
+  color: var(--blue-font);
+  text-decoration: underline;
+}
+
+.cf-contacts {
+  margin: .4rem 0 0;
+  color: var(--blue-font);
+}
+
+.cf-small {
+  color: #9aa3b2;
+  font-size: .82rem;
+  margin: .6rem 0 1rem;
+}
+
+/* Ícones sociais */
+.cf-socials {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 8px 0 14px;
+}
+
+.cf-social {
+  inline-size: 40px;
+  block-size: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--yellow-action);
+  color: var(--blue-font);
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid var(--yellow-action);
+}
+
+.cf-social:hover {
+  filter: brightness(.95);
+}
+
+.cf-social:active {
+  transform: translateY(1px);
+}
+
+/* Selos / parceiros (placeholders) */
+.cf-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.cf-badge {
+  padding: .45rem .7rem;
+  border: 1px dashed #cbd5e1;
+  color: var(--blue-font);
+  border-radius: 8px;
+  font-size: .85rem;
+  background: #f8fafc;
+}
+
+/* Responsividade */
+@media (max-width: 980px) {
+  .cf-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .cf-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cf-btn {
+    justify-self: stretch;
+  }
+}

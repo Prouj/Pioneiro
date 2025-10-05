@@ -1,11 +1,16 @@
-<header class="hd">
-  <div class="hd-container">
-    <a href="../Home/home.html" class="hd-logo">
-      <img src="../Images/Logo.png" alt="O Pioneiro do Mondego">
-      <h2 class="hd-brand"  data-i18n-html="header.brand"></h2>
-    </a>
+<div class="hd-layer" id="nav-layer" aria-hidden="true">
+  <div class="hd-overlay" hidden></div>
 
-    <nav class="hd-nav" role="navigation" aria-label="Principal">
+  <aside class="hd-drawer" role="dialog" aria-modal="true" aria-labelledby="nav-title" aria-hidden="true">
+    <div class="hd-drawer-head">
+      <a href="../Home/home.html" class="hd-logo">
+        <img src="../Images/Logo.png" alt="">
+        <h2 class="hd-brand">O Pioneiro do Mondego</h2>
+      </a>
+      <button class="icon-btn hd-close" type="button" aria-label="Fechar">✕</button>
+    </div>
+
+    <nav class="hd-drawer-nav" role="navigation" aria-label="Menu móvel">
       <a class="hd-link" href="../Home/home.html" aria-current="page" data-i18n="nav.home"></a>
       <a class="hd-link" href="../Book/book.html" aria-current="page" data-i18n="nav.booking"></a>
       <a class="hd-link" href="../Routes/routes.html" aria-current="page" data-i18n="nav.routes"></a>
@@ -14,14 +19,14 @@
       <a class="hd-link" href="../FAQ/faq.html" aria-current="page" data-i18n="nav.faq"></a>
     </nav>
 
-    <!-- Dropdown de idioma (desktop) -->
-    <div class="hd-langdrop" data-role="langdrop">
-      <button class="hd-langdrop-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="langmenu-desktop">
-        <span class="hd-lang-current" data-current-flag></span>
-        <span class="hd-lang-code" data-current-code></span>
+    <!-- Idiomas no drawer -->
+    <div class="hd-langdrop is-drawer" data-role="langdrop">
+      <button class="hd-langdrop-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="langmenu-drawer">
+        <span class="hd-lang-current" data-current-flag>🇵🇹</span>
+        <span class="hd-lang-code"    data-current-code>PT</span>
         <svg class="hd-chev" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
       </button>
-      <ul class="hd-langmenu" id="langmenu-desktop" role="listbox" tabindex="-1" hidden>
+      <ul class="hd-langmenu" id="langmenu-drawer" role="listbox" tabindex="-1" hidden>
         <li role="option"><button type="button" class="hd-langopt" data-lang="pt-PT" data-flag="🇵🇹" data-label="PT">PT <span>🇵🇹</span></button></li>
         <li role="option"><button type="button" class="hd-langopt" data-lang="en-GB" data-flag="🇬🇧" data-label="EN">EN <span>🇬🇧</span></button></li>
         <li role="option"><button type="button" class="hd-langopt" data-lang="es-ES" data-flag="🇪🇸" data-label="ES">ES <span>🇪🇸</span></button></li>
@@ -29,10 +34,5 @@
         <li role="option"><button type="button" class="hd-langopt" data-lang="nl-NL" data-flag="🇳🇱" data-label="NL">NL <span>🇳🇱</span></button></li>
       </ul>
     </div>
-
-    <!-- Toggle mobile: apenas emite evento -->
-    <button class="icon-btn hd-toggle" type="button" aria-label="Abrir menu">
-      <img src="../Images/MenuIcon.png" width="24" height="24" alt="">
-    </button>
-  </div>
-</header>
+  </aside>
+</div>

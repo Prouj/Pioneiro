@@ -20,14 +20,221 @@
     <div id="site-drawer"></div>
 
     <main>
-        <section id="book">
-            <h2>Sobre Nós</h2>
-            <p>Informações sobre a história e missão do site.</p>
+        <section id="book" class="booking-page">
+            <div class="booking-container">
+                <aside class="booking-left">
+                    <h2 class="booking-title" data-i18n="book.form_title"></h2>
+                    <form id="booking-form" class="booking-form" autocomplete="on" novalidate>
+                        <label for="b-name" data-i18n="book.form_name"></label>
+                        <input id="b-name" name="name" type="text" data-i18n="book.form_name_placeholder"
+                            data-i18n-attr="placeholder" required>
+
+                        <label for="b-email" data-i18n="book.form_email"></label>
+                        <input id="b-email" name="email" type="email" data-i18n="book.form_email_placeholder"
+                            data-i18n-attr="placeholder" required>
+                        <div class="field-error" aria-live="polite"></div>
+
+                        <label for="b-phone" data-i18n="book.form_phone"></label>
+                        <input id="b-phone" name="phone" type="tel" data-i18n="book.form_phone_placeholder"
+                            data-i18n-attr="placeholder" required>
+
+                        <label for="b-date" data-i18n="book.form_date"></label>
+                        <input id="b-date" name="date" type="date" data-i18n="book.form_date_placeholder"
+                            data-i18n-attr="placeholder" required>
+
+                        <label for="b-descida" data-i18n="book.form_route"></label>
+                        <div class="custom-select" data-for="b-descida">
+                            <select id="b-descida" name="route">
+                                <option value="mondego-18" data-i18n="book.option_mondego_18"></option>
+                                <option value="mondego-25" data-i18n="book.option_mondego_25"></option>
+                            </select>
+                            <div class="cs-display" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+                                <span class="cs-value"></span>
+                                <span class="cs-arrow" aria-hidden="true"></span>
+                            </div>
+                            <ul class="cs-options" role="listbox" tabindex="-1"></ul>
+                        </div>
+                        <p class="select-hint" data-i18n="book.route_hint"></p>
+
+                        <label for="b-meet" data-i18n="book.form_meet"></label>
+                        <div class="custom-select" data-for="b-meet">
+                            <select id="b-meet" name="meet">
+                                <option value="coimbra" data-i18n="book.meet_coimbra"></option>
+                                <option value="torres" data-i18n="book.meet_torres"></option>
+                                <option value="penacova" data-i18n="book.meet_penacova"></option>
+                            </select>
+                            <div class="cs-display" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+                                <span class="cs-value"></span>
+                                <span class="cs-arrow" aria-hidden="true"></span>
+                            </div>
+                            <ul class="cs-options" role="listbox" tabindex="-1"></ul>
+                        </div>
+                        <p class="select-hint" data-i18n="book.meet_hint"></p>
+
+                        <label for="b-num" data-i18n="book.form_people"></label>
+                        <input id="b-num" name="participants" type="number" min="1"
+                            data-i18n="book.form_people_placeholder" data-i18n-attr="placeholder" required>
+
+                        <label for="b-other" data-i18n="book.form_moreInfo"></label>
+                        <textarea id="b-other" name="other" rows="5" data-i18n="book.form_moreInfo_placeholder"
+                            data-i18n-attr="placeholder"></textarea>
+
+                        <fieldset class="booking-extras">
+                            <label data-i18n="book.extras_legend"></label>
+                            <label><input type="checkbox" name="extras" value="k1"><span
+                                    data-i18n="book.extra_k1"></span></label>
+                            <label><input type="checkbox" name="extras" value="private"><span
+                                    data-i18n="book.extra_private"></span></label>
+                        </fieldset>
+
+                        <label for="b-catering" data-i18n="book.form_moreOptions"></label>
+                        <div class="custom-select" data-for="b-catering">
+                            <select id="b-catering" name="catering">
+                                <option value="none" data-i18n="book.form_moreOptions_one"></option>
+                                <option value="snacks" data-i18n="book.form_moreOptions_two"></option>
+                                <option value="lunch" data-i18n="book.form_moreOptions_three"></option>
+                            </select>
+                            <div class="cs-display" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+                                <span class="cs-value"></span>
+                                <span class="cs-arrow" aria-hidden="true"></span>
+                            </div>
+                            <ul class="cs-options" role="listbox" tabindex="-1"></ul>
+                        </div>
+
+                        <button type="submit" class="booking-submit" data-i18n="book.form_submit_button"></button>
+                    </form>
+                </aside>
+
+                <aside class="booking-right">
+                    <h2 class="prices-title" data-i18n-html="book.prices-title"></h2>
+                    <p class="prices-sub" data-i18n-html="book.prices-sub"></p>
+                    <ul class="prices-list">
+                        <li data-i18n-html="book.prices-one"></li>
+                        <li data-i18n-html="book.prices-two"></li>
+                        <li data-i18n-html="book.prices-three"></li>
+                        <li data-i18n-html="book.prices-four"></li>
+                        <li data-i18n-html="book.prices-five"></li>
+                    </ul>
+
+                    <p data-i18n-html="book.prices-includes"></p>
+
+                    <h3 class="offerts" data-i18n-html="book.prices-discounts"></h3>
+                    <ul class="prices-list">
+                        <li data-i18n-html="book.prices-discounts-one"></li>
+                        <li data-i18n-html="book.prices-discounts-two"></li>
+                        <li data-i18n-html="book.prices-discounts-three"></li>
+                    </ul>
+
+                    <h3 data-i18n-html="book.prices-extras"></h3>
+                    <ul class="prices-list">
+                        <li data-i18n-html="book.prices-extras-one"></li>
+                        <li data-i18n-html="book.prices-extras-two"></li>
+                        <li data-i18n-html="book.prices-extras-three"></li>
+                        <li data-i18n-html="book.prices-extras-four"></li>
+                        <li data-i18n-html="book.prices-extras-five"></li>
+                        <li data-i18n-html="book.prices-extras-six"></li>
+                        <li data-i18n-html="book.prices-extras-seven"></li>
+                    </ul>
+                </aside>
+            </div>
         </section>
     </main>
 
     <div id="site-footer"></div>
-    
+
+    <script>
+        // Custom select widget initializer
+        (function () {
+            function initCustomSelect(root = document) {
+                root.querySelectorAll('.custom-select').forEach(cs => {
+                    const select = cs.querySelector('select');
+                    const display = cs.querySelector('.cs-display');
+                    const valueEl = cs.querySelector('.cs-value');
+                    const optionsEl = cs.querySelector('.cs-options');
+
+                    // populate options
+                    function rebuild() {
+                        optionsEl.innerHTML = '';
+                        Array.from(select.options).forEach((opt, i) => {
+                            const li = document.createElement('li');
+                            li.setAttribute('role', 'option');
+                            li.dataset.value = opt.value;
+                            li.tabIndex = -1;
+                            li.textContent = opt.textContent.trim() || opt.getAttribute('data-i18n') || opt.value;
+                            if (select.selectedIndex === i) li.setAttribute('aria-selected', 'true');
+                            optionsEl.appendChild(li);
+                        });
+                        const sel = select.options[select.selectedIndex];
+                        valueEl.textContent = sel ? sel.textContent : select.getAttribute('placeholder') || '';
+                    }
+
+                    rebuild();
+
+                    // toggle
+                    function close() { optionsEl.classList.remove('open'); display.setAttribute('aria-expanded', 'false'); }
+                    function open() { optionsEl.classList.add('open'); display.setAttribute('aria-expanded', 'true'); }
+
+                    display.addEventListener('click', () => {
+                        if (optionsEl.classList.contains('open')) close(); else open();
+                    });
+
+                    // option click
+                    optionsEl.addEventListener('click', (ev) => {
+                        const li = ev.target.closest('li');
+                        if (!li) return;
+                        select.value = li.dataset.value;
+                        select.dispatchEvent(new Event('change', { bubbles: true }));
+                        rebuild();
+                        close();
+                    });
+
+                    // sync when native select changes (e.g., via keyboard or form reset)
+                    select.addEventListener('change', () => rebuild());
+
+                    // keyboard nav on display
+                    display.addEventListener('keydown', (e) => {
+                        const openNow = optionsEl.classList.contains('open');
+                        if (e.key === 'ArrowDown') {
+                            if (!openNow) open();
+                            optionsEl.querySelector('li')?.focus();
+                            e.preventDefault();
+                        } else if (e.key === 'ArrowUp') {
+                            if (!openNow) open();
+                            const items = optionsEl.querySelectorAll('li');
+                            items[items.length - 1]?.focus();
+                            e.preventDefault();
+                        } else if (e.key === 'Enter' || e.key === ' ') {
+                            if (openNow) optionsEl.querySelector('li[aria-selected="true"]')?.click(); else open();
+                            e.preventDefault();
+                        } else if (e.key === 'Escape') {
+                            close();
+                        }
+                    });
+
+                    // basic keyboard within options
+                    optionsEl.addEventListener('keydown', (e) => {
+                        const cur = document.activeElement;
+                        if (cur.tagName !== 'LI') return;
+                        if (e.key === 'ArrowDown') { cur.nextElementSibling?.focus(); e.preventDefault(); }
+                        if (e.key === 'ArrowUp') { cur.previousElementSibling?.focus(); e.preventDefault(); }
+                        if (e.key === 'Enter' || e.key === ' ') { cur.click(); e.preventDefault(); }
+                        if (e.key === 'Escape') { display.focus(); close(); }
+                    });
+
+                    // observe text changes (from i18n.apply) to rebuild options
+                    const mo = new MutationObserver(rebuild);
+                    mo.observe(select, { childList: true, subtree: true, characterData: true });
+
+                    // close on outside click
+                    document.addEventListener('click', (ev) => { if (!cs.contains(ev.target)) close(); });
+                });
+            }
+
+            // init on DOM ready and also expose to window for re-init after i18n.apply
+            document.addEventListener('DOMContentLoaded', () => initCustomSelect());
+            window.initCustomSelect = initCustomSelect;
+        })();
+    </script>
     <script>
         window.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => { document.body.style.visibility = 'visible'; }, 100);

@@ -41,6 +41,7 @@
     padding: 10px 20px;
     background-color: var(--yellow-action);
     border: var(--yellow-action) 2px solid;
+    text-decoration: none;
     border-radius: 8px;
     color: #ffffff;
     cursor: pointer;
@@ -283,11 +284,13 @@
     padding: 10px 20px;
     background-color: var(--yellow-action);
     border: var(--yellow-action) 2px solid;
+    text-decoration: none;
     border-radius: 8px;
     color: var(--bg);
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
+    text-align: center;
 }
 
 .book:hover {

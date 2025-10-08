@@ -29,11 +29,14 @@ export function initHeader(root = document) {
         });
     }
 
-    const book = root.querySelector('.book');
-    if (book) {
-        book.addEventListener('click', (e) => {
-            // Atualiza o store para a home
-            store.setPage(book.getAttribute('href'));
-        });
-    }
+    // Global listener: qualquer elemento com classe .book deve ativar a página de reservas
+    document.addEventListener('click', (e) => {
+        const el = e.target.closest('.book');
+        if (!el) return;
+        // links[1] normalmente é o link de booking (consistência com header.html)
+        const bookingLink = links[1];
+        if (bookingLink) {
+            store.setPage(bookingLink.getAttribute('href'));
+        }
+    });
 }

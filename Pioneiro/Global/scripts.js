@@ -185,19 +185,19 @@ class ImageCard extends HTMLElement {
     const subtitle = this.getAttribute('subtitle') || '';
     const href = this.getAttribute('href');
 
-    const openTag = href ? `<a class="image-card-wrapper" href="${href}">` : `<div class="image-card-wrapper">`;
-    const closeTag = href ? `</a>` : `</div>`;
+    const openTag = href ? `<a class="image-card-wrapper" href="${href}">` : ``;
+    const closeTag = href ? `</a>` : ``;
 
     this.innerHTML = `
+     ${openTag}
         <div class="image-card-container">
-          ${openTag}
             <img src="${src}" alt="${alt}" class="image-card-img">
             <div class="image-card-text">
-              <h3 class="image-card-title">${title}</h3>
-              <p class="image-card-subtitle">${subtitle}</p>
+              <h3 class="image-card-title" data-i18n-html="${title}"></h3>
+              <p class="image-card-subtitle" data-i18n-html="${subtitle}"></p>
             </div>
-          ${closeTag}
         </div>
+      ${closeTag}
       `;
   }
 }

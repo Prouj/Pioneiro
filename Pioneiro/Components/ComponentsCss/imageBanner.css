@@ -13,6 +13,7 @@
   display: block;
   width: 100%;
   height: auto;
+  max-height: 500px;
   object-fit: cover;
   border-radius: 16px;
   position: relative;
@@ -34,8 +35,8 @@
 
 .image-banner-text {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 36px;
+  left: 36px;
   right: 20px;
   z-index: 3;
 }

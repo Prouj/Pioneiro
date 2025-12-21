@@ -95,7 +95,32 @@
     "prices-extras-seven": "Transporte extra: 50 € + 1,5€ /km"
   },
   "routes": {
-    "third_section_bannerOne_title": "Explore os<br><span class='destaque'>Percursos!</span>"
+    "bannerOne_title": "Explore os<br><span class='destaque'>Percursos!</span>",
+    "first_section_title": "Canoagem no centro de Portugal",
+    "first_section_text": "A combinação da beleza natural do vale do Mondego - com suas rochas, florestas e praias fluviais - com um excelente e estável caudal de água tornou o Mondego no rio de preferência para a atividade de canoagem a nível nacional. Desfrute de um dia relaxante e refrescante, e observe os majestosos milhafres, os guarda-rios e uma grande variedade de peixes.<br><br> Oferecemos duas opções de percurso:",
+    "routeOne_section_title": "Penacova - Torres do Mondego (18 km)",
+    "routeOne_section_text": "O percurso para todos! Com uma extensão de 18 km, começa no açude da carvoeira; 500 m abaixo da praia fluvial de Penacova e acaba nas Torres do Mondego, 3 km abaixo da praia fluvial do Casal da Misarela. Todo o percurso passa pelo vale natural do Mondego - no meio da floresta - passando as pequenas povoações serranas de Ronqueira, Rebordosa, Louredo, Foz do Caneiro e Casal. Esta parte do rio está cheia de pequenas praias nas margens, perfeitas para fazer uma pausa para um piquenique ou um mergulho. No bar da praia fluvial também têm a possibilidade de parar para um pequeno lanche, uma cerveja ou um gelado. Esta parte do rio costuma ter sempre uma ligeira corrente, o que torna este percurso fácil; acessível a todas as idades.<br><br>O Percurso demora umas 3-4 horas em caiaque. Costumamos combinar às 10.00 nas Torres do Mondego  - ou às 10.30 em Penacova. Quem não tiver transporte podemos ir buscar ao Centro de Coimbra. Em Penacova é distribuído o material e são dadas as instruções. A largada das canoas costuma ser pelas 11.00. A chegada prevista nas Torres é pelas 15.00 a 17.00.",
+    "image_Description_routeOne": "Imagem do percurso de 18 km de Penacova a Torres do Mondego",
+    "image_Description_routeTwo": "Imagem do percurso de 25 km de Penacova a Coimbra",
+    "routeTwo_section_title": "Penacova - Coimbra (25 km)",
+    "routeTwo_section_text": "O percurso clássico! O percurso completo de 25 km; alem dos 18 km iniciais, este percurso inclui os últimos 7 km até Coimbra centro. Este percurso é dificultado pelo alargamento do leito do rio e ausência de corrente nos últimos quilómetros; alem disso costuma ter o mítico vento de frente que pode produzir uma ligeira ondulação. Mas quem aguentar esta distancia; tem o privilégio de conseguir entrar Coimbra pela agua, avistando a torre da universidade de Coimbra de longe. Esta descida é indicada para aquelas pessoas mais desportistas que vêm na descida não só uma atividade para relaxar, mas também um desafio físico.<br><br>O Percurso demora umas 4-5 horas em caiaque. Costumamos combinar às 10.00 no clube náutico do Parque Verde de Coimbra - ou às 10.30 em Penacova. Em Penacova é distribuído o material e são dadas as instruções. A largada das canoas costuma ser pelas 11.00. A chegada prevista em Coimbra é pelas 16.30 a 18.00.",
+    "night_section_title": "Descidas Noturnas",
+    "night_section_text": "Uma vez por mes costumamos organizar uma descida noturna para quem tem alguma experiencia em caiaque e quer conhecer o nosso vale de maneira diferente; iluminado pela lua cheia. Informa-te para saberes quando será a próxima!",
+    "meeting_point_section_title": "Pontos de Encontro",
+    "meeting_point_section_text": "Oferecemos três pontos de encontro convenientes:",
+    "pointOne_title": "Penacova",
+    "pointOne_text": "Inicio dos percursos<br><br>Encontro às 10.30<br><br>No nosso cais de embarque, junto ao açude da Carvoeira, na margem esquerda.<br><br>Instruções a partir da IP3 - Coimbra-Viseu:<br><br>-IP3 - Saia na segunda saída Penacova<br>-Siga em direção ao rio Mondego (nao suba para a vila de Penacova)<br>-Passe a ponte sobre o Mondego e corte para a sua direita<br>-Passe a povoação de 'Carvoeira' -Siga até ao cruzamento com indicação 'Travasso'<br>-Corte para a sua direita e chegando ao rio, novamente para a direita<br>-Siga 200m até ao açude.",
+    "pointOne_link": "https://www.google.com/maps/place/Penacova",
+    "image_Description_meetingPointOne": "Imagem do ponto de encontro em Penacova",
+    "pointTwo_title": "Torres do Mondego",
+    "pointTwo_text": "Encontre-nos em Torres do Mondego às 10:00 hrs",
+    "pointTwo_link": "https://www.google.com/maps/place/Torres+do+Mondego",
+    "image_Description_meetingPointTwo": "Imagem do ponto de encontro em Torres do Mondego",
+    "pointThree_title": "Coimbra",
+    "pointThree_text": "Encontre-nos em Coimbra às 09:45 hrs",
+    "pointThree_link": "https://www.google.com/maps/place/Coimbra",
+    "image_Description_meetingPointThree": "Imagem do ponto de encontro em Coimbra"
+    
   },
   "explore": {
     "third_section_bannerOne_title": "Explore a<br><span class='destaque'>Região!</span>"

@@ -20,14 +20,94 @@
     <div id="site-drawer"></div>
 
     <main>
-        <section id="book">
+        <section class="banner_section">
             <image-banner src="../Images/RoutesImage.png" alt="Pessoas no caiaque"
-                title="routes.third_section_bannerOne_title"></image-banner>
+                title="routes.bannerOne_title"></image-banner>
+        </section>
+
+        <section class="meeting_points_section">
+            <div class="basic_section_text">
+                <h2 class="text_title" data-i18n-html="routes.first_section_title"></h2>
+                <p class="text_body" data-i18n-html="routes.first_section_text"></p>
+            </div>
+
+            <div class="meeting_points_accordions">
+                <details class="mp_accordion">
+                    <summary class="mp_summary" data-i18n-html="routes.routeTwo_section_title"></summary>
+                    <div class="route_section mp_content">
+                        <div class="route_section_text">
+                           <p class="text_body" data-i18n-html="routes.routeTwo_section_text"></p>
+                        </div>
+                        <div class="route_section_image">
+                            <img src="../Images/HomeSecondSectionImage1.png" data-i18n-attr="alt" data-i18n-alt="routes.image_Description_meetingPointOne" alt="">
+                        </div>
+                    </div>
+                </details>
+
+                <details class="mp_accordion">
+                    <summary class="mp_summary" data-i18n-html="routes.routeOne_section_title"></summary>
+                    <div class="route_section mp_content">
+                        <div class="route_section_text">
+                             <p class="text_body" data-i18n-html="routes.routeOne_section_text"></p>
+                        </div>
+                        <div class="route_section_image">
+                            <img src="../Images/HomeSecondSectionImage1.png" data-i18n-attr="alt" data-i18n-alt="routes.image_Description_meetingPointTwo" alt="">
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <div class="basic_section_text">
+                <h2 class="text_title" data-i18n="routes.night_section_title"></h2>
+                <p class="text_body" data-i18n="routes.night_section_text"></p>
+            </div>
+
+            <div class="basic_section_text">
+                <h2 class="text_title" data-i18n="routes.meeting_point_section_title"></h2>
+                <p class="text_body" data-i18n="routes.meeting_point_section_text"></p>
+            </div>
+
+            <div class="meeting_points_accordions">
+                <details class="mp_accordion">
+                    <summary class="mp_summary" data-i18n="routes.pointOne_title"></summary>
+                    <div class="route_section mp_content">
+                        <div class="route_section_text">
+                            <p class="text_body" data-i18n-html="routes.pointOne_text"></p>
+                        </div>
+                        <div class="route_section_image">
+                            <img src="../Images/HomeSecondSectionImage1.png" data-i18n-attr="alt" data-i18n-alt="routes.image_Description_meetingPointOne" alt="">
+                        </div>
+                    </div>
+                </details>
+
+                <details class="mp_accordion">
+                    <summary class="mp_summary" data-i18n="routes.pointTwo_title"></summary>
+                    <div class="route_section mp_content">
+                        <div class="route_section_text">
+                            <p class="text_body" data-i18n="routes.pointTwo_text"></p>
+                        </div>
+                        <div class="route_section_image">
+                            <img src="../Images/HomeSecondSectionImage1.png" data-i18n-attr="alt" data-i18n-alt="routes.image_Description_meetingPointTwo" alt="">
+                        </div>
+                    </div>
+                </details>
+
+                <details class="mp_accordion">
+                    <summary class="mp_summary" data-i18n="routes.pointThree_title"></summary>
+                    <div class="route_section mp_content">
+                        <div class="route_section_text">
+                            <p class="text_body" data-i18n="routes.pointThree_text"></p>
+                        </div>
+                        <div class="route_section_image">
+                            <img src="../Images/HomeSecondSectionImage1.png" data-i18n-attr="alt" data-i18n-alt="routes.image_Description_meetingPointThree" alt="">
+                        </div>
+                    </div>
+                </details>
+            </div>
         </section>
     </main>
 
     <div id="site-footer"></div>
-
     <script>
         window.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => { document.body.style.visibility = 'visible'; }, 100);

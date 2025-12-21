@@ -103,5 +103,19 @@
   "gallery": {
     "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>"
   },
-  "faq": {}
+  "faq": {
+    "title": "FAQ: Perguntas frequentes",
+    "q1_title": "Quais as condições mínimas para fazer a descida?",
+    "q2_title": "Porque escolher O Pioneiro?",
+    "q3_title": "Até quando podemos fazer a reserva?",
+    "q4_title": "Como se faz a reserva?",
+    "q5_title": "Como se processa o pagamento?",
+    "q6_title": "O que é preciso levar?",
+    "q7_title": "O que se faz para o almoço?",
+    "q8_title": "Crianças podem descer o rio?",
+    "q9_title": "Precisam de todos os nomes dos participantes?",
+    "q10_title": "Como funciona a vossa política de monitorização?",
+    "q1_body": "A descida é acessível a qualquer pessoa com uma condição física normal; no entanto sendo a canoagem um desporto náutico, pedimos que qualquer participante saiba nadar. Todos os participantes levam coletes de salva-vidas e estão assegurados por um seguro de acidentes pessoais e responsabilidade pública da empresa. A competência da natação no entanto é necessária para os participantes, em caso de queda á agua, se sentirem confortáveis e não entrarem em pânico.",
+    "q2_body": "O Pioneiro do Mondego é a empresa mais antiga a operar no rio Mondego, com uma vasta experiência e conhecimento da região. A nossa equipa é composta por guias locais apaixonados pela natureza e pela canoagem, que garantem uma experiência segura e memorável."
+  }
 }

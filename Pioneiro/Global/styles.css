@@ -17,4 +17,10 @@
     --black: #000000;
     --bg: #fff;
     --border-input: #d1d5db;
+    --bg-hover: rgba(0, 0, 0, 0.02);
+    --red-border: #e63946;
+
+    --fontSizeBase: 16px;
+    --fontSizeSmall: 14px;
+    --fontSizeLarge: 18px;
 }

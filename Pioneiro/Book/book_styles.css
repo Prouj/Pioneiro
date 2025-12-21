@@ -152,7 +152,7 @@ main {
 }
 
 .booking-form .field-error {
-    color: #d33;
+    color: var(--red-border) !important;
     font-size: 12px;
     margin-top: 6px
 }

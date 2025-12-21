@@ -75,7 +75,7 @@
 
 .cf-field input.cf-error,
 .cf-field textarea.cf-error {
-  border-color: #e63946 !important;
+  border-color: var(--red-border) !important;
 }
 
 .cf-btn {

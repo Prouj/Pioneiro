@@ -17,6 +17,8 @@ main {
 
 .text_title {
     margin-top: 30px;
+    color: var(--blue-font);
+    font-weight: 700;
 }
 
 .basic_section_text {
@@ -26,4 +28,239 @@ main {
     color: var(--blue-font);
     line-height: 1.5;
     flex-direction: column;
+}
+
+/* Gallery content */
+.gallery_content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.gallery_intro {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.gallery_intro .text_title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.gallery_intro .text_body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--blue-font);
+}
+
+.fb-link {
+    color: #1877f2;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.fb-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.email-link {
+    color: var(--blue-font);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: var(--yellow-action);
+}
+
+/* Media container: carousel + facebook side by side */
+.gallery_media_container {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/* Carousel */
+.carousel_wrapper {
+    flex: 1 1 60%;
+    min-width: 0;
+}
+
+.carousel_container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carousel_track_container {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.carousel_track_container::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel_track {
+    display: flex;
+    height: 100%;
+}
+
+.carousel_slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel_slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.2s;
+    color: var(--blue-font);
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.carousel_btn:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.carousel_btn_prev {
+    left: 10px;
+}
+
+.carousel_btn_next {
+    right: 10px;
+}
+
+.carousel_dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.carousel_dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.carousel_dot.active {
+    background: var(--yellow-action);
+}
+
+/* Facebook preview */
+.facebook_preview {
+    flex: 0 0 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook_preview iframe {
+    border-radius: 12px;
+    max-width: 100%;
+}
+
+/* YouTube section */
+.youtube_container {
+    margin-top: 50px;
+}
+
+.youtube_container .text_title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.youtube_wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.youtube_wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive: stack carousel and facebook on mobile */
+@media (max-width: 900px) {
+    .gallery_media_container {
+        flex-direction: column;
+    }
+
+    .carousel_wrapper {
+        flex: 1 1 100%;
+    }
+
+    .facebook_preview {
+        flex: 1 1 100%;
+        margin: 0 auto;
+    }
+
+    .gallery_intro .text_title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel_btn {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+    }
+
+    .carousel_btn_prev {
+        left: 5px;
+    }
+
+    .carousel_btn_next {
+        right: 5px;
+    }
+
+    .gallery_intro .text_title {
+        font-size: 22px;
+    }
+
+    .gallery_intro .text_body {
+        font-size: 14px;
+    }
 }

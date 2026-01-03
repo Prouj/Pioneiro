@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "src": "../Images/HomeSecondSectionImage1.png",
+      "alt": "Descida de kayak no Mondego"
+    },
+    {
+      "src": "../Images/HomeSecondSectionImage2.png",
+      "alt": "Grupo de kayakers no rio"
+    },
+    {
+      "src": "../Images/BannerHomeImage.png",
+      "alt": "Vista do vale do Mondego"
+    },
+    {
+      "src": "../Images/PeopleImage.png",
+      "alt": "Aventura no Mondego"
+    },
+    {
+      "src": "../Images/RoutesImage.png",
+      "alt": "Percurso no rio Mondego"
+    }
+  ]
+}

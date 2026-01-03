@@ -22,6 +22,61 @@
         <section id="book">
             <image-banner src="../Images/PeopleImage.png" alt="Pessoas no caiaque" title="gallery.third_section_bannerOne_title"></image-banner>
         </section>
+
+        <section class="gallery_content">
+            <div class="gallery_intro">
+                <h2 class="text_title">Fotos e vídeos das descidas</h2>
+                <p class="text_body">
+                    Para as fotos mais recentes visite a nossa página 
+                    <a href="https://www.facebook.com/kayakmondego" target="_blank" rel="noopener noreferrer" class="fb-link">Facebook</a>!<br>
+                    As fotografias originais podem ser encomendadas em 
+                    <a href="mailto:pictures@opioneirodomondego.com" class="email-link">pictures@opioneirodomondego.com</a> 
+                    por um custo extra de 5€/foto.
+                </p>
+            </div>
+
+            <div class="gallery_media_container">
+                <div class="carousel_wrapper">
+                    <div class="carousel_container">
+                        <button class="carousel_btn carousel_btn_prev" aria-label="Imagem anterior">‹</button>
+                        <div class="carousel_track_container">
+                            <div class="carousel_track"></div>
+                        </div>
+                        <button class="carousel_btn carousel_btn_next" aria-label="Próxima imagem">›</button>
+                    </div>
+                    <div class="carousel_dots"></div>
+                </div>
+
+                <div class="facebook_preview">
+                    <iframe 
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkayakmondego&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="340"
+                        height="500"
+                        style="border:none;overflow:hidden"
+                        scrolling="no"
+                        frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="youtube_container">
+                <h3 class="text_title">Veja nosso vídeo</h3>
+                <div class="youtube_wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/fiVEqICHqxQ"
+                        title="O Pioneiro do Mondego - Vídeo"
+                        frameborder="0"
+                        width="100%"
+                        height="100%"
+                        allowfullscreen
+                        allow="autoplay 'src'"
+                        aria-label="External YouTube">
+                    </iframe>
+                </div>
+            </div>
+        </section>
     </main>
 
     <div id="site-footer"></div>
@@ -31,6 +86,7 @@
             setTimeout(() => { document.body.style.visibility = 'visible'; }, 100);
         });
     </script>
+    <script type="module" src="./gallery-carousel.js"></script>
 </body>
 
 </html>

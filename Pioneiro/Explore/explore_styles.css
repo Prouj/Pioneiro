@@ -1,10 +1,19 @@
-
 main {
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 30px;
-    position: relative;
-    display: flex;
-    box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
+.text_title {
+    margin-top: 30px;
+}
+
+.basic_section_text {
+    flex: 1 1 50%;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--blue-font);
+    line-height: 1.5;
+    flex-direction: column;
+}

@@ -109,21 +109,23 @@
     "meeting_point_section_title": "Pontos de Encontro",
     "meeting_point_section_text": "Oferecemos três pontos de encontro convenientes:",
     "pointOne_title": "Penacova",
-    "pointOne_text": "Inicio dos percursos<br><br>Encontro às 10.30<br><br>No nosso cais de embarque, junto ao açude da Carvoeira, na margem esquerda.<br><br>Instruções a partir da IP3 - Coimbra-Viseu:<br><br>-IP3 - Saia na segunda saída Penacova<br>-Siga em direção ao rio Mondego (nao suba para a vila de Penacova)<br>-Passe a ponte sobre o Mondego e corte para a sua direita<br>-Passe a povoação de 'Carvoeira' -Siga até ao cruzamento com indicação 'Travasso'<br>-Corte para a sua direita e chegando ao rio, novamente para a direita<br>-Siga 200m até ao açude.",
+    "pointOne_text": "Inicio dos percursos<br><br>Encontro às 10.30<br><br>No nosso cais de embarque, junto ao açude da Carvoeira, na margem esquerda.<br><br>Instruções a partir da IP3 - Coimbra-Viseu:<br><br>-IP3 - Saia na segunda saída Penacova<br>-Siga em direção ao rio Mondego (nao suba para a vila de Penacova)<br>-Passe a ponte sobre o Mondego e corte para a sua direita<br>-Passe a povoação de 'Carvoeira'<br>-Siga até ao cruzamento com indicação 'Travasso'<br>-Corte para a sua direita e chegando ao rio, novamente para a direita<br>-Siga 200m até ao açude.",
     "pointOne_link": "https://www.google.com/maps/place/Penacova",
     "image_Description_meetingPointOne": "Imagem do ponto de encontro em Penacova",
     "pointTwo_title": "Torres do Mondego",
-    "pointTwo_text": "Encontre-nos em Torres do Mondego às 10:00 hrs",
+    "pointTwo_text": "Chegada do percurso de 18km<br><br>Encontro às 9.45 - Transporte às 10.00<br><br>No nosso parque de estacionamento privado e vedado na margem do rio, que fica na entrada das Torres do Mondego. O sítio encontra-se na estrada antiga de Coimbra para Penacova (N110).<br><br>É possivel acampar e fazer churrasco neste parque, confira<br>aqui!<br><br><br>Instruções a partir de Lisboa ou Porto:<br>-Sair em Coimbra-Sul<br>-Seguir Coimbra-Centro (Lisboa N1)<br>-Passar Ponte Rainha Sta. Isabel<br>-Seguir \"estrada da beira\" N17<br>-Antes das Pontes da Portel sobre o Mondego, esquerda - N110<br>-Seguir 1km na N110 para penacova.<br>-Local de encontro no Portão que dà entrada ao caminho parao parque de estacionamento à beira do rio em Torres do Mondego.",
     "pointTwo_link": "https://www.google.com/maps/place/Torres+do+Mondego",
     "image_Description_meetingPointTwo": "Imagem do ponto de encontro em Torres do Mondego",
     "pointThree_title": "Coimbra",
-    "pointThree_text": "Encontre-nos em Coimbra às 09:45 hrs",
+    "pointThree_text": "Chegada do percurso de 25km<br><br>Encontro às 9.45<br>Junto ao clube nautico de Coimbra e a ponte pedonal \"Pedro e Ines\", na margem esquerda do rio (margem oposta à cidade de Coimbra). O local tambem é conhecido como \"Parque Verde\" e \"Choupalinho\". Tem um parque de estacionamento, e parque de caravanismo publico e gratuito á beira do rio onde podem deixar os carros.<br><br>Instruções a partir de Lisboa ou Porto:.<br><br>-Saia da A1 em Coimbra-Sul<br>-Siga Coimbra-Centro (Lisboa N1)<br>-Na retunda de \"Portugal dos Pequenitos\" corte à direita em direção da Ponte Rainha Sta. Isabel/N17<br>-Na proxima rotunda entre na ultima (3a) cortada e corte imediatamente para a esquerda (direção parque verde/exploratorio)<br>-Depois do exploratorio, estacione junto ás piscinas.",
     "pointThree_link": "https://www.google.com/maps/place/Coimbra",
     "image_Description_meetingPointThree": "Imagem do ponto de encontro em Coimbra"
     
   },
   "explore": {
-    "third_section_bannerOne_title": "Explore a<br><span class='destaque'>Região!</span>"
+    "third_section_bannerOne_title": "Explore a<br><span class='destaque'>Região!</span>",
+    "title": "Explore a Região!",
+    "description": "Queres fazer um fim de semana de turismo de aventura outdoor e natureza no Centro de Portugal? Estás à procura de actividade para combinar com a descida e lugar onde ficar?"
   },
   "gallery": {
     "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>"

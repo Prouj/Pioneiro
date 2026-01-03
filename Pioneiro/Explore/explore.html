@@ -23,6 +23,18 @@
         <section id="explore">
             <image-banner src="../Images/ExploreImage.png" alt="Pessoas no caiaque" title="explore.third_section_bannerOne_title"></image-banner>
         </section>
+
+        <section class="explore_intro">
+            <h1 class="text_title" data-i18n="explore.title">Explore a Região</h1>
+            <p class="text_body" data-i18n="explore.description">
+                Queres fazer um fim de semana de turismo de aventura outdoor e natureza no Centro de Portugal? 
+                Estás à procura de actividade para combinar com a descida e lugar onde ficar?
+            </p>
+        </section>
+
+        <div class="explore_content">
+            <!-- As categorias serão carregadas dinamicamente aqui -->
+        </div>
     </main>
 
     <div id="site-footer"></div>
@@ -32,6 +44,7 @@
             setTimeout(() => { document.body.style.visibility = 'visible'; }, 100);
         });
     </script>
+    <script type="module" src="./explore-script.js"></script>
 </body>
 
 </html>

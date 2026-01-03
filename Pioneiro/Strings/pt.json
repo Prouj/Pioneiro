@@ -124,8 +124,18 @@
   },
   "explore": {
     "third_section_bannerOne_title": "Explore a<br><span class='destaque'>Região!</span>",
-    "title": "Explore a Região!",
-    "description": "Queres fazer um fim de semana de turismo de aventura outdoor e natureza no Centro de Portugal? Estás à procura de actividade para combinar com a descida e lugar onde ficar?"
+    "title": "Explore a Região",
+    "description": "Queres fazer um fim de semana de turismo de aventura outdoor e natureza no Centro de Portugal? Estás à procura de actividade para combinar com a descida e lugar onde ficar?",
+    "category": {
+      "onde_ficar_penacova": "Onde ficar Penacova",
+      "parques_campismo": "Parques de Campismo",
+      "onde_comer_percurso": "Onde comer e beber no percurso",
+      "onde_comer_penacova": "Onde comer Penacova",
+      "visitar_penacova": "Que visitar Penacova",
+      "praias_fluviais": "Praias Fluviais",
+      "visitar_coimbra": "Que visitar Coimbra",
+      "visitar_regiao": "O que visitar na região"
+    }
   },
   "gallery": {
     "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>"

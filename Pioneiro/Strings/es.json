@@ -14,5 +14,20 @@
     "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
     "second_section_title": "Quem Somos?",
     "second_section_first_text": "O Pioneiro do Mondego é uma empresa familiar de desporto de aventura e ecoturismo sedeada no concelho de Penacova. A nossa principal atividade são as descidas de rio em kayak e canoa no rio mondego, entre Penacova e Coimbra - um passeio de canoagem pelo vale do Mondego, que organizamos diariamente, desde 1988! O Pioneiro foi fundada em 1988 por dois professores belgas, Dirk e Kristien, e foi uma das primeiras empresas no turismo de Portugal, especializada em desporto de aventura, e a primeira de canoagem no pais. Ao longo dos anos, a empresa cresceu e mais de 100 mil pessoas de todo o mundo têm feito a descida de caiaque no Mondego connosco. Hoje em dia a descida do Pioneiro do Mondego é um ponto de referencia a nível nacional e internacional, tendo sido nomeado pelo guia Americano Rough Guides como a referencia do turismo Coimbra - junto com a Universidade - e como um dos top 15 locais a visitar em Portugal."
+  },
+  "explore": {
+    "third_section_bannerOne_title": "Explora la<br><span class='destaque'>Región!</span>",
+    "title": "Explora la Región",
+    "description": "¿Quieres hacer un fin de semana de turismo de aventura al aire libre y naturaleza en el Centro de Portugal? ¿Buscas actividades para combinar con el descenso y un lugar donde alojarte?",
+    "category": {
+      "onde_ficar_penacova": "Dónde alojarse Penacova",
+      "parques_campismo": "Parques de Camping",
+      "onde_comer_percurso": "Dónde comer y beber en el recorrido",
+      "onde_comer_penacova": "Dónde comer Penacova",
+      "visitar_penacova": "Qué visitar Penacova",
+      "praias_fluviais": "Playas Fluviales",
+      "visitar_coimbra": "Qué visitar Coimbra",
+      "visitar_regiao": "Qué visitar en la región"
+    }
   }
 }

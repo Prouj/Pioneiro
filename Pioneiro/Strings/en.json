@@ -98,7 +98,19 @@
     "third_section_bannerOne_title": "Explore os<br><span class='destaque'>Percursos!</span>"
   },
   "explore": {
-    "third_section_bannerOne_title": "Explore a<br><span class='destaque'>Região!</span>"
+    "third_section_bannerOne_title": "Explore the<br><span class='destaque'>Region!</span>",
+    "title": "Explore the Region",
+    "description": "Want to spend a weekend of outdoor adventure and nature tourism in Central Portugal? Looking for activities to combine with the descent and a place to stay?",
+    "category": {
+      "onde_ficar_penacova": "Where to stay Penacova",
+      "parques_campismo": "Camping Parks",
+      "onde_comer_percurso": "Where to eat and drink on the route",
+      "onde_comer_penacova": "Where to eat Penacova",
+      "visitar_penacova": "What to visit Penacova",
+      "praias_fluviais": "River Beaches",
+      "visitar_coimbra": "What to visit Coimbra",
+      "visitar_regiao": "What to visit in the region"
+    }
   },
   "gallery": {
     "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>"

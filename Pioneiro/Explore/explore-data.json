@@ -1,0 +1,184 @@
+{
+  "categories": [
+    {
+      "id": "onde-ficar-penacova",
+      "titleKey": "explore.category.onde_ficar_penacova",
+      "items": [
+        {
+          "title": "Casa nas Serras (B&B)",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Santa Maria - Poiares (6.9km)",
+          "link": "https://www.google.com/maps/place/Casa+nas+Serras/@40.2216872,-8.2717604,17z/data=!3m1!4b1!4m9!3m8!1s0xd22e4fca6bbb0e9:0x667ea9685069db92!5m2!4m1!1i2!8m2!3d40.2216872!4d-8.2717604!16s%2Fg%2F11g_6453v?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+        },
+        {
+          "title": "Hotel Mondego",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Penacova Centro (12km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Quinta do Rio",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Lorvão - Penacova (8km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    },
+    {
+      "id": "parques-campismo",
+      "titleKey": "explore.category.parques_campismo",
+      "items": [
+        {
+          "title": "Parque de Campismo Municipal",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Penacova (10km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Camping Rio Mondego",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Lorvão (7km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    },
+    {
+      "id": "onde-comer-percurso",
+      "titleKey": "explore.category.onde_comer_percurso",
+      "items": [
+        {
+          "title": "Restaurante Beira Rio",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Penacova (10km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Café Central",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Poiares (5km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Snack Bar do Rio",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Lorvão (8km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    },
+    {
+      "id": "onde-comer-penacova",
+      "titleKey": "explore.category.onde_comer_penacova",
+      "items": [
+        {
+          "title": "Panorâmico de Penacova",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Penacova Centro (12km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Restaurante Típico",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Penacova (11km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    },
+    {
+      "id": "visitar-penacova",
+      "titleKey": "explore.category.visitar_penacova",
+      "items": [
+        {
+          "title": "Mosteiro de Lorvão",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Lorvão - Penacova (8km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Miradouro de Penacova",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Penacova Centro (12km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Centro Histórico",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Penacova (12km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    },
+    {
+      "id": "praias-fluviais",
+      "titleKey": "explore.category.praias_fluviais",
+      "items": [
+        {
+          "title": "Praia Fluvial de Louçainha",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Penacova (15km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Praia Fluvial de Reconquinho",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Penacova (18km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    },
+    {
+      "id": "visitar-coimbra",
+      "titleKey": "explore.category.visitar_coimbra",
+      "items": [
+        {
+          "title": "Universidade de Coimbra",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Coimbra (25km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Biblioteca Joanina",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Coimbra (25km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Sé Velha",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Coimbra (25km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Portugal dos Pequenitos",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Coimbra (26km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    },
+    {
+      "id": "visitar-regiao",
+      "titleKey": "explore.category.visitar_regiao",
+      "items": [
+        {
+          "title": "Convento de Cristo - Tomar",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Tomar (60km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Castelo de Montemor-o-Velho",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Montemor-o-Velho (35km)",
+          "link": "https://www.google.com/maps"
+        },
+        {
+          "title": "Buçaco",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Luso (30km)",
+          "link": "https://www.google.com/maps"
+        }
+      ]
+    }
+  ]
+}

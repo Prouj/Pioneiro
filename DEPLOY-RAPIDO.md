@@ -25,9 +25,10 @@ git push origin dev
 4. Escolha **GitHub**
 5. Selecione o repositório **"Pioneiro"**
 6. Configurações:
-   - Branch: `dev`
-   - Build command: (deixe vazio)
-   - Publish directory: `.` (apenas um ponto)
+   - **Branch to deploy:** `beta/0.0` (ou `dev` se estiver usando)
+   - **Base directory:** (deixe vazio)
+   - **Build command:** (deixe vazio)
+   - **Publish directory:** `.` (apenas um ponto)
 7. Clique em **"Deploy site"**
 
 ### ✅ Pronto!

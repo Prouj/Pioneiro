@@ -1,106 +1,199 @@
 {
   "nav": {
-    "home": "Início",
-    "booking": "Reservas&Preços",
-    "routes": "Percursos",
-    "explore": "Explorar",
-    "gallery": "Galeria",
+    "home": "Home",
+    "booking": "Reserveringen&Prijzen",
+    "routes": "Routes",
+    "explore": "Verkennen",
+    "gallery": "Galerij",
     "faq": "FAQ"
   },
   "header": {
     "brand": "O Pioneiro<br>do Mondego"
   },
   "footer": {
-    "form_title": "Neem contact met ons op",
+    "form_title": "Neem contact met ons op!",
     "form_name": "Naam*",
-    "form_name_placeholder": "Voer uw naam in",
-    "form_email": "E-mail*",
-    "form_email_placeholder": "Voer uw e-mail in",
+    "form_name_placeholder": "Vul hier uw naam in",
+    "form_email": "Email*",
+    "form_email_placeholder": "Vul hier uw email in",
     "form_phone": "Telefoon",
-    "form_phone_placeholder": "Voer uw telefoon in",
+    "form_phone_placeholder": "Vul hier uw telefoon in",
     "form_message": "Bericht",
     "form_message_placeholder": "Bericht",
     "form_send_button": "Verzenden",
-    "form_send_aria": "Verstuur bericht",
+    "form_send_aria": "Bericht verzenden",
     "company_name": "O Pioneiro do Mondego",
     "address": "Rua da Calçada nº 21 (hoofdkantoor)<br>3360-184 Cheira Penacova",
     "contacts": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Mobiel: 91 476 79 22</strong></span>",
     "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV",
-    "social_networks_aria": "Sociale media",
+    "social_networks_aria": "Sociale netwerken",
     "google_aria": "Google",
     "tripadvisor_aria": "TripAdvisor",
     "facebook_aria": "Facebook"
   },
   "home": {
-    "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
-    "second_section_title": "Quem Somos?",
-    "second_section_first_text": "O Pioneiro do Mondego é uma empresa familiar de desporto de aventura e ecoturismo sedeada no concelho de Penacova. A nossa principal atividade são as descidas de rio em kayak e canoa no rio mondego, entre Penacova e Coimbra - um passeio de canoagem pelo vale do Mondego, que organizamos diariamente, desde 1988! O Pioneiro foi fundada em 1988 por dois professores belgas, Dirk e Kristien, e foi uma das primeiras empresas no turismo de Portugal, especializada em desporto de aventura, e a primeira de canoagem no pais. Ao longo dos anos, a empresa cresceu e mais de 100 mil pessoas de todo o mundo têm feito a descida de caiaque no Mondego connosco. Hoje em dia a descida do Pioneiro do Mondego é um ponto de referencia a nível nacional e internacional, tendo sido nomeado pelo guia Americano Rough Guides como a referencia do turismo Coimbra - junto com a Universidade - e como um dos top 15 locais a visitar em Portugal."
+    "first_section_title": "Kom de meest<br><span class='destaque'>traditionele</span><br>kayaktocht van<br>Portugal ontdekken!",
+    "first_section_schedule_button": "Reserveer nu",
+    "first_section_feedback_button": "Zie beoordelingen",
+    "second_section_first_title": "Wie zijn wij?",
+    "second_section_first_text": "O Pioneiro do Mondego is een familiebedrijf voor avontuursport en ecotoerisme gevestigd in de gemeente Penacova. Onze belangrijkste activiteit zijn kanotochten op de rivier de Mondego, tussen Penacova en Coimbra - een kanotocht door de vallei van de Mondego, die we dagelijks organiseren, sinds 1988! O Pioneiro werd opgericht in 1988 door twee Belgische leraren, Dirk en Kristien, en was een van de eerste bedrijven in het toerisme in Portugal, gespecialiseerd in avontuursport, en de eerste in kanoën in het land. Door de jaren heen is het bedrijf gegroeid en meer dan 100 duizend mensen van over de hele wereld hebben met ons de kayaktocht op de Mondego gemaakt. Tegenwoordig is de afdaling van O Pioneiro do Mondego een referentiepunt op nationaal en internationaal niveau, en is het benoemd door de Amerikaanse gids Rough Guides als de referentie van het toerisme in Coimbra - samen met de Universiteit - en als een van de top 15 plaatsen om te bezoeken in Portugal.",
+    "second_section_second_title": "Afdaling van de rivier de Mondego in kayak.",
+    "second_section_second_text": "De populairste en meest fantastische route van Portugal. We organiseren dagelijkse afdalingen, van 18 of 25 km. Gemakkelijk, ongelooflijke uitzichten, materiaal in uitstekende staat!",
+    "third_section_bannerOne_title": "Waarom kiezen voor<br><span class='destaque'>O Pioneiro?</span>",
+    "third_section_bannerTwo_title": "Dit alles voor een betaalbare prijs<br><span class='destaque'>Reserveer nu!</span>",
+    "third_section_cardOne_title": "Ervaring",
+    "third_section_cardOne_text": "Onze populariteit heeft concurrenten aangetrokken, maar als pioniers met bijna 30 jaar ervaring bieden we unieke voordelen. Ons team van jonge lokale gidsen is ervaren, kent de rivier diepgaand en is meertalig",
+    "third_section_cardTwo_title": "Beschikbaarheid",
+    "third_section_cardTwo_text": "We zijn niet alleen het enige bedrijf dat de afdaling elke dag doet; we hebben ook de grootste vloot kano's op de rivier, waardoor we elk aantal mensen kunnen accepteren; van individuele deelnemers tot groepen van honderden mensen.",
+    "third_section_cardThree_title": "Veiligheid",
+    "third_section_cardThree_text": "Ten slotte bevoorrecht ons bewakings- en veiligheidssysteem de vrijheid van onze klanten; zo moet iedereen de afdaling in zijn eigen tempo kunnen doen, zonder verplicht te zijn om in een groepsexcursie te blijven.",
+    "third_section_schedule_button": "Reserveren"
+  },
+  "book": {
+    "form_title": "Reserveer nu",
+    "form_name": "Volledige Naam*",
+    "form_name_placeholder": "Vul hier uw naam in",
+    "form_email": "Email*",
+    "form_email_placeholder": "Vul hier uw email in",
+    "form_phone": "Telefoon*",
+    "form_phone_placeholder": "Inclusief landcode",
+    "form_date": "Datum*",
+    "form_route": "Afdaling*",
+    "form_meet": "Ontmoetingspunt*",
+    "form_people": "Aantal Deelnemers*",
+    "form_moreInfo": "Andere Informatie",
+    "form_moreInfo_placeholder": "Andere informatie",
+    "form_submit_button": "Reservering Bevestigen",
+    "form_success_message": "Bedankt voor uw reservering! We nemen spoedig contact met u op.",
+    "form_error_message": "Er is een fout opgetreden bij het verzenden van uw reservering. Probeer het opnieuw.",
+    "form_moreOptions": "Catering Opties (Groepen)",
+    "form_moreOptions_one": "Zonder Catering",
+    "form_moreOptions_two": "Buffet Barbecue @ Pedra Aguda (20€PP)",
+    "form_moreOptions_three": "Menu Gerecht+Drank @ Praia Fluvial (12€PP)",
+    "option_mondego_18": "Mondego (18 km)",
+    "option_mondego_25": "Mondego (25 km)",
+    "meet_coimbra": "Coimbra (09:45 uur)",
+    "meet_torres": "Torres do Mondego (10:00 uur)",
+    "meet_penacova": "Penacova (10:30 uur)",
+    "route_hint": "Normaal 18 km, 25 km niet altijd beschikbaar, en is zwaarder.",
+    "meet_hint": "Normaal Torres, Coimbra als u geen vervoer heeft of de 25 km doet, Penacova als u daar verblijft.",
+    "extras_legend": "Andere opties",
+    "extra_k1": "Allemaal in K1 (+5€pp)",
+    "extra_private": "Privé Tour (+70€)",
+    "prices-title": "Prijzen van de afdaling van de rivier de Mondego",
+    "prices-sub": "<strong>Afdaling Penacova-Torres do Mondego (18km)</strong>",
+    "prices-one": "<strong>1 persoon:</strong> 30 € pp",
+    "prices-two": "<strong>2 personen:</strong> 27.5 € pp",
+    "prices-three": "<strong>3-10 personen:</strong> 25 € pp",
+    "prices-four": "<strong>10-30 personen:</strong> 22 € pp",
+    "prices-five": "<strong>30+ personen:</strong> 20 € pp",
+    "prices-includes": "<strong>De prijzen omvatten:</strong> Verzekering, BTW, Vervoer, Materiaal en Begeleiding waar nodig. Groepskortingen zijn van toepassing op gereserveerde groepen. We accepteren slechts één betaling per groep.",
+    "prices-discounts": "Kortingen",
+    "prices-discounts-one": "Kinderen op een bankje in het midden: 10 € pp",
+    "prices-discounts-two": "Kinderen tot 15 jaar: 17.5 € pp",
+    "prices-discounts-three": "Studenten/scouts: 22 € pp",
+    "prices-extras": "Extra Diensten",
+    "prices-extras-one": "Afdaling Penacova-Coimbra (25km): +5 € pp",
+    "prices-extras-two": "Toeslag K1: 5€ per K1",
+    "prices-extras-three": "Waterdichte bidon: 5 € (borg)",
+    "prices-extras-four": "Privé tour: +70 €",
+    "prices-extras-five": "Huisdier: 10 €",
+    "prices-extras-six": "Eco-tour: + 80 €",
+    "prices-extras-seven": "Extra vervoer: 50 € + 1,5€ /km"
+  },
+  "routes": {
+    "bannerOne_title": "Verken de<br><span class='destaque'>Routes!</span>",
+    "first_section_title": "Kanoën in het centrum van Portugal",
+    "first_section_text": "De combinatie van de natuurlijke schoonheid van de vallei van de Mondego - met zijn rotsen, bossen en rivierstranden - met een uitstekende en stabiele waterstroom maakte de Mondego tot de voorkeursrivier voor kanoactiviteiten op nationaal niveau. Geniet van een ontspannende en verfrissende dag, en observeer de majestueuze wouwen, ijsvogels en een grote verscheidenheid aan vissen.<br><br> We bieden twee route-opties:",
+    "routeOne_section_title": "Penacova - Torres do Mondego (18 km)",
+    "routeOne_section_text": "De route voor iedereen! Met een lengte van 18 km begint het bij de dam van Carvoeira; 500 m onder het rivierstrand van Penacova en eindigt bij Torres do Mondego, 3 km onder het rivierstrand van Casal da Misarela. De hele route gaat door de natuurlijke vallei van de Mondego - midden in het bos - en passeert de kleine bergdorpjes Ronqueira, Rebordosa, Louredo, Foz do Caneiro en Casal. Dit deel van de rivier zit vol met kleine strandjes aan de oevers, perfect om te pauzeren voor een picknick of een duik. Bij de bar van het rivierstrand heeft u ook de mogelijkheid om te stoppen voor een kleine snack, een biertje of een ijsje. Dit deel van de rivier heeft meestal altijd een lichte stroming, wat deze route gemakkelijk maakt; toegankelijk voor alle leeftijden.<br><br>De Route duurt ongeveer 3-4 uur in kayak. We spreken meestal af om 10.00 uur in Torres do Mondego - of om 10.30 uur in Penacova. Wie geen vervoer heeft, kunnen we ophalen in het Centrum van Coimbra. In Penacova wordt het materiaal uitgedeeld en worden de instructies gegeven. Het vertrek van de kano's is meestal om 11.00 uur. De verwachte aankomst in Torres is tussen 15.00 en 17.00 uur.",
+    "image_Description_routeOne": "Afbeelding van de route van 18 km van Penacova naar Torres do Mondego",
+    "image_Description_routeTwo": "Afbeelding van de route van 25 km van Penacova naar Coimbra",
+    "routeTwo_section_title": "Penacova - Coimbra (25 km)",
+    "routeTwo_section_text": "De klassieke route! De volledige route van 25 km; naast de eerste 18 km omvat deze route de laatste 7 km tot het centrum van Coimbra. Deze route wordt bemoeilijkt door de verbreding van de rivierbedding en het ontbreken van stroming in de laatste kilometers; bovendien is er meestal de mythische tegenwind die een lichte golfslag kan veroorzaken. Maar wie deze afstand volhoudt; heeft het voorrecht om Coimbra via het water binnen te komen, waarbij de toren van de universiteit van Coimbra van ver te zien is. Deze afdaling is bedoeld voor die meer sportieve mensen die in de afdaling niet alleen een activiteit zien om te ontspannen, maar ook een fysieke uitdaging.<br><br>De Route duurt ongeveer 4-5 uur in kayak. We spreken meestal af om 10.00 uur bij de watersportclub van Parque Verde de Coimbra - of om 10.30 uur in Penacova. In Penacova wordt het materiaal uitgedeeld en worden de instructies gegeven. Het vertrek van de kano's is meestal om 11.00 uur. De verwachte aankomst in Coimbra is tussen 16.30 en 18.00 uur.",
+    "night_section_title": "Nachtelijke Afdalingen",
+    "night_section_text": "Eens per maand organiseren we meestal een nachtelijke afdaling voor degenen die wat ervaring hebben in kayakken en onze vallei op een andere manier willen leren kennen; verlicht door de volle maan. Informeer om te weten wanneer de volgende zal zijn!",
+    "meeting_point_section_title": "Ontmoetingspunten",
+    "meeting_point_section_text": "We bieden drie handige ontmoetingspunten:",
+    "pointOne_title": "Penacova",
+    "pointOne_text": "Start van de routes<br><br>Afspraak om 10.30 uur<br><br>Bij onze aanlegsteiger, bij de dam van Carvoeira, op de linkeroever.<br><br>Instructies vanaf de IP3 - Coimbra-Viseu:<br><br>-IP3 - Neem de tweede afslag Penacova<br>-Volg richting de rivier de Mondego (ga niet omhoog naar het dorp Penacova)<br>-Steek de brug over de Mondego over en sla rechtsaf<br>-Passeer het gehucht 'Carvoeira'<br>-Volg tot het kruispunt met aanduiding 'Travasso'<br>-Sla rechtsaf en bij de rivier weer rechts<br>-Volg 200m tot de dam.",
+    "pointOne_link": "https://www.google.com/maps/place/Penacova",
+    "image_Description_meetingPointOne": "Afbeelding van het ontmoetingspunt in Penacova",
+    "pointTwo_title": "Torres do Mondego",
+    "pointTwo_text": "Aankomst van de route van 18km<br><br>Afspraak om 9.45 uur - Vervoer om 10.00 uur<br><br>Op onze privé en omheinde parkeerplaats aan de oever van de rivier, die zich bevindt bij de ingang van Torres do Mondego. De locatie bevindt zich op de oude weg van Coimbra naar Penacova (N110).<br><br>Het is mogelijk om te kamperen en te barbecueën in dit park, check<br>hier!<br><br><br>Instructies vanaf Lissabon of Porto:<br>-Afslag Coimbra-Sul<br>-Volg Coimbra-Centro (Lisboa N1)<br>-Steek de Ponte Rainha Sta. Isabel over<br>-Volg \"estrada da beira\" N17<br>-Voor de Pontes da Portel over de Mondego, links - N110<br>-Volg 1km op de N110 richting Penacova.<br>-Ontmoetingspunt bij de Poort die toegang geeft tot de weg naar de parkeerplaats aan de oever van de rivier in Torres do Mondego.",
+    "pointTwo_link": "https://www.google.com/maps/place/Torres+do+Mondego",
+    "image_Description_meetingPointTwo": "Afbeelding van het ontmoetingspunt in Torres do Mondego",
+    "pointThree_title": "Coimbra",
+    "pointThree_text": "Aankomst van de route van 25km<br><br>Afspraak om 9.45 uur<br>Bij de watersportclub van Coimbra en de voetgangersbrug \"Pedro e Inés\", op de linkeroever van de rivier (oever tegenover de stad Coimbra). De locatie is ook bekend als \"Parque Verde\" en \"Choupalinho\". Er is een parkeerplaats, en een openbaar en gratis camperpark aan de oever van de rivier waar u de auto's kunt laten staan.<br><br>Instructies vanaf Lissabon of Porto:<br><br>-Afslag A1 bij Coimbra-Sul<br>-Volg Coimbra-Centro (Lisboa N1)<br>-Bij de rotonde van \"Portugal dos Pequenitos\" rechtsaf richting Ponte Rainha Sta. Isabel/N17<br>-Bij de volgende rotonde de laatste (3e) afslag en meteen linksaf (richting parque verde/exploratorio)<br>-Na het exploratorio parkeren bij de zwembaden.",
+    "pointThree_link": "https://www.google.com/maps/place/Coimbra",
+    "image_Description_meetingPointThree": "Afbeelding van het ontmoetingspunt in Coimbra"
+    
   },
   "explore": {
     "third_section_bannerOne_title": "Verken de<br><span class='destaque'>Regio!</span>",
     "title": "Verken de Regio",
-    "description": "Wil je een weekend outdoor avontuur en natuurtoerisme in Centraal Portugal doen? Ben je op zoek naar een activiteit om te combineren met de afdaling en een plek om te verblijven?",
+    "description": "Wilt u een weekend avontuurlijk buitentoerisme en natuur in het Centrum van Portugal doen? Bent u op zoek naar activiteit om te combineren met de afdaling en een plaats om te verblijven?",
     "category": {
-      "where_stay_penacova": "Waar te verblijven Penacova",
+      "where_stay_penacova": "Waar verblijven in Penacova",
       "camping_parks": "Campings",
-      "where_eat_route": "Waar te eten en drinken op de route",
-      "where_eat_penacova": "Waar te eten Penacova",
-      "visit_penacova": "Wat te bezoeken Penacova",
+      "where_eat_route": "Waar eten en drinken op de route",
+      "where_eat_penacova": "Waar eten in Penacova",
+      "visit_penacova": "Wat bezoeken in Penacova",
       "river_beaches": "Rivierstranden",
-      "visit_coimbra": "Wat te bezoeken Coimbra",
-      "visit_region": "Wat te bezoeken in de regio"
+      "visit_coimbra": "Wat bezoeken in Coimbra",
+      "visit_region": "Wat bezoeken in de regio"
     }
   },
   "gallery": {
-    "third_section_bannerOne_title": "Bekijk de<br><span class='destaque'>Registraties!</span>",
+    "third_section_bannerOne_title": "Zie de<br><span class='destaque'>Registraties!</span>",
     "title": "Foto's en video's van de afdalingen",
-    "description": "Voor de meest recente foto's bezoek onze <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a> pagina!<br>Originele foto's kunnen worden besteld op <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> voor een extra kost van 5€/foto.",
+    "description": "Voor de meest recente foto's bezoek onze <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a> pagina!<br>De originele foto's kunnen worden besteld bij <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> voor een extra kost van 5€/foto.",
     "video_title": "Bekijk onze video",
     "carousel_prev_label": "Vorige afbeelding",
     "carousel_next_label": "Volgende afbeelding"
   },
   "faq": {
-    "title": "FAQ: Veelgestelde Vragen",
+    "title": "FAQ: Veelgestelde vragen",
     "items": [
       {
-        "question": "Wat zijn de minimale vereisten om de afdaling te doen?",
-        "answer": "De afdaling is toegankelijk voor iedereen met een normale fysieke conditie; aangezien kanoën een watersport is, vragen we wel dat elke deelnemer kan zwemmen. Alle deelnemers dragen reddingsvesten en zijn verzekerd door een persoonlijke ongevallen- en aansprakelijkheidsverzekering van het bedrijf. Zwemvaardigheid is echter noodzakelijk zodat deelnemers zich op hun gemak voelen en niet in paniek raken in geval van een val in het water."
+        "question": "Wat zijn de minimale voorwaarden om de afdaling te doen?",
+        "answer": "De afdaling is toegankelijk voor iedereen met een normale fysieke conditie; echter, aangezien kanoën een watersport is, vragen we dat elke deelnemer kan zwemmen. Alle deelnemers dragen reddingsvesten en zijn verzekerd door een persoonlijk ongevallen- en publieke aansprakelijkheidsverzekering van het bedrijf. De zwemvaardigheid is echter noodzakelijk voor de deelnemers, zodat ze zich comfortabel voelen en niet in paniek raken in geval van een val in het water."
       },
       {
         "question": "Waarom kiezen voor O Pioneiro?",
-        "answer": "De grote populariteit van de afdalingen heeft de markt geopend voor enkele concurrerende bedrijven. Toch geloven we dat we als 'Pioniers', met bijna 30 jaar ervaring, aanzienlijke voordelen kunnen bieden. Niet alleen zijn wij het enige bedrijf dat elke dag de afdaling doet, we hebben ook de grootste vloot kano's op de rivier, waardoor we elk aantal mensen kunnen accepteren; van individuele deelnemers tot groepen van honderden mensen. We hebben ook een ongeëvenaarde verscheidenheid aan materiaal; dubbele en individuele kajaks, van de meer klassieke en stabiele sit-inside types tot de nieuwste sit-on-top rivierkajaks. Ons team bestaat uit jonge lokale gidsen met jarenlange ervaring die de rivier kennen als geen ander en meertalig zijn. We hebben het meest flexibele boekingssysteem op de markt, wat het gemakkelijker maakt om uw groep te organiseren. We hebben privé-faciliteiten en parkeerplaatsen, waardoor de verwarring van zomerse weekends wordt vermeden. Ten slotte geeft ons monitoring- en veiligheidssysteem prioriteit aan de vrijheid van onze klanten; dus iedereen moet de afdaling in zijn eigen tempo kunnen doen, zonder gedwongen te worden in een groepsexcursie te blijven. Dit alles tegen concurrerende prijzen!"
+        "answer": "De grote populariteit van de afdalingen heeft de markt geopend voor enkele concurrerende bedrijven. Toch geloven we dat we als \"Pioniers\", naast de bijna 30 jaar ervaring, aanzienlijke voordelen kunnen bieden. We zijn niet alleen het enige bedrijf dat de afdaling elke dag doet; we hebben ook de grootste vloot kano's op de rivier, waardoor we elk aantal mensen kunnen accepteren; van individuele deelnemers tot groepen van honderden mensen. We hebben ook een ongeëvenaarde verscheidenheid aan materiaalkeuze; dubbele en individuele kayaks, van de meest klassieke en stabiele sit-inside types tot de meest recente sit-on-top rivierkayaks. Ons team bestaat uit jonge lokale gidsen met jarenlange ervaring die de rivier kennen als geen ander en meertalig zijn. We hebben het meest flexibele reserveringssysteem op de markt, wat de organisatie van uw groep gemakkelijker maakt. We hebben privé-faciliteiten en parkeerplaatsen, waardoor de verwarring van zomerse weekends wordt vermeden. Ten slotte bevoorrecht ons bewakings- en veiligheidssysteem de vrijheid van onze klanten; zo moet iedereen de afdaling in zijn eigen tempo kunnen doen, zonder verplicht te zijn om in een groepsexcursie te blijven. Dit alles tegen concurrerende prijzen!"
       },
       {
-        "question": "Tot wanneer kunnen we reserveren?",
-        "answer": "Tijdens rustige periodes, en voor kleine groepen, kun je nog één dag voor de datum een reservering maken. Maar om zeker te zijn van voldoende beschikbaarheid, is het altijd raadzaam om zo vroeg mogelijk te boeken (vooral voor grote groepen en tijdens weekends)."
+        "question": "Tot wanneer kunnen we de reservering maken?",
+        "answer": "In rustige periodes, en voor kleine groepen, kan een dag voor de datum nog een reservering worden gemaakt. Maar om zeker te zijn van het bestaan van voldoende plaatsen, is het altijd raadzaam om zo vroeg mogelijk te reserveren (vooral voor grote groepen en tijdens weekends)."
       },
       {
-        "question": "Hoe maak je een reservering?",
-        "answer": "De reservering kan telefonisch, per e-mail of via deze website worden gemaakt. We hebben de naam van de groepsverantwoordelijke, het telefoonnummer en het aantal gewenste personen nodig. We vragen u de reservering te bevestigen met het exacte aantal personen één week voor de datum van de afdaling."
+        "question": "Hoe wordt de reservering gemaakt?",
+        "answer": "De reservering kan telefonisch, per e-mail of via deze website worden gedaan. We hebben een naam van de verantwoordelijke van de groep nodig, het telefoonnummer en het aantal gewenste personen. We vragen dat u de reservering bevestigt met het exacte aantal personen een week voor de datum van de afdaling."
       },
       {
-        "question": "Hoe wordt de betaling verwerkt?",
-        "answer": "De betaling kan op de dag zelf worden gedaan; contant of per cheque - of per bankoverschrijving, waarbij u ons het bewijs van overschrijving stuurt vóór de datum van de afdaling. Het NIB van O Pioneiro do Mondego is 0035 0594 0001 3345 1304 5 - het NIF: 502 042 133."
+        "question": "Hoe verloopt de betaling?",
+        "answer": "De betaling kan op dezelfde dag worden gedaan; contant of per cheque - of per bankoverschrijving, door ons het bewijs van overschrijving te sturen voor de datum van de afdaling. Het NIB van O Pioneiro do Mondego is 0035 0594 0001 3345 1304 5 - het NIF: 502 042 133."
       },
       {
-        "question": "Wat moet je meenemen?",
-        "answer": "Vergeet niet:<br>-Droge kleding voor het einde van de afdaling<br>-Schoeisel dat nat kan worden (bij voorkeur sneakers)<br>-1 Identiteitsbewijs van de groepsverantwoordelijke<br>-Water en iets te eten (er is halverwege een bar)<br>-Bescherming tegen de zon!<br>-Maskers om te dragen tijdens het transport."
+        "question": "Wat moet u meenemen?",
+        "answer": "Vergeet niet:<br>-Droge kleding voor het einde van de afdaling<br>-Schoenen die nat kunnen worden (bij voorkeur sneakers)<br>-1 Identiteitsbewijs van de verantwoordelijke van de groep.<br>-Water en iets te eten (er is een bar halverwege de route)<br>-Bescherming tegen de zon!<br>-Maskers om te gebruiken tijdens het transport."
       },
       {
         "question": "Wat doen we voor de lunch?",
-        "answer": "Traditioneel nemen mensen een picknick mee die ze kunnen eten op de talrijke stranden langs de route. Je kunt ook iets eten op het rivierstrand, waar de bar toast, sandwiches en varkensbroodjes serveert.<br>We kunnen ook een snack of barbecue organiseren voor groepen tijdens de afdaling; informeer per e-mail. Aan het einde hebben we barbecues die kunnen worden gebruikt tegen lage extra kosten."
+        "answer": "Traditioneel brengen mensen een picknick mee die ze kunnen eten op de talrijke stranden langs de route. U kunt ook iets eten op het rivierstrand, waar de bar toast, broodjes en bifanas serveert.<br>We kunnen ook een snack of barbecue voor groepen tijdens de afdaling organiseren; informeer per e-mail. Aan het einde hebben we barbecues die kunnen worden gebruikt voor een lage extra kost."
       },
       {
         "question": "Kunnen kinderen de rivier afdalen?",
-        "answer": "Op elke leeftijd kan men de Mondego met een kano afdalen, zolang ze zich op hun gemak voelen in het water en worden vergezeld door een volwassene die verantwoordelijkheid neemt voor het kind. We hebben reddingsvesten voor iedereen, zelfs voor de kleinsten vanaf 15 kilo. We hebben speciale stoeltjes om in het midden tussen de ouders in een dubbele boot te plaatsen. We hebben speciale prijzen voor kinderen en jongeren. Houd echter rekening met de blootstelling aan de zon."
+        "answer": "Op elke leeftijd kan men de Mondego afdalen in een kano, zolang ze zich op hun gemak voelen in het water en vergezeld worden door een volwassene die de verantwoordelijkheid voor het kind neemt. We hebben reddingsvesten voor iedereen, zelfs voor de allerkleinsten vanaf 15 kilo. We hebben speciale bankjes om in het midden tussen de ouders in een dubbele boot te plaatsen. We maken speciale prijzen voor kinderen en jongeren. Houd echter rekening met de blootstelling aan de zon."
       },
       {
-        "question": "Hebben jullie alle namen van de deelnemers nodig?",
-        "answer": "Nee. Sommige avontuursportbedrijven vereisen alle namen van de deelnemers voor de verzekering. Om dingen veel minder gecompliceerd en flexibel te maken voor het organiseren van groepen, hebben we gekozen voor een verzekeringsmaatschappij die deze gegevens niet vereist; profiteer ervan!"
+        "question": "Heeft u alle namen van de deelnemers nodig?",
+        "answer": "Nee. Sommige avontuursportbedrijven vereisen alle namen van de deelnemers om de verzekering te maken. Om de zaken veel minder gecompliceerd en flexibel te maken voor het organiseren van groepen, hebben we gekozen voor een verzekeraar die deze gegevens niet vereist; profiteer ervan!"
       },
       {
-        "question": "Hoe werkt jullie monitoringbeleid?",
-        "answer": "O Pioneiro do Mondego probeert een evenwicht te vinden tussen de veiligheid en vrijheid van zijn deelnemers. We willen er alles aan doen om u de maximale veiligheid te geven die u wenst, terwijl we niet de indruk willen geven van een schoolreis waar iedereen in de groep moet blijven. Daarom garanderen we permanente monitoring op de meest gecompliceerde plaatsen, terwijl we u de vrijheid geven om in uw eigen tempo te volgen zonder begeleiding. Er zullen altijd monitoren achter de groep zijn, en degenen die zich niet veilig voelen of meer veiligheid willen, kunnen altijd bij hen blijven. Degenen die willen, kunnen ook altijd persoonlijke monitoring reserveren."
+        "question": "Hoe werkt uw bewakingsbeleid?",
+        "answer": "O Pioneiro do Mondego probeert een evenwicht te vinden tussen de veiligheid en de vrijheid van zijn deelnemers. We willen alles doen om u de maximale veiligheid te geven die u wenst, maar tegelijkertijd willen we niet het gevoel geven van een schooluitje waar iedereen in de groep moet blijven. Daarom garanderen we permanente bewaking op de meest gecompliceerde plaatsen, en tegelijkertijd geven we u de vrijheid om in uw eigen tempo te volgen zonder begeleiding. Er zullen altijd begeleiders achter in de groep zijn, en wie zich niet veilig voelt of meer veiligheid wil, kan altijd bij hen blijven. Wie wil, kan ook altijd persoonlijke bewaking reserveren."
       }
     ]
   }

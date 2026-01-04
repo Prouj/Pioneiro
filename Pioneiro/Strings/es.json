@@ -1,10 +1,10 @@
 {
   "nav": {
-    "home": "Início",
-    "booking": "Reservas&Preços",
-    "routes": "Percursos",
+    "home": "Inicio",
+    "booking": "Reservas&Precios",
+    "routes": "Rutas",
     "explore": "Explorar",
-    "gallery": "Galeria",
+    "gallery": "Galería",
     "faq": "FAQ"
   },
   "header": {
@@ -32,75 +32,168 @@
     "facebook_aria": "Facebook"
   },
   "home": {
-    "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
-    "second_section_title": "Quem Somos?",
-    "second_section_first_text": "O Pioneiro do Mondego é uma empresa familiar de desporto de aventura e ecoturismo sedeada no concelho de Penacova. A nossa principal atividade são as descidas de rio em kayak e canoa no rio mondego, entre Penacova e Coimbra - um passeio de canoagem pelo vale do Mondego, que organizamos diariamente, desde 1988! O Pioneiro foi fundada em 1988 por dois professores belgas, Dirk e Kristien, e foi uma das primeiras empresas no turismo de Portugal, especializada em desporto de aventura, e a primeira de canoagem no pais. Ao longo dos anos, a empresa cresceu e mais de 100 mil pessoas de todo o mundo têm feito a descida de caiaque no Mondego connosco. Hoje em dia a descida do Pioneiro do Mondego é um ponto de referencia a nível nacional e internacional, tendo sido nomeado pelo guia Americano Rough Guides como a referencia do turismo Coimbra - junto com a Universidade - e como um dos top 15 locais a visitar em Portugal."
+    "first_section_title": "¡Ven a conocer<br>el paseo en kayak<br>más <span class='destaque'>tradicional</span><br>de Portugal!",
+    "first_section_schedule_button": "Reserve ahora",
+    "first_section_feedback_button": "Ver testimonios",
+    "second_section_first_title": "¿Quiénes somos?",
+    "second_section_first_text": "O Pioneiro do Mondego es una empresa familiar de deportes de aventura y ecoturismo con sede en el municipio de Penacova. Nuestra actividad principal son los descensos del río en kayak y canoa en el río Mondego, entre Penacova y Coimbra - un viaje en canoa por el valle del Mondego, que organizamos diariamente desde 1988! O Pioneiro fue fundado en 1988 por dos profesores belgas, Dirk y Kristien, y fue una de las primeras empresas del turismo de Portugal especializadas en deportes de aventura, y la primera empresa de piragüismo del país. A lo largo de los años, la empresa ha crecido y más de 100 mil personas de todo el mundo han hecho el descenso en kayak del Mondego con nosotros. Hoy en día, el descenso de O Pioneiro do Mondego es un punto de referencia nacional e internacional, habiendo sido nombrado por la guía estadounidense Rough Guides como referencia del turismo de Coimbra - junto con la Universidad - y como uno de los 15 mejores lugares para visitar en Portugal.",
+    "second_section_second_title": "Descenso del río Mondego en kayak.",
+    "second_section_second_text": "La ruta más popular y fantástica de Portugal. Organizamos descensos diarios, de 18 o 25 km. ¡Fácil, vistas increíbles, equipamiento en excelentes condiciones!",
+    "third_section_bannerOne_title": "¿Por qué elegir<br><span class='destaque'>O Pioneiro?</span>",
+    "third_section_bannerTwo_title": "Todo esto a un precio asequible<br><span class='destaque'>¡Reserve ahora!</span>",
+    "third_section_cardOne_title": "Experiencia",
+    "third_section_cardOne_text": "Nuestra popularidad ha atraído competidores, pero como pioneros con casi 30 años de experiencia, ofrecemos ventajas únicas. Nuestro equipo de jóvenes guías locales es experimentado, conoce el río profundamente y es políglota",
+    "third_section_cardTwo_title": "Disponibilidad",
+    "third_section_cardTwo_text": "No solo somos la única empresa que hace el descenso todos los días; también tenemos la mayor flota de canoas en el río, pudiendo así aceptar cualquier número de personas; desde participantes individuales hasta grupos de cientos de personas.",
+    "third_section_cardThree_title": "Seguridad",
+    "third_section_cardThree_text": "Finalmente, nuestro sistema de monitoreo y seguridad prioriza la libertad de nuestros clientes; así todos pueden hacer el descenso a su propio ritmo, sin estar obligados a permanecer en un tour grupal.",
+    "third_section_schedule_button": "Reservar"
+  },
+  "book": {
+    "form_title": "Reserve ahora",
+    "form_name": "Nombre Completo*",
+    "form_name_placeholder": "Ingrese su nombre",
+    "form_email": "Email*",
+    "form_email_placeholder": "Ingrese su email",
+    "form_phone": "Teléfono*",
+    "form_phone_placeholder": "Incluir código del país",
+    "form_date": "Fecha*",
+    "form_route": "Descenso*",
+    "form_meet": "Punto de Encuentro*",
+    "form_people": "Número de Participantes*",
+    "form_moreInfo": "Otra Información",
+    "form_moreInfo_placeholder": "Otra información",
+    "form_submit_button": "Confirmar Reserva",
+    "form_success_message": "¡Gracias por su reserva! Nos pondremos en contacto en breve.",
+    "form_error_message": "Ocurrió un error al enviar su reserva. Por favor, inténtelo de nuevo.",
+    "form_moreOptions": "Opciones de Catering (Grupos)",
+    "form_moreOptions_one": "Sin Catering",
+    "form_moreOptions_two": "Buffet Barbacoa @ Pedra Aguda (20€PP)",
+    "form_moreOptions_three": "Menú Plato+Bebida @ Praia Fluvial (12€PP)",
+    "option_mondego_18": "Mondego (18 km)",
+    "option_mondego_25": "Mondego (25 km)",
+    "meet_coimbra": "Coimbra (09:45 hrs)",
+    "meet_torres": "Torres do Mondego (10:00 hrs)",
+    "meet_penacova": "Penacova (10:30 hrs)",
+    "route_hint": "Normalmente 18 km, 25 km no siempre disponible, y es más duro.",
+    "meet_hint": "Normalmente Torres, Coimbra si no tienen transporte o hacen los 25 km, Penacova si se alojan allí.",
+    "extras_legend": "Otras opciones",
+    "extra_k1": "Todos en K1 (+5€pp)",
+    "extra_private": "Tour Privado (+70€)",
+    "prices-title": "Precios del descenso del río Mondego",
+    "prices-sub": "<strong>Descenso Penacova-Torres do Mondego (18km)</strong>",
+    "prices-one": "<strong>1 persona:</strong> 30 € pp",
+    "prices-two": "<strong>2 personas:</strong> 27.5 € pp",
+    "prices-three": "<strong>3-10 personas:</strong> 25 € pp",
+    "prices-four": "<strong>10-30 personas:</strong> 22 € pp",
+    "prices-five": "<strong>30+ personas:</strong> 20 € pp",
+    "prices-includes": "<strong>Los precios incluyen:</strong> Seguro, IVA, Transporte, Material y Monitoreo donde sea necesario. Los descuentos de grupo se aplican a los grupos reservados. Solo aceptamos un pago por grupo.",
+    "prices-discounts": "Descuentos",
+    "prices-discounts-one": "Niños en asiento del medio: 10 € pp",
+    "prices-discounts-two": "Niños hasta 15 años: 17.5 € pp",
+    "prices-discounts-three": "Estudiantes/scouts: 22 € pp",
+    "prices-extras": "Servicios Extra",
+    "prices-extras-one": "Descenso Penacova-Coimbra (25km): +5 € pp",
+    "prices-extras-two": "Suplemento K1: 5€ por K1",
+    "prices-extras-three": "Botella impermeable: 5 € (depósito)",
+    "prices-extras-four": "Tour privado: +70 €",
+    "prices-extras-five": "Mascota: 10 €",
+    "prices-extras-six": "Eco-tour: + 80 €",
+    "prices-extras-seven": "Transporte extra: 50 € + 1.5€ /km"
+  },
+  "routes": {
+    "bannerOne_title": "¡Explore las<br><span class='destaque'>Rutas!</span>",
+    "first_section_title": "Piragüismo en el centro de Portugal",
+    "first_section_text": "La combinación de la belleza natural del valle del Mondego - con sus rocas, bosques y playas fluviales - con un excelente y estable caudal de agua ha convertido al Mondego en el río de preferencia para la actividad de piragüismo a nivel nacional. Disfrute de un día relajante y refrescante, y observe los majestuosos milanos, martines pescadores y una gran variedad de peces.<br><br> Ofrecemos dos opciones de ruta:",
+    "routeOne_section_title": "Penacova - Torres do Mondego (18 km)",
+    "routeOne_section_text": "¡La ruta para todos! Con una extensión de 18 km, comienza en la presa de Carvoeira; 500 m debajo de la playa fluvial de Penacova y termina en Torres do Mondego, 3 km debajo de la playa fluvial de Casal da Misarela. Todo el recorrido pasa por el valle natural del Mondego - en medio del bosque - pasando las pequeñas poblaciones serranas de Ronqueira, Rebordosa, Louredo, Foz do Caneiro y Casal. Esta parte del río está llena de pequeñas playas en las orillas, perfectas para hacer una pausa para un picnic o un chapuzón. En el bar de la playa fluvial también tienen la posibilidad de parar para un pequeño aperitivo, una cerveza o un helado. Esta parte del río suele tener siempre una ligera corriente, lo que hace que esta ruta sea fácil; accesible para todas las edades.<br><br>La ruta dura unas 3-4 horas en kayak. Solemos quedar a las 10:00 en Torres do Mondego - o a las 10:30 en Penacova. Quien no tenga transporte podemos recogerlo en el centro de Coimbra. En Penacova se distribuye el material y se dan las instrucciones. La salida de las canoas suele ser a las 11:00. La llegada prevista a Torres es entre las 15:00 y las 17:00.",
+    "image_Description_routeOne": "Imagen de la ruta de 18 km de Penacova a Torres do Mondego",
+    "image_Description_routeTwo": "Imagen de la ruta de 25 km de Penacova a Coimbra",
+    "routeTwo_section_title": "Penacova - Coimbra (25 km)",
+    "routeTwo_section_text": "¡La ruta clásica! La ruta completa de 25 km; además de los 18 km iniciales, esta ruta incluye los últimos 7 km hasta el centro de Coimbra. Esta ruta se dificulta por el ensanchamiento del lecho del río y la ausencia de corriente en los últimos kilómetros; además suele tener el mítico viento de frente que puede producir un ligero oleaje. Pero quien aguante esta distancia tiene el privilegio de poder entrar a Coimbra por el agua, avistando la torre de la universidad de Coimbra desde lejos. Este descenso está indicado para aquellas personas más deportistas que ven en el descenso no solo una actividad para relajarse, sino también un desafío físico.<br><br>La ruta dura unas 4-5 horas en kayak. Solemos quedar a las 10:00 en el club náutico del Parque Verde de Coimbra - o a las 10:30 en Penacova. En Penacova se distribuye el material y se dan las instrucciones. La salida de las canoas suele ser a las 11:00. La llegada prevista a Coimbra es entre las 16:30 y las 18:00.",
+    "night_section_title": "Descensos Nocturnos",
+    "night_section_text": "Una vez al mes solemos organizar un descenso nocturno para quien tenga alguna experiencia en kayak y quiera conocer nuestro valle de manera diferente; iluminado por la luna llena. ¡Infórmate para saber cuándo será el próximo!",
+    "meeting_point_section_title": "Puntos de Encuentro",
+    "meeting_point_section_text": "Ofrecemos tres puntos de encuentro convenientes:",
+    "pointOne_title": "Penacova",
+    "pointOne_text": "Inicio de las rutas<br><br>Encuentro a las 10:30<br><br>En nuestro muelle de embarque, junto a la presa de Carvoeira, en la margen izquierda.<br><br>Instrucciones desde la IP3 - Coimbra-Viseu:<br><br>-IP3 - Salga en la segunda salida Penacova<br>-Siga en dirección al río Mondego (no suba al pueblo de Penacova)<br>-Pase el puente sobre el Mondego y gire a su derecha<br>-Pase el pueblo de 'Carvoeira'<br>-Siga hasta el cruce con indicación 'Travasso'<br>-Gire a su derecha y llegando al río, nuevamente a la derecha<br>-Siga 200m hasta la presa.",
+    "pointOne_link": "https://www.google.com/maps/place/Penacova",
+    "image_Description_meetingPointOne": "Imagen del punto de encuentro en Penacova",
+    "pointTwo_title": "Torres do Mondego",
+    "pointTwo_text": "Llegada de la ruta de 18km<br><br>Encuentro a las 9:45 - Transporte a las 10:00<br><br>En nuestro aparcamiento privado y cercado a orillas del río, que está en la entrada de Torres do Mondego. El lugar se encuentra en la antigua carretera de Coimbra a Penacova (N110).<br><br>Es posible acampar y hacer barbacoa en este parque, ¡consulte<br>aquí!<br><br><br>Instrucciones desde Lisboa o Porto:<br>-Salga en Coimbra-Sul<br>-Siga Coimbra-Centro (Lisboa N1)<br>-Pase el Puente Rainha Sta. Isabel<br>-Siga \"estrada da beira\" N17<br>-Antes de los Puentes de Portel sobre el Mondego, a la izquierda - N110<br>-Siga 1km en la N110 hacia Penacova.<br>-Punto de encuentro en el Portón que da entrada al camino hacia el aparcamiento a orillas del río en Torres do Mondego.",
+    "pointTwo_link": "https://www.google.com/maps/place/Torres+do+Mondego",
+    "image_Description_meetingPointTwo": "Imagen del punto de encuentro en Torres do Mondego",
+    "pointThree_title": "Coimbra",
+    "pointThree_text": "Llegada de la ruta de 25km<br><br>Encuentro a las 9:45<br>Junto al club náutico de Coimbra y al puente peatonal \"Pedro e Inés\", en la margen izquierda del río (margen opuesta a la ciudad de Coimbra). El lugar también es conocido como \"Parque Verde\" y \"Choupalinho\". Tiene un aparcamiento, y un parque de caravanas público y gratuito a orillas del río donde pueden dejar los coches.<br><br>Instrucciones desde Lisboa o Porto:<br><br>-Salga de la A1 en Coimbra-Sul<br>-Siga Coimbra-Centro (Lisboa N1)<br>-En la rotonda de \"Portugal dos Pequenitos\" gire a la derecha en dirección al Puente Rainha Sta. Isabel/N17<br>-En la próxima rotonda entre en la última (3ª) salida y gire inmediatamente a la izquierda (dirección parque verde/exploratorio)<br>-Después del exploratorio, estacione junto a las piscinas.",
+    "pointThree_link": "https://www.google.com/maps/place/Coimbra",
+    "image_Description_meetingPointThree": "Imagen del punto de encuentro en Coimbra"
+    
   },
   "explore": {
-    "third_section_bannerOne_title": "Explora la<br><span class='destaque'>Región!</span>",
-    "title": "Explora la Región",
-    "description": "¿Quieres hacer un fin de semana de turismo de aventura al aire libre y naturaleza en el Centro de Portugal? ¿Buscas actividades para combinar con el descenso y un lugar donde alojarte?",
+    "third_section_bannerOne_title": "¡Explore la<br><span class='destaque'>Región!</span>",
+    "title": "Explore la Región",
+    "description": "¿Quieres hacer un fin de semana de turismo de aventura al aire libre y naturaleza en el Centro de Portugal? ¿Estás buscando actividad para combinar con el descenso y lugar donde alojarte?",
     "category": {
-      "where_stay_penacova": "Dónde alojarse Penacova",
+      "where_stay_penacova": "Dónde alojarse en Penacova",
       "camping_parks": "Parques de Camping",
-      "where_eat_route": "Dónde comer y beber en el recorrido",
-      "where_eat_penacova": "Dónde comer Penacova",
-      "visit_penacova": "Qué visitar Penacova",
+      "where_eat_route": "Dónde comer y beber en la ruta",
+      "where_eat_penacova": "Dónde comer en Penacova",
+      "visit_penacova": "Qué visitar en Penacova",
       "river_beaches": "Playas Fluviales",
-      "visit_coimbra": "Qué visitar Coimbra",
+      "visit_coimbra": "Qué visitar en Coimbra",
       "visit_region": "Qué visitar en la región"
     }
   },
   "gallery": {
-    "third_section_bannerOne_title": "Vea los<br><span class='destaque'>Registros!</span>",
-    "title": "Fotos y videos de los descensos",
-    "description": "Para las fotos más recientes visite nuestra página de <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a>!<br>Las fotografías originales se pueden solicitar en <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> por un costo adicional de 5€/foto.",
-    "video_title": "Vea nuestro video",
+    "third_section_bannerOne_title": "¡Vea los<br><span class='destaque'>Registros!</span>",
+    "title": "Fotos y vídeos de los descensos",
+    "description": "¡Para las fotos más recientes visite nuestra página de <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a>!<br>Las fotografías originales pueden ser encargadas en <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> por un coste extra de 5€/foto.",
+    "video_title": "Vea nuestro vídeo",
     "carousel_prev_label": "Imagen anterior",
     "carousel_next_label": "Siguiente imagen"
   },
   "faq": {
-    "title": "FAQ: Preguntas Frecuentes",
+    "title": "FAQ: Preguntas frecuentes",
     "items": [
       {
-        "question": "¿Cuáles son los requisitos mínimos para hacer el descenso?",
-        "answer": "El descenso es accesible para cualquier persona con una condición física normal; sin embargo, siendo el piragüismo un deporte acuático, pedimos que cualquier participante sepa nadar. Todos los participantes llevan chalecos salvavidas y están asegurados por un seguro de accidentes personales y responsabilidad pública de la empresa. La competencia de natación, sin embargo, es necesaria para que los participantes se sientan cómodos y no entren en pánico en caso de caída al agua."
+        "question": "¿Cuáles son las condiciones mínimas para hacer el descenso?",
+        "answer": "El descenso es accesible a cualquier persona con una condición física normal; sin embargo, siendo el piragüismo un deporte náutico, pedimos que cualquier participante sepa nadar. Todos los participantes llevan chalecos salvavidas y están asegurados por un seguro de accidentes personales y responsabilidad pública de la empresa. La competencia de natación sin embargo es necesaria para que los participantes, en caso de caída al agua, se sientan cómodos y no entren en pánico."
       },
       {
         "question": "¿Por qué elegir O Pioneiro?",
-        "answer": "La gran popularidad de los descensos ha abierto el mercado a algunas empresas competidoras. Aun así, creemos que como \"Pioneros\", además de casi 30 años de experiencia, podemos ofrecer ventajas considerables. No solo somos la única empresa que hace el descenso todos los días, sino que también tenemos la mayor flota de canoas en el río, pudiendo así aceptar cualquier número de personas; desde participantes individuales hasta grupos de cientos de personas. También tenemos una variedad inigualable de material; kayaks dobles e individuales, desde los tipos más clásicos y estables sit-inside hasta los más recientes sit-on-top kayaks de río. Nuestro equipo está compuesto por jóvenes guías locales con años de experiencia que conocen el río como nadie y son políglotas. Tenemos el sistema de reservas más flexible del mercado, lo que facilita la organización de su grupo. Tenemos instalaciones y aparcamientos privados, evitando la confusión de los fines de semana de verano. Por último, nuestro sistema de monitoreo y seguridad privilegia la libertad de nuestros clientes; así cada uno puede hacer el descenso a su propio ritmo, sin estar obligado a permanecer en una excursión de grupo. ¡Todo esto a precios competitivos!"
+        "answer": "La gran popularidad de los descensos abrió el mercado para algunas empresas competidoras. Aun así creemos que como \"Pioneros\", además de los casi 30 años de experiencia, podemos ofrecer considerables ventajas. No solo somos la única empresa que hace el descenso todos los días; sino que también tenemos la mayor flota de canoas en el río, pudiendo así aceptar cualquier número de personas; desde participantes individuales a grupos con cientos de personas. También tenemos una inigualable variedad de elección de material; kayaks dobles e individuales, desde los tipos más clásicos y estables sit-inside hasta los más recientes sit-on-top kayaks del río. Nuestro equipo está compuesto por jóvenes guías locales con años de experiencia que conocen el río como nadie y son políglotas. Tenemos el sistema de reservas más flexible del mercado, lo que hace más fácil la organización de su grupo. Tenemos instalaciones y aparcamientos privados, evitando la confusión de los fines de semana de verano. Por último, nuestro sistema de monitorización y seguridad privilegia la libertad de nuestros clientes; así cada uno debe poder hacer el descenso a su propio ritmo, sin ser obligado a permanecer en una excursión de grupo. ¡Todo esto a precios competitivos!"
       },
       {
         "question": "¿Hasta cuándo podemos hacer la reserva?",
-        "answer": "En períodos tranquilos, y para grupos pequeños, un día antes de la fecha aún se puede hacer una reserva. Pero para estar seguro de la existencia de plazas suficientes, siempre conviene reservar lo antes posible (principalmente para grupos grandes y durante los fines de semana)."
+        "answer": "En los períodos tranquilos, y para grupos pequeños, un día antes de la fecha aún se puede hacer una reserva. Pero para tener certeza de la existencia de plazas suficientes, conviene siempre reservar lo más pronto posible (principalmente para grupos grandes y durante los fines de semana)."
       },
       {
         "question": "¿Cómo se hace la reserva?",
-        "answer": "La reserva se puede hacer por teléfono, por correo electrónico o por este sitio web. Necesitamos el nombre del responsable del grupo, el número de teléfono y el número de personas previstas. Pedimos que confirmen la reserva con el número exacto de personas una semana antes de la fecha del descenso."
+        "answer": "La reserva puede ser hecha por teléfono, por e-mail o por este sitio. Necesitamos un nombre del responsable del grupo, el número de teléfono y el número de personas deseadas. Pedimos que confirmen la reserva con el número exacto de personas una semana antes de la fecha del descenso."
       },
       {
         "question": "¿Cómo se procesa el pago?",
-        "answer": "El pago se puede hacer el mismo día; en efectivo o cheque - o por transferencia bancaria, enviándonos el comprobante de transferencia antes de la fecha del descenso. El NIB de O Pioneiro do Mondego es 0035 0594 0001 3345 1304 5 - el NIF: 502 042 133."
+        "answer": "El pago puede ser hecho el mismo día; en efectivo o cheque - o por transferencia bancaria, enviándonos el comprobante de transferencia antes de la fecha del descenso. El NIB del Pioneiro do Mondego es el 0035 0594 0001 3345 1304 5 - el NIF: 502 042 133."
       },
       {
-        "question": "¿Qué hay que llevar?",
-        "answer": "No olviden:<br>-Ropa seca para el final del descenso<br>-Calzado que se pueda mojar (preferiblemente zapatillas)<br>-1 Documento de identificación del responsable del grupo<br>-Agua y algo para comer (hay bar a mitad del recorrido)<br>-¡Protección contra el sol!<br>-Mascarillas para usar durante el transporte."
+        "question": "¿Qué es necesario llevar?",
+        "answer": "No se olviden:<br>-Ropa seca para el final del descenso<br>-Calzado que se pueda mojar (de preferencia zapatillas)<br>-1 Documento de identificación del responsable del grupo.<br>-Agua y algo para comer (hay bar a mitad del recorrido)<br>-¡Protección contra el sol!<br>-Mascarillas para usar durante el transporte."
       },
       {
         "question": "¿Qué se hace para el almuerzo?",
-        "answer": "Tradicionalmente las personas traen un picnic que pueden comer en las numerosas playas a lo largo del recorrido. También pueden comer algo en la playa fluvial, donde el bar sirve tostadas, sándwiches y bocadillos de cerdo.<br>También podemos organizar un refrigerio o barbacoa para grupos durante el descenso; infórmese por correo electrónico. Al final tenemos parrillas que se pueden utilizar por un bajo costo extra."
+        "answer": "Tradicionalmente las personas traen un picnic que pueden comer en las numerosas playas a lo largo del recorrido. También pueden comer algo en la playa fluvial, donde el bar sirve tostadas, sándwiches y bifanas.<br>También podemos organizar una merienda o barbacoa para grupos durante el descenso; infórmese por e-mail. Al final tenemos barbacoas que pueden ser utilizadas por un bajo coste extra."
       },
       {
-        "question": "¿Pueden los niños descender el río?",
-        "answer": "Con cualquier edad se puede descender el Mondego en canoa, siempre que se sientan cómodos en el agua y sean acompañados por un adulto que asuma la responsabilidad por el niño. Tenemos chalecos salvavidas para todos, incluso para los más pequeños a partir de 15 kilos. Tenemos unos banquitos especiales para colocar en el medio entre los padres en un bote doble. Hacemos precios especiales para niños y jóvenes. Tengan en cuenta la exposición al sol, sin embargo."
+        "question": "¿Los niños pueden descender el río?",
+        "answer": "Con cualquier edad se puede descender el Mondego en canoa, siempre que se sientan cómodos en el agua y sean acompañados por un adulto que tome la responsabilidad por el niño. Tenemos chalecos salvavidas para todos, incluso para los más pequeños a partir de 15 kilos. Tenemos unos banquitos especiales para colocar en el medio entre los padres en un barco doble. Hacemos precios especiales para niños y jóvenes. Tengan en cuenta la exposición al sol, sin embargo."
       },
       {
         "question": "¿Necesitan todos los nombres de los participantes?",
-        "answer": "No. Algunas empresas de deporte de aventura requieren todos los nombres de los participantes para hacer el seguro. Para hacer las cosas mucho menos complicadas y flexibles para organizar grupos, optamos por una aseguradora que no requiere esos datos; ¡aproveche!"
+        "answer": "No. Algunas empresas de deporte de aventura requieren todos los nombres de los participantes para hacer el seguro. Para hacer las cosas mucho menos complicadas y más flexibles para organizar grupos, optamos por una aseguradora que no requiere esos datos; ¡aprovéchelo!"
       },
       {
-        "question": "¿Cómo funciona su política de monitoreo?",
-        "answer": "O Pioneiro do Mondego intenta encontrar un equilibrio entre la seguridad y la libertad de sus participantes. Queremos hacer todo para darles la máxima seguridad que desean, al mismo tiempo no queremos dar la sensación de un paseo escolar donde todos tienen que quedarse en el grupo. Por eso garantizamos un monitoreo permanente en los lugares más complicados, y al mismo tiempo les damos la libertad de seguir a su propio ritmo sin acompañamiento. Siempre habrá monitores detrás del grupo, y quien no se sienta seguro o quiera más seguridad siempre puede quedarse con estos. Quien quiera también siempre puede reservar monitoreo personal."
+        "question": "¿Cómo funciona vuestra política de monitorización?",
+        "answer": "O Pioneiro do Mondego intenta encontrar un equilibrio entre la seguridad y la libertad de sus participantes. Queremos hacer todo para darles la máxima seguridad que desean, al mismo tiempo no queremos dar la sensación de un paseo escolar donde todos tienen que quedarse en el grupo. Por eso garantizamos una monitorización permanente en los lugares más complicados, y al mismo tiempo les damos la libertad de seguir a su propio ritmo sin acompañamiento. Siempre habrá monitores detrás en el grupo, y quien no se sienta seguro o quiera más seguridad siempre puede quedarse con estos. Quien quiera también siempre puede reservar monitorización personal."
       }
     ]
   }

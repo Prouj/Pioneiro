@@ -172,20 +172,20 @@
 }
 
 /* Selos / parceiros (placeholders) */
-.cf-badges {
+/* .cf-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-}
+} */
 
-.cf-badge {
+/* .cf-badge {
   padding: .45rem .7rem;
   border: 1px dashed #cbd5e1;
   color: var(--blue-font);
   border-radius: 8px;
   font-size: .85rem;
   background: #f8fafc;
-}
+} */
 
 /* Responsividade */
 @media (max-width: 980px) {

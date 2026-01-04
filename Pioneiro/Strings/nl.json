@@ -20,14 +20,14 @@
     "title": "Verken de Regio",
     "description": "Wil je een weekend outdoor avontuur en natuurtoerisme in Centraal Portugal doen? Ben je op zoek naar een activiteit om te combineren met de afdaling en een plek om te verblijven?",
     "category": {
-      "onde_ficar_penacova": "Waar te verblijven Penacova",
-      "parques_campismo": "Campings",
-      "onde_comer_percurso": "Waar te eten en drinken op de route",
-      "onde_comer_penacova": "Waar te eten Penacova",
-      "visitar_penacova": "Wat te bezoeken Penacova",
-      "praias_fluviais": "Rivierstranden",
-      "visitar_coimbra": "Wat te bezoeken Coimbra",
-      "visitar_regiao": "Wat te bezoeken in de regio"
+      "where_stay_penacova": "Waar te verblijven Penacova",
+      "camping_parks": "Campings",
+      "where_eat_route": "Waar te eten en drinken op de route",
+      "where_eat_penacova": "Waar te eten Penacova",
+      "visit_penacova": "Wat te bezoeken Penacova",
+      "river_beaches": "Rivierstranden",
+      "visit_coimbra": "Wat te bezoeken Coimbra",
+      "visit_region": "Wat te bezoeken in de regio"
     }
   }
 }

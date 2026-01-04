@@ -20,14 +20,14 @@
     "title": "Explora la Región",
     "description": "¿Quieres hacer un fin de semana de turismo de aventura al aire libre y naturaleza en el Centro de Portugal? ¿Buscas actividades para combinar con el descenso y un lugar donde alojarte?",
     "category": {
-      "onde_ficar_penacova": "Dónde alojarse Penacova",
-      "parques_campismo": "Parques de Camping",
-      "onde_comer_percurso": "Dónde comer y beber en el recorrido",
-      "onde_comer_penacova": "Dónde comer Penacova",
-      "visitar_penacova": "Qué visitar Penacova",
-      "praias_fluviais": "Playas Fluviales",
-      "visitar_coimbra": "Qué visitar Coimbra",
-      "visitar_regiao": "Qué visitar en la región"
+      "where_stay_penacova": "Dónde alojarse Penacova",
+      "camping_parks": "Parques de Camping",
+      "where_eat_route": "Dónde comer y beber en el recorrido",
+      "where_eat_penacova": "Dónde comer Penacova",
+      "visit_penacova": "Qué visitar Penacova",
+      "river_beaches": "Playas Fluviales",
+      "visit_coimbra": "Qué visitar Coimbra",
+      "visit_region": "Qué visitar en la región"
     }
   }
 }

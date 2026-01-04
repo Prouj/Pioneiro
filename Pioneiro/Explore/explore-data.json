@@ -1,8 +1,8 @@
 {
   "categories": [
     {
-      "id": "onde-ficar-penacova",
-      "titleKey": "explore.category.onde_ficar_penacova",
+      "id": "where-stay-penacova",
+      "titleKey": "explore.category.where_stay_penacova",
       "items": [
         {
           "title": "Casa nas Serras (B&B)",
@@ -25,8 +25,8 @@
       ]
     },
     {
-      "id": "parques-campismo",
-      "titleKey": "explore.category.parques_campismo",
+      "id": "camping-parks",
+      "titleKey": "explore.category.camping_parks",
       "items": [
         {
           "title": "Parque de Campismo Municipal",
@@ -43,8 +43,8 @@
       ]
     },
     {
-      "id": "onde-comer-percurso",
-      "titleKey": "explore.category.onde_comer_percurso",
+      "id": "where-eat-route",
+      "titleKey": "explore.category.where_eat_route",
       "items": [
         {
           "title": "Restaurante Beira Rio",
@@ -67,8 +67,8 @@
       ]
     },
     {
-      "id": "onde-comer-penacova",
-      "titleKey": "explore.category.onde_comer_penacova",
+      "id": "where-eat-penacova",
+      "titleKey": "explore.category.where_eat_penacova",
       "items": [
         {
           "title": "Panorâmico de Penacova",
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "id": "visitar-penacova",
-      "titleKey": "explore.category.visitar_penacova",
+      "id": "visit-penacova",
+      "titleKey": "explore.category.visit_penacova",
       "items": [
         {
           "title": "Mosteiro de Lorvão",
@@ -109,8 +109,8 @@
       ]
     },
     {
-      "id": "praias-fluviais",
-      "titleKey": "explore.category.praias_fluviais",
+      "id": "river-beaches",
+      "titleKey": "explore.category.river_beaches",
       "items": [
         {
           "title": "Praia Fluvial de Louçainha",
@@ -127,8 +127,8 @@
       ]
     },
     {
-      "id": "visitar-coimbra",
-      "titleKey": "explore.category.visitar_coimbra",
+      "id": "visit-coimbra",
+      "titleKey": "explore.category.visit_coimbra",
       "items": [
         {
           "title": "Universidade de Coimbra",
@@ -157,8 +157,8 @@
       ]
     },
     {
-      "id": "visitar-regiao",
-      "titleKey": "explore.category.visitar_regiao",
+      "id": "visit-region",
+      "titleKey": "explore.category.visit_region",
       "items": [
         {
           "title": "Convento de Cristo - Tomar",

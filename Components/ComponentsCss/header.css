@@ -179,6 +179,16 @@
 .hd-lang-current {
     font-size: 1rem;
     line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hd-lang-current img {
+    display: block;
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 2px;
 }
 
 .hd-lang-code {
@@ -228,6 +238,13 @@
     cursor: pointer;
     font-weight: 700;
     font-size: 1rem;
+}
+
+.hd-langopt img {
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 2px;
 }
 
 .hd-langopt:hover {
@@ -294,6 +311,13 @@
     .hd-lang-current {
         font-size: 2rem;
         line-height: 1;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .hd-lang-current img {
+        width: 28px;
+        height: 21px;
     }
 
     .hd-langmenu {

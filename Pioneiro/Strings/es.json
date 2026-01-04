@@ -10,6 +10,27 @@
   "header": {
     "brand": "O Pioneiro<br>do Mondego"
   },
+  "footer": {
+    "form_title": "¡Contáctenos!",
+    "form_name": "Nombre*",
+    "form_name_placeholder": "Ingrese su nombre",
+    "form_email": "Email*",
+    "form_email_placeholder": "Ingrese su email",
+    "form_phone": "Teléfono",
+    "form_phone_placeholder": "Ingrese su teléfono",
+    "form_message": "Mensaje",
+    "form_message_placeholder": "Mensaje",
+    "form_send_button": "Enviar",
+    "form_send_aria": "Enviar mensaje",
+    "company_name": "O Pioneiro do Mondego",
+    "address": "Rua da Calçada nº 21 (sede)<br>3360-184 Cheira Penacova",
+    "contacts": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Móvil: 91 476 79 22</strong></span>",
+    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV",
+    "social_networks_aria": "Redes sociales",
+    "google_aria": "Google",
+    "tripadvisor_aria": "TripAdvisor",
+    "facebook_aria": "Facebook"
+  },
   "home": {
     "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
     "second_section_title": "Quem Somos?",
@@ -29,5 +50,58 @@
       "visit_coimbra": "Qué visitar Coimbra",
       "visit_region": "Qué visitar en la región"
     }
+  },
+  "gallery": {
+    "third_section_bannerOne_title": "Vea los<br><span class='destaque'>Registros!</span>",
+    "title": "Fotos y videos de los descensos",
+    "description": "Para las fotos más recientes visite nuestra página de <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a>!<br>Las fotografías originales se pueden solicitar en <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> por un costo adicional de 5€/foto.",
+    "video_title": "Vea nuestro video",
+    "carousel_prev_label": "Imagen anterior",
+    "carousel_next_label": "Siguiente imagen"
+  },
+  "faq": {
+    "title": "FAQ: Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Cuáles son los requisitos mínimos para hacer el descenso?",
+        "answer": "El descenso es accesible para cualquier persona con una condición física normal; sin embargo, siendo el piragüismo un deporte acuático, pedimos que cualquier participante sepa nadar. Todos los participantes llevan chalecos salvavidas y están asegurados por un seguro de accidentes personales y responsabilidad pública de la empresa. La competencia de natación, sin embargo, es necesaria para que los participantes se sientan cómodos y no entren en pánico en caso de caída al agua."
+      },
+      {
+        "question": "¿Por qué elegir O Pioneiro?",
+        "answer": "La gran popularidad de los descensos ha abierto el mercado a algunas empresas competidoras. Aun así, creemos que como \"Pioneros\", además de casi 30 años de experiencia, podemos ofrecer ventajas considerables. No solo somos la única empresa que hace el descenso todos los días, sino que también tenemos la mayor flota de canoas en el río, pudiendo así aceptar cualquier número de personas; desde participantes individuales hasta grupos de cientos de personas. También tenemos una variedad inigualable de material; kayaks dobles e individuales, desde los tipos más clásicos y estables sit-inside hasta los más recientes sit-on-top kayaks de río. Nuestro equipo está compuesto por jóvenes guías locales con años de experiencia que conocen el río como nadie y son políglotas. Tenemos el sistema de reservas más flexible del mercado, lo que facilita la organización de su grupo. Tenemos instalaciones y aparcamientos privados, evitando la confusión de los fines de semana de verano. Por último, nuestro sistema de monitoreo y seguridad privilegia la libertad de nuestros clientes; así cada uno puede hacer el descenso a su propio ritmo, sin estar obligado a permanecer en una excursión de grupo. ¡Todo esto a precios competitivos!"
+      },
+      {
+        "question": "¿Hasta cuándo podemos hacer la reserva?",
+        "answer": "En períodos tranquilos, y para grupos pequeños, un día antes de la fecha aún se puede hacer una reserva. Pero para estar seguro de la existencia de plazas suficientes, siempre conviene reservar lo antes posible (principalmente para grupos grandes y durante los fines de semana)."
+      },
+      {
+        "question": "¿Cómo se hace la reserva?",
+        "answer": "La reserva se puede hacer por teléfono, por correo electrónico o por este sitio web. Necesitamos el nombre del responsable del grupo, el número de teléfono y el número de personas previstas. Pedimos que confirmen la reserva con el número exacto de personas una semana antes de la fecha del descenso."
+      },
+      {
+        "question": "¿Cómo se procesa el pago?",
+        "answer": "El pago se puede hacer el mismo día; en efectivo o cheque - o por transferencia bancaria, enviándonos el comprobante de transferencia antes de la fecha del descenso. El NIB de O Pioneiro do Mondego es 0035 0594 0001 3345 1304 5 - el NIF: 502 042 133."
+      },
+      {
+        "question": "¿Qué hay que llevar?",
+        "answer": "No olviden:<br>-Ropa seca para el final del descenso<br>-Calzado que se pueda mojar (preferiblemente zapatillas)<br>-1 Documento de identificación del responsable del grupo<br>-Agua y algo para comer (hay bar a mitad del recorrido)<br>-¡Protección contra el sol!<br>-Mascarillas para usar durante el transporte."
+      },
+      {
+        "question": "¿Qué se hace para el almuerzo?",
+        "answer": "Tradicionalmente las personas traen un picnic que pueden comer en las numerosas playas a lo largo del recorrido. También pueden comer algo en la playa fluvial, donde el bar sirve tostadas, sándwiches y bocadillos de cerdo.<br>También podemos organizar un refrigerio o barbacoa para grupos durante el descenso; infórmese por correo electrónico. Al final tenemos parrillas que se pueden utilizar por un bajo costo extra."
+      },
+      {
+        "question": "¿Pueden los niños descender el río?",
+        "answer": "Con cualquier edad se puede descender el Mondego en canoa, siempre que se sientan cómodos en el agua y sean acompañados por un adulto que asuma la responsabilidad por el niño. Tenemos chalecos salvavidas para todos, incluso para los más pequeños a partir de 15 kilos. Tenemos unos banquitos especiales para colocar en el medio entre los padres en un bote doble. Hacemos precios especiales para niños y jóvenes. Tengan en cuenta la exposición al sol, sin embargo."
+      },
+      {
+        "question": "¿Necesitan todos los nombres de los participantes?",
+        "answer": "No. Algunas empresas de deporte de aventura requieren todos los nombres de los participantes para hacer el seguro. Para hacer las cosas mucho menos complicadas y flexibles para organizar grupos, optamos por una aseguradora que no requiere esos datos; ¡aproveche!"
+      },
+      {
+        "question": "¿Cómo funciona su política de monitoreo?",
+        "answer": "O Pioneiro do Mondego intenta encontrar un equilibrio entre la seguridad y la libertad de sus participantes. Queremos hacer todo para darles la máxima seguridad que desean, al mismo tiempo no queremos dar la sensación de un paseo escolar donde todos tienen que quedarse en el grupo. Por eso garantizamos un monitoreo permanente en los lugares más complicados, y al mismo tiempo les damos la libertad de seguir a su propio ritmo sin acompañamiento. Siempre habrá monitores detrás del grupo, y quien no se sienta seguro o quiera más seguridad siempre puede quedarse con estos. Quien quiera también siempre puede reservar monitoreo personal."
+      }
+    ]
   }
 }

@@ -10,6 +10,27 @@
   "header": {
     "brand": "O Pioneiro<br>do Mondego"
   },
+  "footer": {
+    "form_title": "Contactez-nous",
+    "form_name": "Nom*",
+    "form_name_placeholder": "Entrez votre nom",
+    "form_email": "Email*",
+    "form_email_placeholder": "Entrez votre email",
+    "form_phone": "Téléphone",
+    "form_phone_placeholder": "Entrez votre téléphone",
+    "form_message": "Message",
+    "form_message_placeholder": "Message",
+    "form_send_button": "Envoyer",
+    "form_send_aria": "Envoyer le message",
+    "company_name": "O Pioneiro do Mondego",
+    "address": "Rua da Calçada nº 21 (siège)<br>3360-184 Cheira Penacova",
+    "contacts": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tél: 239 478 385</span><br><span><strong>Mobile: 91 476 79 22</strong></span>",
+    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV",
+    "social_networks_aria": "Réseaux sociaux",
+    "google_aria": "Google",
+    "tripadvisor_aria": "TripAdvisor",
+    "facebook_aria": "Facebook"
+  },
   "home": {
     "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
     "second_section_title": "Quem Somos?",
@@ -29,5 +50,58 @@
       "visit_coimbra": "Que visiter Coimbra",
       "visit_region": "Que visiter dans la région"
     }
+  },
+  "gallery": {
+    "third_section_bannerOne_title": "Voir les<br><span class='destaque'>Enregistrements!</span>",
+    "title": "Photos et vidéos des descentes",
+    "description": "Pour les photos les plus récentes, visitez notre page <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a>!<br>Les photographies originales peuvent être commandées sur <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> pour un coût supplémentaire de 5€/photo.",
+    "video_title": "Regardez notre vidéo",
+    "carousel_prev_label": "Image précédente",
+    "carousel_next_label": "Image suivante"
+  },
+  "faq": {
+    "title": "FAQ: Questions Fréquemment Posées",
+    "items": [
+      {
+        "question": "Quelles sont les conditions minimales pour faire la descente?",
+        "answer": "La descente est accessible à toute personne ayant une condition physique normale; cependant, le canoë étant un sport nautique, nous demandons à tout participant de savoir nager. Tous les participants portent des gilets de sauvetage et sont couverts par une assurance accidents personnels et responsabilité civile de l'entreprise. La compétence en natation est néanmoins nécessaire pour que les participants se sentent à l'aise et ne paniquent pas en cas de chute dans l'eau."
+      },
+      {
+        "question": "Pourquoi choisir O Pioneiro?",
+        "answer": "La grande popularité des descentes a ouvert le marché à quelques entreprises concurrentes. Néanmoins, nous croyons qu'en tant que \"Pionniers\", avec près de 30 ans d'expérience, nous pouvons offrir des avantages considérables. Non seulement nous sommes la seule entreprise qui fait la descente tous les jours, mais nous avons également la plus grande flotte de canoës sur la rivière, pouvant ainsi accepter n'importe quel nombre de personnes; des participants individuels aux groupes de centaines de personnes. Nous avons également une variété inégalée de matériel; kayaks doubles et individuels, des types les plus classiques et stables sit-inside aux plus récents sit-on-top kayaks de rivière. Notre équipe est composée de jeunes guides locaux avec des années d'expérience qui connaissent la rivière comme personne et sont polyglottes. Nous avons le système de réservation le plus flexible du marché, ce qui facilite l'organisation de votre groupe. Nous avons des installations et des parkings privés, évitant la confusion des week-ends d'été. Enfin, notre système de surveillance et de sécurité privilégie la liberté de nos clients; ainsi chacun peut faire la descente à son propre rythme, sans être obligé de rester dans une excursion de groupe. Tout cela à des prix compétitifs!"
+      },
+      {
+        "question": "Jusqu'à quand pouvons-nous faire la réservation?",
+        "answer": "Pendant les périodes calmes, et pour les petits groupes, vous pouvez encore faire une réservation un jour avant la date. Mais pour être sûr de la disponibilité suffisante, il est toujours conseillé de réserver le plus tôt possible (surtout pour les grands groupes et pendant les week-ends)."
+      },
+      {
+        "question": "Comment faire une réservation?",
+        "answer": "La réservation peut être faite par téléphone, par e-mail ou par ce site web. Nous avons besoin du nom du responsable du groupe, du numéro de téléphone et du nombre de personnes souhaitées. Nous vous demandons de confirmer la réservation avec le nombre exact de personnes une semaine avant la date de la descente."
+      },
+      {
+        "question": "Comment se fait le paiement?",
+        "answer": "Le paiement peut être effectué le jour même; en espèces ou par chèque - ou par virement bancaire, en nous envoyant la preuve du virement avant la date de la descente. Le NIB d'O Pioneiro do Mondego est 0035 0594 0001 3345 1304 5 - le NIF: 502 042 133."
+      },
+      {
+        "question": "Que faut-il apporter?",
+        "answer": "N'oubliez pas:<br>-Des vêtements secs pour la fin de la descente<br>-Des chaussures qui peuvent se mouiller (de préférence des baskets)<br>-1 Document d'identité du responsable du groupe<br>-De l'eau et quelque chose à manger (il y a un bar à mi-parcours)<br>-Protection contre le soleil!<br>-Des masques à porter pendant le transport."
+      },
+      {
+        "question": "Qu'en est-il du déjeuner?",
+        "answer": "Traditionnellement, les gens apportent un pique-nique qu'ils peuvent manger sur les nombreuses plages le long du parcours. Vous pouvez également manger quelque chose à la plage fluviale, où le bar sert des toasts, des sandwichs et des sandwichs au porc.<br>Nous pouvons également organiser un goûter ou un barbecue pour les groupes pendant la descente; renseignez-vous par e-mail. À la fin, nous avons des barbecues qui peuvent être utilisés moyennant un faible coût supplémentaire."
+      },
+      {
+        "question": "Les enfants peuvent-ils descendre la rivière?",
+        "answer": "Les enfants de tout âge peuvent descendre le Mondego en canoë, à condition qu'ils se sentent à l'aise dans l'eau et soient accompagnés d'un adulte qui prend la responsabilité de l'enfant. Nous avons des gilets de sauvetage pour tout le monde, même pour les plus petits à partir de 15 kilos. Nous avons des petits sièges spéciaux à placer au milieu entre les parents dans un bateau double. Nous faisons des prix spéciaux pour les enfants et les jeunes. Tenez compte de l'exposition au soleil, cependant."
+      },
+      {
+        "question": "Avez-vous besoin de tous les noms des participants?",
+        "answer": "Non. Certaines entreprises de sports d'aventure exigent tous les noms des participants pour faire l'assurance. Pour rendre les choses beaucoup moins compliquées et flexibles pour organiser des groupes, nous avons opté pour une compagnie d'assurance qui ne nécessite pas ces données; profitez-en!"
+      },
+      {
+        "question": "Comment fonctionne votre politique de surveillance?",
+        "answer": "O Pioneiro do Mondego essaie de trouver un équilibre entre la sécurité et la liberté de ses participants. Nous voulons tout faire pour vous donner la sécurité maximale que vous désirez, tout en ne voulant pas donner l'impression d'une sortie scolaire où tout le monde doit rester dans le groupe. Par conséquent, nous garantissons une surveillance permanente dans les endroits les plus compliqués, tout en vous donnant la liberté de suivre à votre propre rythme sans accompagnement. Il y aura toujours des moniteurs derrière le groupe, et ceux qui ne se sentent pas en sécurité ou veulent plus de sécurité peuvent toujours rester avec eux. Ceux qui le souhaitent peuvent également toujours réserver une surveillance personnelle."
+      }
+    ]
   }
 }

@@ -18,11 +18,18 @@
     "form_email_placeholder": "Coloque aqui seu email",
     "form_phone": "Telefone",
     "form_phone_placeholder": "Coloque aqui seu telefone",
-    "form_mensagem": "Mensagem",
+    "form_message": "Mensagem",
+    "form_message_placeholder": "Mensagem",
     "form_send_button": "Enviar",
-    "contact_info_title": "O Pioneiro do Mondego",
-    "contact_info": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Movel: 91 476 79 22</strong></span>",
-    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV"
+    "form_send_aria": "Enviar mensagem",
+    "company_name": "O Pioneiro do Mondego",
+    "address": "Rua da Calçada nº 21 (sede)<br>3360-184 Cheira Penacova",
+    "contacts": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Movel: 91 476 79 22</strong></span>",
+    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV",
+    "social_networks_aria": "Redes sociais",
+    "google_aria": "Google",
+    "tripadvisor_aria": "TripAdvisor",
+    "facebook_aria": "Facebook"
   },
   "home": {
     "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
@@ -138,21 +145,56 @@
     }
   },
   "gallery": {
-    "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>"
+    "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>",
+    "title": "Fotos e vídeos das descidas",
+    "description": "Para as fotos mais recentes visite a nossa página <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a>!<br>As fotografias originais podem ser encomendadas em <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> por um custo extra de 5€/foto.",
+    "video_title": "Veja nosso vídeo",
+    "carousel_prev_label": "Imagem anterior",
+    "carousel_next_label": "Próxima imagem"
   },
   "faq": {
     "title": "FAQ: Perguntas frequentes",
-    "q1_title": "Quais as condições mínimas para fazer a descida?",
-    "q2_title": "Porque escolher O Pioneiro?",
-    "q3_title": "Até quando podemos fazer a reserva?",
-    "q4_title": "Como se faz a reserva?",
-    "q5_title": "Como se processa o pagamento?",
-    "q6_title": "O que é preciso levar?",
-    "q7_title": "O que se faz para o almoço?",
-    "q8_title": "Crianças podem descer o rio?",
-    "q9_title": "Precisam de todos os nomes dos participantes?",
-    "q10_title": "Como funciona a vossa política de monitorização?",
-    "q1_body": "A descida é acessível a qualquer pessoa com uma condição física normal; no entanto sendo a canoagem um desporto náutico, pedimos que qualquer participante saiba nadar. Todos os participantes levam coletes de salva-vidas e estão assegurados por um seguro de acidentes pessoais e responsabilidade pública da empresa. A competência da natação no entanto é necessária para os participantes, em caso de queda á agua, se sentirem confortáveis e não entrarem em pânico.",
-    "q2_body": "O Pioneiro do Mondego é a empresa mais antiga a operar no rio Mondego, com uma vasta experiência e conhecimento da região. A nossa equipa é composta por guias locais apaixonados pela natureza e pela canoagem, que garantem uma experiência segura e memorável."
+    "items": [
+      {
+        "question": "Quais as condições mínimas para fazer a descida?",
+        "answer": "A descida é acessível a qualquer pessoa com uma condição física normal; no entanto sendo a canoagem um desporto náutico, pedimos que qualquer participante saiba nadar. Todos os participantes levam coletes de salva-vidas e estão assegurados por um seguro de acidentes pessoais e responsabilidade pública da empresa. A competência da natação no entanto é necessária para os participantes, em caso de queda á agua, se sentirem confortáveis e não entrarem em pânico."
+      },
+      {
+        "question": "Porque escolher O Pioneiro?",
+        "answer": "A grande popularidade das descidas abriu o mercado para algumas empresas concorrentes. Mesmo assim acreditamos que como \"Pioneiros\", alem dos quase 30 anos de experiencia, podemos oferecer consideráveis vantagens. Não só somos a única empresa que faz a descida todos os dias; como também temos a maior frota de canoas no rio, podendo assim aceitar qualquer número de pessoas; desde participantes individuais a grupos com centenas de pessoas. Também temos uma inigualável variedade de escolha de material; caiaques duplos e individuais, desde os tipos mais clássicos e estáveis sit-inside aos mais recentes sit-on-top kayaks do rio. A nossa equipa é composta por jovens guias locais com anos de experiencia que conhecem o rio como ninguém e são poliglotas. Temos o sistema de reservas mais flexível do mercado, o que torna mais fácil a organização do seu grupo. Temos instalações e parques de estacionamento privados, evitando a confusão dos fins-de-semanas de verão. Por fim, o nosso sistema de monitorização e segurança privilegia a liberdade dos nossos clientes; assim cada um deve poder fazer a descida ao seu próprio ritmo, sem ser obrigado a permanecer numa excursão de grupo. Isto tudo a preços competitivos!"
+      },
+      {
+        "question": "Até quando podemos fazer a reserva?",
+        "answer": "Nos períodos calmos, e para grupos pequenos, um dia antes da data ainda se pode fazer uma reserva. Mas para ter certeza da existência de vagas suficientes, convém sempre reservar o mais cedo possível (principalmente para grupos grandes e durante os fim-de-semanas)."
+      },
+      {
+        "question": "Como se faz a reserva?",
+        "answer": "A reserva pode ser feito por telefone, por e-mail ou por este site. Precisamos de um nome do responsável do grupo, o número de telefone e o número de pessoas pretendidas. Pedimos que confirmem a reserva com o número exato de pessoas uma semana antes da data da descida."
+      },
+      {
+        "question": "Como se processa o pagamento?",
+        "answer": "O pagamento pode ser feito no dia mesmo; em dinheiro ou cheque - ou por transferência bancaria, enviando-nos o comprovativo de transferência antes da data da descida. O NIB do Pioneiro do Mondego é o 0035 0594 0001 3345 1304 5 - o NIF: 502 042 133."
+      },
+      {
+        "question": "O que é preciso levar?",
+        "answer": "Não se esqueçam:<br>-Roupa seca para o fim da descida<br>-Calçado que se possa molhar (de preferência sapatilhas)<br>-1 Documento de identificação do responsável do grupo.<br>-Agua e alguma coisa para comer (tem bar a meio do percurso)<br>-Proteção contra o sol!<br>-Mascaras para usarem durante o transporte."
+      },
+      {
+        "question": "O que se faz para o almoço?",
+        "answer": "Tradicionalmente as pessoas trazem um piquenique que podem comer nas inúmeras praias ao longo do percurso. Também podem comer alguma coisa na praia fluvial, onde o bar serve tostas, sandes e bifanas.<br>Também podemos organizar um lanche ou churrasco para grupos durante a descida; informe-se por e-mail. No final temos churrasqueiras que podem ser utilizadas por um baixo custo extra."
+      },
+      {
+        "question": "Crianças podem descer o rio?",
+        "answer": "Com qualquer idade se pode descer o mondego de canoa, desde que se sintam á vontade na água e sejam acompanhados por um adulto que tome a responsabilidade pela criança. Temos coletes salva-vidas para todos, mesmo para os mais pequenos a partir de 15 quilos. Temos uns banquinhos especiais para colocar no meio entre os pais num barco duplo. Fazemos preços especiais para crianças e jovens. Tenham em conta a exposição ao sol, no entanto."
+      },
+      {
+        "question": "Precisam de todos os nomes dos participantes?",
+        "answer": "Não. Algumas empresas de desporto de aventura requerem todos os nomes dos participantes para fazer o seguro. Para tornar as coisas muito mais menos complicadas e flexíveis para organizar grupos, optamos por uma seguradora que não requer esses dados; aproveite!"
+      },
+      {
+        "question": "Como funciona a vossa política de monitorização?",
+        "answer": "O Pioneiro do Mondego tenta encontrar um equilíbrio entre a segurança e a liberdade dos seus participantes. Queremos fazer tudo para vos dar a máxima segurança que desejam, ao mesmo tempo nao queremos dar a sensação de um passeio escolar onde todos têm de ficar no grupo. Por isso garantimos uma monitorização permanente nos lugares mais complicados, e ao mesmo tempo damos vos a liberdade de seguirem ao vosso próprio ritmo sem acompanhamento. Sempre terá monitores atrás no grupo, e quem não se sentir seguro ou queira mais segurança sempre pode ficar com estes. Quem quiser também sempre pode reservar monitorização pessoal."
+      }
+    ]
   }
 }

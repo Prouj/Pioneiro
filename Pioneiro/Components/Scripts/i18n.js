@@ -47,6 +47,9 @@ async function setLang(lang) {
     apply(document); // traduz tudo que já está no DOM
 
     document.documentElement.lang = CURRENT;
+    
+    // Dispara evento customizado para notificar que as traduções foram atualizadas
+    window.dispatchEvent(new CustomEvent('i18nLoaded', { detail: { lang: CURRENT } }));
 }
 
 // Função para buscar tradução por chave

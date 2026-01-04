@@ -68,6 +68,13 @@
     background: var(--bg);
 }
 
+.faq-answer p {
+    margin: 0;
+    line-height: 1.6;
+    color: var(--blue-font);
+    white-space: pre-line;
+}
+
 .faq-columns {
     margin-top: 26px
 }

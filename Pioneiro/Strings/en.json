@@ -18,11 +18,18 @@
     "form_email_placeholder": "Enter your email",
     "form_phone": "Phone",
     "form_phone_placeholder": "Enter your phone number",
-    "form_mensagem": "Message",
+    "form_message": "Message",
+    "form_message_placeholder": "Message",
     "form_send_button": "Send",
-    "contact_info_title": "O Pioneiro do Mondego",
-    "contact_info": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Movel: 91 476 79 22</strong></span>",
-    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV"
+    "form_send_aria": "Send message",
+    "company_name": "O Pioneiro do Mondego",
+    "address": "Rua da Calçada nº 21 (headquarters)<br>3360-184 Cheira Penacova",
+    "contacts": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Mobile: 91 476 79 22</strong></span>",
+    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV",
+    "social_networks_aria": "Social networks",
+    "google_aria": "Google",
+    "tripadvisor_aria": "TripAdvisor",
+    "facebook_aria": "Facebook"
   },
   "home": {
     "first_section_title": "Come and discover<br>the most  <span class='destaque'>traditional</span><br> kayaking trip<br>in Portugal!",
@@ -113,7 +120,56 @@
     }
   },
   "gallery": {
-    "third_section_bannerOne_title": "Veja os<br><span class='destaque'>Registro!</span>"
+    "third_section_bannerOne_title": "See the<br><span class='destaque'>Records!</span>",
+    "title": "Photos and videos of the descents",
+    "description": "For the most recent photos visit our <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a> page!<br>Original photographs can be ordered at <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> for an extra cost of 5€/photo.",
+    "video_title": "Watch our video",
+    "carousel_prev_label": "Previous image",
+    "carousel_next_label": "Next image"
   },
-  "faq": {}
+  "faq": {
+    "title": "FAQ: Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What are the minimum requirements to do the descent?",
+        "answer": "The descent is accessible to anyone with normal physical condition; however, as canoeing is a water sport, we ask that any participant knows how to swim. All participants wear life vests and are covered by personal accident and public liability insurance provided by the company. Swimming competence is necessary for participants to feel comfortable and not panic in case of falling into the water."
+      },
+      {
+        "question": "Why choose O Pioneiro?",
+        "answer": "The great popularity of the descents has opened the market to some competing companies. Nevertheless, we believe that as 'Pioneers', with almost 30 years of experience, we can offer considerable advantages. Not only are we the only company that runs the descent every day, we also have the largest fleet of canoes on the river, thus being able to accept any number of people, from individual participants to groups of hundreds. We also have an unmatched variety of equipment choices: double and single kayaks, from the more classic and stable sit-inside types to the latest sit-on-top river kayaks. Our team is made up of young local guides with years of experience who know the river like no one else and speak multiple languages. We have the most flexible booking system on the market, making it easier to organize your group. We have private facilities and parking lots, avoiding the confusion of summer weekends. Finally, our monitoring and safety system prioritizes our customers' freedom; thus everyone should be able to do the descent at their own pace, without being forced to stay in a group tour. All this at competitive prices!"
+      },
+      {
+        "question": "How far in advance can we make a reservation?",
+        "answer": "During quiet periods, and for small groups, you can still make a reservation one day before the date. But to be sure of sufficient availability, it is always advisable to book as early as possible (especially for large groups and during weekends)."
+      },
+      {
+        "question": "How do we make a reservation?",
+        "answer": "Reservations can be made by phone, email or through this website. We need the name of the group leader, the phone number and the number of people intended. We ask you to confirm the reservation with the exact number of people one week before the descent date."
+      },
+      {
+        "question": "How is payment processed?",
+        "answer": "Payment can be made on the day itself, in cash or by check - or by bank transfer, sending us proof of transfer before the descent date. O Pioneiro do Mondego's NIB is 0035 0594 0001 3345 1304 5 - NIF: 502 042 133."
+      },
+      {
+        "question": "What should we bring?",
+        "answer": "Don't forget:<br>-Dry clothes for the end of the descent<br>-Footwear that can get wet (preferably sneakers)<br>-1 ID document from the group leader<br>-Water and something to eat (there's a bar halfway through)<br>-Sun protection!<br>-Masks to wear during transport."
+      },
+      {
+        "question": "What about lunch?",
+        "answer": "Traditionally people bring a picnic that they can eat on the numerous beaches along the route. You can also eat something at the river beach, where the bar serves toasted sandwiches, sandwiches and pork sandwiches.<br>We can also organize a snack or barbecue for groups during the descent; inquire by email. At the end we have barbecue grills that can be used for a small extra cost."
+      },
+      {
+        "question": "Can children go down the river?",
+        "answer": "Children of any age can descend the Mondego by canoe, as long as they feel comfortable in the water and are accompanied by an adult who takes responsibility for the child. We have life jackets for everyone, even for the smallest ones from 15 kilos. We have special little seats to place in the middle between the parents in a double boat. We have special prices for children and young people. Keep in mind the sun exposure, however."
+      },
+      {
+        "question": "Do you need all the participants' names?",
+        "answer": "No. Some adventure sports companies require all participants' names for insurance purposes. To make things much less complicated and flexible for organizing groups, we opted for an insurance company that does not require this data; take advantage!"
+      },
+      {
+        "question": "How does your monitoring policy work?",
+        "answer": "O Pioneiro do Mondego tries to find a balance between the safety and freedom of its participants. We want to do everything to give you the maximum security you desire, while not wanting to give the feeling of a school trip where everyone has to stay in the group. Therefore, we guarantee permanent monitoring in the most complicated places, while giving you the freedom to follow at your own pace without accompaniment. There will always be monitors behind the group, and those who do not feel safe or want more security can always stay with them. Those who wish can also always book personal monitoring."
+      }
+    ]
+  }
 }

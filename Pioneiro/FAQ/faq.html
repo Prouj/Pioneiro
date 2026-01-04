@@ -7,6 +7,7 @@
     <title>O Pioneiro do Mondego</title>
     <link rel="stylesheet" href="faq.css">
     <script type="module" defer src="../Global/scripts.js"></script>
+    <script type="module" defer src="faq-script.js"></script>
 </head>
 
 <body>
@@ -19,61 +20,12 @@
                 <h2 data-i18n-html="faq.title"></h2>
             </div>
             <div class="faq-list" role="list">
-                <div class="faq-item" data-i18n-key="faq.q1">
-                    <button class="faq-question" aria-expanded="false" aria-controls="faq1" id="faq1-btn">
-                        <span class="faq-index">1</span>
-                        <span class="faq-question-text" data-i18n-html="faq.q1_title"></span>
-                        <span class="faq-toggle" aria-hidden="true">▾</span>
-                    </button>
-                    <div id="faq1" class="faq-answer" role="region" aria-labelledby="faq1-btn" hidden
-                        data-i18n-html="faq.q1_body">
-                        <p>Resposta 1</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-i18n-key="faq.q2">
-                    <button class="faq-question" aria-expanded="false" aria-controls="faq2" id="faq2-btn">
-                        <span class="faq-index">2</span>
-                        <span class="faq-question-text" data-i18n-html="faq.q2_title"></span>
-                        <span class="faq-toggle" aria-hidden="true">▾</span>
-                    </button>
-                    <div id="faq2" class="faq-answer" role="region" aria-labelledby="faq2-btn" hidden
-                        data-i18n-html="faq.q2_body">
-                        <p>Resposta 2</p>
-                    </div>
-                </div>
+                <!-- FAQ items will be loaded dynamically from JSON -->
             </div>
         </section>
     </main>
 
     <div id="site-footer"></div>
-    <script>
-        // Simple accessible accordion
-        (function () {
-            function initFaq(root = document) {
-                root.querySelectorAll('.faq-question').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        const expanded = btn.getAttribute('aria-expanded') === 'true';
-                        // collapse all
-                        root.querySelectorAll('.faq-question').forEach(b => b.setAttribute('aria-expanded', 'false'));
-                        root.querySelectorAll('.faq-answer').forEach(a => a.hidden = true);
-                        if (!expanded) {
-                            btn.setAttribute('aria-expanded', 'true');
-                            const id = btn.getAttribute('aria-controls');
-                            const region = root.querySelector('#' + id);
-                            if (region) { region.hidden = false; region.focus(); }
-                        }
-                    });
-                    btn.addEventListener('keydown', (e) => {
-                        if (e.key === 'ArrowDown') { e.preventDefault(); btn.parentElement.nextElementSibling?.querySelector('.faq-question')?.focus(); }
-                        if (e.key === 'ArrowUp') { e.preventDefault(); btn.parentElement.previousElementSibling?.querySelector('.faq-question')?.focus(); }
-                    });
-                });
-            }
-            document.addEventListener('DOMContentLoaded', () => initFaq());
-            window.initFaq = initFaq;
-        })();
-    </script>
 </body>
 
 </html>

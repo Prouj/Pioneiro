@@ -24,47 +24,36 @@
 
         <div class="cf-form-right">
           <div class="cf-field">
-            <label for="cf-msg">Mensagem</label>
-            <textarea id="cf-msg" name="message" rows="7" placeholder="Mensagem"></textarea>
+            <label for="cf-msg" data-i18n="footer.form_message"></label>
+            <textarea id="cf-msg" name="message" rows="7" data-i18n="footer.form_message_placeholder" data-i18n-attr="placeholder"></textarea>
           </div>
 
-          <button class="cf-btn" type="submit" aria-label="Enviar mensagem">Enviar</button>
+          <button class="cf-btn" type="submit" data-i18n-attr="aria-label" data-i18n-aria-label="footer.form_send_aria" data-i18n="footer.form_send_button"></button>
         </div>
       </form>
 
       <!-- INFORMAÇÕES DA EMPRESA -->
       <aside class="cf-info">
-        <h3 class="cf-brand">O Pioneiro do Mondego</h3>
+        <h3 class="cf-brand" data-i18n="footer.company_name"></h3>
 
-        <address class="cf-address">
-          Rua da Calçada nº 21 (sede)<br>
-          3360-184 Cheira Penacova
-        </address>
+        <address class="cf-address" data-i18n-html="footer.address"></address>
 
-        <p class="cf-contacts">
-          <a class="cf-mail" href="mailto:info@opioneirodomondego.com">info@opioneirodomondego.com</a><br>
-          <span>Tel: 239 478 385</span><br>
-          <span><strong>Movel: 91 476 79 22</strong></span>
-        </p>
+        <p class="cf-contacts" data-i18n-html="footer.contacts"></p>
 
-        <p class="cf-small">
-          Lic. Min. do Ambiente - Nº 951/06<br>
-          Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>
-          © 2015 by JVV
-        </p>
+        <p class="cf-small" data-i18n-html="footer.license"></p>
 
-        <div class="cf-socials" aria-label="Redes sociais">
+        <div class="cf-socials" data-i18n-attr="aria-label" data-i18n-aria-label="footer.social_networks_aria">
           <!-- Google -->
-          <a href="https://share.google/EMCMZYnlxDqWDmPZp" aria-label="Google" class="cf-social">
+          <a href="https://share.google/EMCMZYnlxDqWDmPZp" data-i18n-attr="aria-label" data-i18n-aria-label="footer.google_aria" class="cf-social">
             <img src="../Images/GoogleIcon.png" viewBox="0 0 24 24" width="22" aria-hidden="true"></img>
           </a>
           <!-- TripAdvisor (coruja simplificada) -->
-          <a href="https://www.tripadvisor.com.br/Attraction_Review-g189143-d3189278-Reviews-O_Pioneiro_do_Mondego-Coimbra_Coimbra_District_Central_Portugal.html" aria-label="TripAdvisor" class="cf-social">
+          <a href="https://www.tripadvisor.com.br/Attraction_Review-g189143-d3189278-Reviews-O_Pioneiro_do_Mondego-Coimbra_Coimbra_District_Central_Portugal.html" data-i18n-attr="aria-label" data-i18n-aria-label="footer.tripadvisor_aria" class="cf-social">
             <img src="../Images/TripAdvisorIcon.png" viewBox="0 0 24 24" width="22" height="22"
               aria-hidden="true"></img>
           </a>
           <!-- Facebook -->
-          <a href="https://www.facebook.com/kayakmondego/" aria-label="Facebook" class="cf-social">
+          <a href="https://www.facebook.com/kayakmondego/" data-i18n-attr="aria-label" data-i18n-aria-label="footer.facebook_aria" class="cf-social">
             <img src="../Images/FacebookIcon.png" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"></img>
           </a>
         </div>

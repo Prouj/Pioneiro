@@ -10,6 +10,27 @@
   "header": {
     "brand": "O Pioneiro<br>do Mondego"
   },
+  "footer": {
+    "form_title": "Neem contact met ons op",
+    "form_name": "Naam*",
+    "form_name_placeholder": "Voer uw naam in",
+    "form_email": "E-mail*",
+    "form_email_placeholder": "Voer uw e-mail in",
+    "form_phone": "Telefoon",
+    "form_phone_placeholder": "Voer uw telefoon in",
+    "form_message": "Bericht",
+    "form_message_placeholder": "Bericht",
+    "form_send_button": "Verzenden",
+    "form_send_aria": "Verstuur bericht",
+    "company_name": "O Pioneiro do Mondego",
+    "address": "Rua da Calçada nº 21 (hoofdkantoor)<br>3360-184 Cheira Penacova",
+    "contacts": "<a class='cf-mail' href='mailto:info@opioneirodomondego.com'>info@opioneirodomondego.com</a><br><span>Tel: 239 478 385</span><br><span><strong>Mobiel: 91 476 79 22</strong></span>",
+    "license": "Lic. Min. do Ambiente - Nº 951/06<br>Lic. Dir. Geral de Turismo - Alv. Nº 25/2002<br>© 2015 by JVV",
+    "social_networks_aria": "Sociale media",
+    "google_aria": "Google",
+    "tripadvisor_aria": "TripAdvisor",
+    "facebook_aria": "Facebook"
+  },
   "home": {
     "first_section_title": "Venha conhecer o<br>passeio de kayak<br>mais <span class='destaque'>tradicional</span><br>de Portugal!",
     "second_section_title": "Quem Somos?",
@@ -29,5 +50,58 @@
       "visit_coimbra": "Wat te bezoeken Coimbra",
       "visit_region": "Wat te bezoeken in de regio"
     }
+  },
+  "gallery": {
+    "third_section_bannerOne_title": "Bekijk de<br><span class='destaque'>Registraties!</span>",
+    "title": "Foto's en video's van de afdalingen",
+    "description": "Voor de meest recente foto's bezoek onze <a href='https://www.facebook.com/kayakmondego' target='_blank' rel='noopener noreferrer' class='fb-link'>Facebook</a> pagina!<br>Originele foto's kunnen worden besteld op <a href='mailto:pictures@opioneirodomondego.com' class='email-link'>pictures@opioneirodomondego.com</a> voor een extra kost van 5€/foto.",
+    "video_title": "Bekijk onze video",
+    "carousel_prev_label": "Vorige afbeelding",
+    "carousel_next_label": "Volgende afbeelding"
+  },
+  "faq": {
+    "title": "FAQ: Veelgestelde Vragen",
+    "items": [
+      {
+        "question": "Wat zijn de minimale vereisten om de afdaling te doen?",
+        "answer": "De afdaling is toegankelijk voor iedereen met een normale fysieke conditie; aangezien kanoën een watersport is, vragen we wel dat elke deelnemer kan zwemmen. Alle deelnemers dragen reddingsvesten en zijn verzekerd door een persoonlijke ongevallen- en aansprakelijkheidsverzekering van het bedrijf. Zwemvaardigheid is echter noodzakelijk zodat deelnemers zich op hun gemak voelen en niet in paniek raken in geval van een val in het water."
+      },
+      {
+        "question": "Waarom kiezen voor O Pioneiro?",
+        "answer": "De grote populariteit van de afdalingen heeft de markt geopend voor enkele concurrerende bedrijven. Toch geloven we dat we als 'Pioniers', met bijna 30 jaar ervaring, aanzienlijke voordelen kunnen bieden. Niet alleen zijn wij het enige bedrijf dat elke dag de afdaling doet, we hebben ook de grootste vloot kano's op de rivier, waardoor we elk aantal mensen kunnen accepteren; van individuele deelnemers tot groepen van honderden mensen. We hebben ook een ongeëvenaarde verscheidenheid aan materiaal; dubbele en individuele kajaks, van de meer klassieke en stabiele sit-inside types tot de nieuwste sit-on-top rivierkajaks. Ons team bestaat uit jonge lokale gidsen met jarenlange ervaring die de rivier kennen als geen ander en meertalig zijn. We hebben het meest flexibele boekingssysteem op de markt, wat het gemakkelijker maakt om uw groep te organiseren. We hebben privé-faciliteiten en parkeerplaatsen, waardoor de verwarring van zomerse weekends wordt vermeden. Ten slotte geeft ons monitoring- en veiligheidssysteem prioriteit aan de vrijheid van onze klanten; dus iedereen moet de afdaling in zijn eigen tempo kunnen doen, zonder gedwongen te worden in een groepsexcursie te blijven. Dit alles tegen concurrerende prijzen!"
+      },
+      {
+        "question": "Tot wanneer kunnen we reserveren?",
+        "answer": "Tijdens rustige periodes, en voor kleine groepen, kun je nog één dag voor de datum een reservering maken. Maar om zeker te zijn van voldoende beschikbaarheid, is het altijd raadzaam om zo vroeg mogelijk te boeken (vooral voor grote groepen en tijdens weekends)."
+      },
+      {
+        "question": "Hoe maak je een reservering?",
+        "answer": "De reservering kan telefonisch, per e-mail of via deze website worden gemaakt. We hebben de naam van de groepsverantwoordelijke, het telefoonnummer en het aantal gewenste personen nodig. We vragen u de reservering te bevestigen met het exacte aantal personen één week voor de datum van de afdaling."
+      },
+      {
+        "question": "Hoe wordt de betaling verwerkt?",
+        "answer": "De betaling kan op de dag zelf worden gedaan; contant of per cheque - of per bankoverschrijving, waarbij u ons het bewijs van overschrijving stuurt vóór de datum van de afdaling. Het NIB van O Pioneiro do Mondego is 0035 0594 0001 3345 1304 5 - het NIF: 502 042 133."
+      },
+      {
+        "question": "Wat moet je meenemen?",
+        "answer": "Vergeet niet:<br>-Droge kleding voor het einde van de afdaling<br>-Schoeisel dat nat kan worden (bij voorkeur sneakers)<br>-1 Identiteitsbewijs van de groepsverantwoordelijke<br>-Water en iets te eten (er is halverwege een bar)<br>-Bescherming tegen de zon!<br>-Maskers om te dragen tijdens het transport."
+      },
+      {
+        "question": "Wat doen we voor de lunch?",
+        "answer": "Traditioneel nemen mensen een picknick mee die ze kunnen eten op de talrijke stranden langs de route. Je kunt ook iets eten op het rivierstrand, waar de bar toast, sandwiches en varkensbroodjes serveert.<br>We kunnen ook een snack of barbecue organiseren voor groepen tijdens de afdaling; informeer per e-mail. Aan het einde hebben we barbecues die kunnen worden gebruikt tegen lage extra kosten."
+      },
+      {
+        "question": "Kunnen kinderen de rivier afdalen?",
+        "answer": "Op elke leeftijd kan men de Mondego met een kano afdalen, zolang ze zich op hun gemak voelen in het water en worden vergezeld door een volwassene die verantwoordelijkheid neemt voor het kind. We hebben reddingsvesten voor iedereen, zelfs voor de kleinsten vanaf 15 kilo. We hebben speciale stoeltjes om in het midden tussen de ouders in een dubbele boot te plaatsen. We hebben speciale prijzen voor kinderen en jongeren. Houd echter rekening met de blootstelling aan de zon."
+      },
+      {
+        "question": "Hebben jullie alle namen van de deelnemers nodig?",
+        "answer": "Nee. Sommige avontuursportbedrijven vereisen alle namen van de deelnemers voor de verzekering. Om dingen veel minder gecompliceerd en flexibel te maken voor het organiseren van groepen, hebben we gekozen voor een verzekeringsmaatschappij die deze gegevens niet vereist; profiteer ervan!"
+      },
+      {
+        "question": "Hoe werkt jullie monitoringbeleid?",
+        "answer": "O Pioneiro do Mondego probeert een evenwicht te vinden tussen de veiligheid en vrijheid van zijn deelnemers. We willen er alles aan doen om u de maximale veiligheid te geven die u wenst, terwijl we niet de indruk willen geven van een schoolreis waar iedereen in de groep moet blijven. Daarom garanderen we permanente monitoring op de meest gecompliceerde plaatsen, terwijl we u de vrijheid geven om in uw eigen tempo te volgen zonder begeleiding. Er zullen altijd monitoren achter de groep zijn, en degenen die zich niet veilig voelen of meer veiligheid willen, kunnen altijd bij hen blijven. Degenen die willen, kunnen ook altijd persoonlijke monitoring reserveren."
+      }
+    ]
   }
 }

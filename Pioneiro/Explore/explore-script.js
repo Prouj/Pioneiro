@@ -33,11 +33,18 @@ function createCategorySection(category) {
     
     // Criar cards para cada item
     category.items.forEach(item => {
-        const cardLink = document.createElement('a');
-        cardLink.href = item.link;
-        cardLink.target = '_blank';
-        cardLink.rel = 'noopener noreferrer';
-        cardLink.className = 'card_link';
+        // Se o link estiver vazio, criar um div; senão criar um link
+        const hasLink = item.link && item.link.trim() !== '';
+        const cardWrapper = document.createElement(hasLink ? 'a' : 'div');
+        
+        if (hasLink) {
+            cardWrapper.href = item.link;
+            cardWrapper.target = '_blank';
+            cardWrapper.rel = 'noopener noreferrer';
+            cardWrapper.className = 'card_link';
+        } else {
+            cardWrapper.className = 'card_link card_no-link';
+        }
         
         // Criar card manualmente sem usar o componente web component
         const cardContainer = document.createElement('div');
@@ -65,8 +72,8 @@ function createCategorySection(category) {
         cardContainer.appendChild(img);
         cardContainer.appendChild(textDiv);
         
-        cardLink.appendChild(cardContainer);
-        cardsContainer.appendChild(cardLink);
+        cardWrapper.appendChild(cardContainer);
+        cardsContainer.appendChild(cardWrapper);
     });
     
     section.appendChild(cardsContainer);

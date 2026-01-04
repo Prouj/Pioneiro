@@ -113,6 +113,20 @@ main {
     z-index: 10;
 }
 
+/* Cards without link - no hover effect and no pointer cursor */
+.card_no-link {
+    cursor: default;
+}
+
+.card_no-link:hover {
+    transform: none;
+    z-index: 3;
+}
+
+.card_no-link .image-card-container {
+    opacity: 0.85;
+}
+
 .card_link image-card {
     width: 100%;
     height: 100%;

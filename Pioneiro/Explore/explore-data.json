@@ -8,19 +8,25 @@
           "title": "Casa nas Serras (B&B)",
           "image": "../Images/CardExperience.jpg",
           "location": "Santa Maria - Poiares (6.9km)",
-          "link": "https://www.google.com/maps/place/Casa+nas+Serras/@40.2216872,-8.2717604,17z/data=!3m1!4b1!4m9!3m8!1s0xd22e4fca6bbb0e9:0x667ea9685069db92!5m2!4m1!1i2!8m2!3d40.2216872!4d-8.2717604!16s%2Fg%2F11g_6453v?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+          "link": "http://www.casanasserras.com"
         },
         {
-          "title": "Hotel Mondego",
+          "title": "Quinta da Abalenda",
           "image": "../Images/CardSecurity.jpg",
-          "location": "Penacova Centro (12km)",
-          "link": "https://www.google.com/maps"
+          "location": "Santa Comba Dão (27.4 km)",
+          "link": "https://www.quintadoriodao.com/eng/bike-friendly-accommodations-portugal.html"
         },
         {
-          "title": "Quinta do Rio",
+          "title": "B&B Casa Traca",
           "image": "../Images/CardCalendar.jpg",
-          "location": "Lorvão - Penacova (8km)",
-          "link": "https://www.google.com/maps"
+          "location": "Valbona (37,7 km)",
+          "link": "https://casatraca.com/?_gl=1*mfb8vb*_up*MQ..*_ga*MjA4MDAyMTkwNS4xNzY3NDg4Mjg3*_ga_QG4EM7X3GM*czE3Njc0ODgyODUkbzEkZzAkdDE3Njc0ODgyODUkajYwJGwwJGgw"
+        },
+        {
+          "title": "Casa do Outeiro",
+          "image": "../Images/CardExperience.jpg",
+          "location": "Carvoeira (1.5km)",
+          "link": "https://www.facebook.com/casadoouteiro.penacova"
         }
       ]
     },
@@ -29,16 +35,22 @@
       "titleKey": "explore.category.camping_parks",
       "items": [
         {
-          "title": "Parque de Campismo Municipal",
+          "title": "Quinta da Cerca",
           "image": "../Images/CardExperience.jpg",
-          "location": "Penacova (10km)",
-          "link": "https://www.google.com/maps"
+          "location": "Midoes - Tabua (41,2 km)",
+          "link": "https://www.quintadacerca.com"
         },
         {
-          "title": "Camping Rio Mondego",
+          "title": "Quinta do Retiro",
           "image": "../Images/CardSecurity.jpg",
-          "location": "Lorvão (7km)",
-          "link": "https://www.google.com/maps"
+          "location": "Covas (43,0 km)",
+          "link": "https://quintadoretiro.com/pt-pt/"
+        },
+        {
+          "title": "Quinta do Castanheiro",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Castanheira de Pera (55km)",
+          "link": "https://quintadocastanheiro.pt/pt/"
         }
       ]
     },
@@ -47,22 +59,22 @@
       "titleKey": "explore.category.where_eat_route",
       "items": [
         {
-          "title": "Restaurante Beira Rio",
+          "title": "Bar da Praia Fluvial de Penacova",
           "image": "../Images/CardCalendar.jpg",
-          "location": "Penacova (10km)",
-          "link": "https://www.google.com/maps"
+          "location": "A 500 m antes do inicio do percurso. Otimo sitio para tomar um cafe antes da descida ou relaxar na volta se sair de Penacova",
+          "link": ""
         },
         {
-          "title": "Café Central",
+          "title": "Bar da Praia Fluvial de Palheiros",
           "image": "../Images/CardExperience.jpg",
-          "location": "Poiares (5km)",
-          "link": "https://www.google.com/maps"
+          "location": "Bar a meio do percurso (14.00)! Servem sandes, tostas e caracois... Se esqueceu o seu farnel, tem aqui a solução!",
+          "link": ""
         },
         {
-          "title": "Snack Bar do Rio",
+          "title": "Bares das Docas no Parque Verde",
           "image": "../Images/CardSecurity.jpg",
-          "location": "Lorvão (8km)",
-          "link": "https://www.google.com/maps"
+          "location": "Mesmo á chegada do percurso de 25 km. Otimo sitio para relaxar com uma cerveja e jantar á beira do rio!",
+          "link": ""
         }
       ]
     },
@@ -71,16 +83,16 @@
       "titleKey": "explore.category.where_eat_penacova",
       "items": [
         {
-          "title": "Panorâmico de Penacova",
+          "title": "O Cota",
           "image": "../Images/CardCalendar.jpg",
-          "location": "Penacova Centro (12km)",
-          "link": "https://www.google.com/maps"
+          "location": "Restaurante junto á ponte de Penacova, com vistas para o Mondego",
+          "link": ""
         },
         {
-          "title": "Restaurante Típico",
+          "title": "O Cortiço",
           "image": "../Images/CardExperience.jpg",
-          "location": "Penacova (11km)",
-          "link": "https://www.google.com/maps"
+          "location": "Restaurante em Rebordosa, com vistas para o Mondego",
+          "link": ""
         }
       ]
     },
@@ -91,20 +103,20 @@
         {
           "title": "Mosteiro de Lorvão",
           "image": "../Images/CardSecurity.jpg",
-          "location": "Lorvão - Penacova (8km)",
-          "link": "https://www.google.com/maps"
+          "location": "Penacova",
+          "link": ""
         },
         {
-          "title": "Miradouro de Penacova",
+          "title": "Mirante de Penacova",
           "image": "../Images/CardCalendar.jpg",
-          "location": "Penacova Centro (12km)",
-          "link": "https://www.google.com/maps"
+          "location": "Penacova",
+          "link": ""
         },
         {
-          "title": "Centro Histórico",
+          "title": "Moinhos da Serra da Atalhada",
           "image": "../Images/CardExperience.jpg",
-          "location": "Penacova (12km)",
-          "link": "https://www.google.com/maps"
+          "location": "Penacova",
+          "link": ""
         }
       ]
     },
@@ -113,16 +125,40 @@
       "titleKey": "explore.category.river_beaches",
       "items": [
         {
-          "title": "Praia Fluvial de Louçainha",
+          "title": "Praia do Ramalha",
           "image": "../Images/CardCalendar.jpg",
-          "location": "Penacova (15km)",
-          "link": "https://www.google.com/maps"
+          "location": "Mondego",
+          "link": ""
         },
         {
-          "title": "Praia Fluvial de Reconquinho",
+          "title": "Praia de Zorro-Panheiros",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Mondego",
+          "link": ""
+        },
+        {
+          "title": "Praia do Reconquinho",
           "image": "../Images/CardExperience.jpg",
-          "location": "Penacova (18km)",
-          "link": "https://www.google.com/maps"
+          "location": "Mondego",
+          "link": ""
+        },
+        {
+          "title": "Praia de Friumes",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Alva",
+          "link": ""
+        },
+        {
+          "title": "Praia do Cornicovo",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Alva",
+          "link": ""
+        },
+        {
+          "title": "Praia do Vimieiro",
+          "image": "../Images/CardCalendar.jpg",
+          "location": "Alva",
+          "link": ""
         }
       ]
     },
@@ -133,26 +169,32 @@
         {
           "title": "Universidade de Coimbra",
           "image": "../Images/CardSecurity.jpg",
-          "location": "Coimbra (25km)",
-          "link": "https://www.google.com/maps"
+          "location": "Coimbra",
+          "link": ""
         },
         {
           "title": "Biblioteca Joanina",
           "image": "../Images/CardCalendar.jpg",
-          "location": "Coimbra (25km)",
-          "link": "https://www.google.com/maps"
+          "location": "Coimbra",
+          "link": ""
         },
         {
           "title": "Sé Velha",
           "image": "../Images/CardExperience.jpg",
-          "location": "Coimbra (25km)",
-          "link": "https://www.google.com/maps"
+          "location": "Coimbra",
+          "link": ""
         },
         {
           "title": "Portugal dos Pequenitos",
           "image": "../Images/CardSecurity.jpg",
-          "location": "Coimbra (26km)",
-          "link": "https://www.google.com/maps"
+          "location": "Coimbra",
+          "link": ""
+        },
+        {
+          "title": "Museu Machado Castro",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Coimbra",
+          "link": ""
         }
       ]
     },
@@ -161,23 +203,30 @@
       "titleKey": "explore.category.visit_region",
       "items": [
         {
-          "title": "Convento de Cristo - Tomar",
+          "title": "Figueira da Foz",
           "image": "../Images/CardCalendar.jpg",
-          "location": "Tomar (60km)",
-          "link": "https://www.google.com/maps"
+          "location": "Figueira da Foz",
+          "link": ""
         },
         {
-          "title": "Castelo de Montemor-o-Velho",
+          "title": "Conimbriga",
           "image": "../Images/CardExperience.jpg",
-          "location": "Montemor-o-Velho (35km)",
-          "link": "https://www.google.com/maps"
+          "location": "Conimbriga",
+          "link": ""
         },
         {
-          "title": "Buçaco",
+          "title": "Mata Nacional do Buçaco",
           "image": "../Images/CardSecurity.jpg",
-          "location": "Luso (30km)",
-          "link": "https://www.google.com/maps"
+          "location": "Luso",
+          "link": ""
+        },
+        {
+          "title": "Motor Boats Tours",
+          "image": "../Images/CardSecurity.jpg",
+          "location": "Barragem Aguieira",
+          "link": ""
         }
+        
       ]
     }
   ]

@@ -126,7 +126,8 @@
     "pointThree_title": "Coimbra",
     "pointThree_text": "Llegada de la ruta de 25km<br><br>Encuentro a las 9:45<br>Junto al club náutico de Coimbra y al puente peatonal \"Pedro e Inés\", en la margen izquierda del río (margen opuesta a la ciudad de Coimbra). El lugar también es conocido como \"Parque Verde\" y \"Choupalinho\". Tiene un aparcamiento, y un parque de caravanas público y gratuito a orillas del río donde pueden dejar los coches.<br><br>Instrucciones desde Lisboa o Porto:<br><br>-Salga de la A1 en Coimbra-Sul<br>-Siga Coimbra-Centro (Lisboa N1)<br>-En la rotonda de \"Portugal dos Pequenitos\" gire a la derecha en dirección al Puente Rainha Sta. Isabel/N17<br>-En la próxima rotonda entre en la última (3ª) salida y gire inmediatamente a la izquierda (dirección parque verde/exploratorio)<br>-Después del exploratorio, estacione junto a las piscinas.",
     "pointThree_link": "https://www.google.com/maps/place/Coimbra",
-    "image_Description_meetingPointThree": "Imagen del punto de encuentro en Coimbra"
+    "image_Description_meetingPointThree": "Imagen del punto de encuentro en Coimbra",
+    "view_on_maps": "Ver en Google Maps"
     
   },
   "explore": {

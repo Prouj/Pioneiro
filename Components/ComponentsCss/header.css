@@ -278,6 +278,12 @@
     .hd-langdrop.is-drawer {
         display: block;
     }
+
+    .hd-logo img {
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+    }
 }
 
 @media(min-width: 1800px) {
@@ -348,4 +354,27 @@
         font-size: 1.2rem;
         font-weight: 700;
     }
+}
+
+/* Header translúcido para a home */
+.header-transparent .hd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease;
+}
+
+.header-transparent .hd-brand,
+.header-transparent .hd-link {
+    color: var(--blue-font);
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.header-transparent .hd-link::after {
+    background: var(--yellow-action);
 }

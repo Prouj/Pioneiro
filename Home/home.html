@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="home_styles.css">
     <link rel="stylesheet" href="../Components/ComponentsCss/imageCard.css">
     <script type="module" defer src="../Global/scripts.js"></script>
+    <script defer src="home-carousel.js"></script>
     <style>
         body {
             visibility: hidden
@@ -18,12 +19,31 @@
 
 <body>
 
-    <div id="site-header"></div>
+    <div id="site-header" class="header-transparent"></div>
     <div id="site-drawer"></div>
 
     <main>
         <div class="first_section">
-            <img src="../Images/HomeImage.png" alt="homeImage">
+            <div class="carousel_container">
+                <div class="carousel_slide active">
+                    <img src="../Images/carousel_1.png" alt="Canoagem no Mondego">
+                </div>
+                <div class="carousel_slide">
+                    <img src="../Images/carousel_2.jpg" alt="Canoagem no Mondego">
+                </div>
+                <div class="carousel_slide">
+                    <img src="../Images/carousel_3.jpg" alt="Canoagem no Mondego">
+                </div>
+                <div class="carousel_slide">
+                    <img src="../Images/carousel_4.jpg" alt="Canoagem no Mondego">
+                </div>
+                <div class="carousel_slide">
+                    <img src="../Images/carousel_5.jpg" alt="Canoagem no Mondego">
+                </div>
+                <div class="carousel_slide">
+                    <img src="../Images/carousel_6.jpg" alt="Canoagem no Mondego">
+                </div>
+            </div>
             <div class="first_section_content">
                 <h2 data-i18n-html="home.first_section_title"></h2>
                 <div class="buttons">

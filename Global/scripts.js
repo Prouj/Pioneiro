@@ -1,4 +1,4 @@
-import { initHeader } from '../Components/Scripts/header.js';
+import { initHeader, initHeaderScrollEffect } from '../Components/Scripts/header.js';
 import { initDrawer } from '../Components/Scripts/draw.js';
 import { initI18n, apply } from '/Components/Scripts/i18n.js';
 
@@ -38,6 +38,7 @@ async function setupHeader() {
 
   initHeader(headerHost);
   initDrawer(drawerHost);
+  initHeaderScrollEffect(); // Adiciona efeito de scroll no header
 
   apply(headerHost)
   apply(drawerHost)

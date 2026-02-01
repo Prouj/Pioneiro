@@ -40,3 +40,26 @@ export function initHeader(root = document) {
         }
     });
 }
+
+// Efeito de scroll no header para páginas não-home
+export function initHeaderScrollEffect() {
+    const header = document.querySelector('.hd');
+    if (!header) return;
+    
+    // Não aplicar se for a página home (que tem header-transparent)
+    if (document.querySelector('.header-transparent')) return;
+    
+    let lastScroll = 0;
+    
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        
+        if (currentScroll > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+        
+        lastScroll = currentScroll;
+    });
+}

@@ -83,7 +83,7 @@ async function setupFooter() {
   footerHost.innerHTML = footerElement;
 
   apply(footerHost)
-  formValidation(footerHost); // Aplica validação ao novo footer
+  // formValidation(footerHost); // Aplica validação ao novo footer
 }
 
 function setupBanner() {

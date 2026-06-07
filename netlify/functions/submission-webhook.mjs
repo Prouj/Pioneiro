@@ -21,8 +21,8 @@ export default {
         });
 
         if (!response.ok) {
-            console.error(`Failed to send email: ${response.statusText}`);
-            return new Response('Failed to send email', { status: response.status, statusText: response.statusText });
+            console.error(`Failed to send email: ${response.status} ${response.statusText} ${await response.json()}`);
+            return new Response('Failed to send email', { status: response.status, statusText: response.statusText, body: JSON.stringify(await response.json()) });
         }
 
         console.log("Email sent successfully - ", (await response.json()).id);

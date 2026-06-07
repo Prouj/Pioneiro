@@ -12,16 +12,17 @@ export default {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${RESEND_API_KEY}`
             },
-            body: JSON.stringify({
+            body: {
                 from: RESEND_EMAIL,
                 to: email,
                 subject: `New submission from ${name}`,
                 html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Phone:</strong> ${phone}</p><p><strong>Message:</strong> ${message}</p>`
-            })
+            }
         });
 
         if (!response.ok) {
             console.error(`Failed to send email: ${response.statusText}`);
+            return new Response('Failed to send email', { status: response.status, statusText: response.statusText });
         }
 
         console.log("Email sent successfully - ", (await response.json()).id);

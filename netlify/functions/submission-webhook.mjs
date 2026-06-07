@@ -2,10 +2,11 @@ export default {
     async formSubmitted(event) {
         const RESEND_API_KEY = process.env.RESEND_API_KEY;
         const RESEND_EMAIL = process.env.RESEND_EMAIL;
+        console.log("Event received in formSubmitted:", event);
         const { name, email, phone, message } = event;
         console.log("Received submission:", { name, email, phone, message });
 
-        await fetch('https://api.resend.com/emails', {
+        const response = await fetch('https://api.resend.com/emails', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -18,6 +19,12 @@ export default {
                 html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Phone:</strong> ${phone}</p><p><strong>Message:</strong> ${message}</p>`
             })
         });
+
+        if (!response.ok) {
+            console.error(`Failed to send email: ${response.statusText}`);
+        }
+
+        console.log("Email sent successfully - ", (await response.json()).id);
 
         return new Response('OK', { status: 200 });
     },

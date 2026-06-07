@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   setupHeader().catch(console.error);
   setupFooter().catch(console.error);
   setupBanner()
+
+  formValidation(); // Chama a validação de formulário após o carregamento do DOM
 });
 
 async function setupHeader() {
@@ -65,11 +67,30 @@ function sendFormByMailto(form) {
 }
 
 async function sendFormViaFetch(form, endpoint, method = 'POST') {
+  // If endpoint is a Netlify Function, send JSON
+  if (endpoint && endpoint.startsWith('/.netlify/functions')) {
+    // collect form fields into object
+    const obj = {};
+    const fm = new FormData(form);
+    fm.forEach((v, k) => {
+      // handle multiple values (checkboxes)
+      if (obj[k]) {
+        if (Array.isArray(obj[k])) obj[k].push(v);
+        else obj[k] = [obj[k], v];
+      } else obj[k] = v;
+    });
+    const res = await fetch(endpoint, {
+      method,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(obj)
+    });
+    if (!res.ok) throw new Error(`Envio falhou: ${res.status}`);
+    return res;
+  }
+
+  // otherwise send as form data
   const fd = new FormData(form);
-  const opts = {
-    method,
-    body: fd,
-  };
+  const opts = { method, body: fd };
   const res = await fetch(endpoint, opts);
   if (!res.ok) throw new Error(`Envio falhou: ${res.status}`);
   return res;
@@ -83,7 +104,7 @@ async function setupFooter() {
   footerHost.innerHTML = footerElement;
 
   apply(footerHost)
-  // formValidation(footerHost); // Aplica validação ao novo footer
+  formValidation(footerHost); // Aplica validação ao novo footer
 }
 
 function setupBanner() {

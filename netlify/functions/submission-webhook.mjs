@@ -4,6 +4,7 @@ export default {
         const RESEND_EMAIL = process.env.RESEND_EMAIL;
         const { name, email, message } = JSON.parse(event.body);
         console.log("Received submission:", event);
+        console.log("Time: ", new Date().toISOString());
         fetch('https://api.resend.com/emails', {
             method: 'POST',
             headers: {

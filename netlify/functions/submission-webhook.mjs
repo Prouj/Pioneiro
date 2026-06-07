@@ -3,7 +3,7 @@ export default {
         const RESEND_API_KEY = process.env.RESEND_API_KEY;
         const RESEND_EMAIL = process.env.RESEND_EMAIL;
         console.log("Event received in formSubmitted:", event);
-        const { name, email, phone, message } = event;
+        const { name, email, phone, message } = event.data;
         console.log("Received submission:", { name, email, phone, message });
 
         const response = await fetch('https://api.resend.com/emails', {

@@ -33,6 +33,6 @@ export default {
 
     config: {
         path: '/submission-webhook',
-        method: ['GET', 'POST']
+        method: ['POST']
     }
 }
